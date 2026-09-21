@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime, format_datetime
 
+
 # ============================================================
 # MJR MORNING BRIEF FEED GENERATOR
 # ============================================================
@@ -19,15 +20,16 @@ GITHUB_PAGES_BASE = (
     "mjr-morning-brief-feed"
 )
 
-FEED_URL = (
-    f"{GITHUB_PAGES_BASE}/morning-brief.xml"
-)
+FEED_URL = f"{GITHUB_PAGES_BASE}/morning-brief.xml"
 
 FEED_TITLE = "Media Jobs Report Morning Brief"
 FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
+
+# Email content width.
+EMAIL_IMAGE_WIDTH = 600
 
 # Content we do NOT want in the Morning Brief.
 EXCLUDED_URL_PATHS = (
@@ -55,7 +57,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/2.1; "
+                "MJR-Morning-Brief-Feed/3.0; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -105,23 +107,34 @@ def clean_text(value):
     return value.strip()
 
 
+def escape_html(value):
+    """Escape text before placing it inside email HTML."""
+
+    return html.escape(
+        value or "",
+        quote=True,
+    )
+
+
 # ============================================================
 # STORY IMAGE
 # ============================================================
 
 def get_image(item):
     """
-    Find the original MJR story image.
+    Find the original public MJR story image.
 
-    IMPORTANT:
-    The original image URL is passed directly to Mailchimp.
+    The original MJR-hosted image is used directly.
 
     We do NOT:
     - download it
     - resize it
     - convert it
     - recompress it
-    - store a copy on GitHub
+    - store it on GitHub
+
+    The email HTML controls the DISPLAY size while the
+    original high-resolution image remains the source.
     """
 
     # --------------------------------------------------------
@@ -134,12 +147,15 @@ def get_image(item):
 
     if media_content is not None:
 
-        image_url = media_content.get(
-            "url"
-        )
+        image_url = media_content.get("url")
 
         if image_url:
-            return image_url.strip()
+            image_url = image_url.strip()
+
+            if image_url.startswith(
+                ("https://", "http://")
+            ):
+                return image_url
 
     # --------------------------------------------------------
     # MEDIA THUMBNAIL
@@ -151,12 +167,15 @@ def get_image(item):
 
     if media_thumbnail is not None:
 
-        image_url = media_thumbnail.get(
-            "url"
-        )
+        image_url = media_thumbnail.get("url")
 
         if image_url:
-            return image_url.strip()
+            image_url = image_url.strip()
+
+            if image_url.startswith(
+                ("https://", "http://")
+            ):
+                return image_url
 
     # --------------------------------------------------------
     # BD COMMENTS FIELD FALLBACK
@@ -167,7 +186,9 @@ def get_image(item):
         "",
     ).strip()
 
-    if comments.startswith("http"):
+    if comments.startswith(
+        ("https://", "http://")
+    ):
         return comments
 
     return ""
@@ -275,9 +296,16 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    Mailchimp controls RSS image resizing.
-    The original MJR image is used directly.
+    Images remain hosted by Media Jobs Report.
+
+    The original high-resolution source image is displayed
+    at a maximum width of 600 pixels for email clients.
     """
+
+    safe_title = escape_html(title)
+    safe_link = escape_html(link)
+    safe_excerpt = escape_html(excerpt)
+    safe_image_url = escape_html(image_url)
 
     parts = []
 
@@ -285,37 +313,54 @@ def make_description(
     # IMAGE
     # --------------------------------------------------------
     #
-    # IMPORTANT:
+    # Email-safe sizing:
     #
-    # No width attribute.
-    # No fixed pixel width.
-    # No max-width pixel restriction.
+    # width="600"
+    # width:100%
+    # max-width:600px
+    # height:auto
     #
-    # This allows Mailchimp's RSS image resizing feature
-    # to size the original image for the template.
+    # This gives desktop email clients an explicit width while
+    # allowing the image to shrink responsively on mobile.
+    #
+    # The ORIGINAL MJR image remains the source. It is not
+    # recompressed or converted by this script.
     # --------------------------------------------------------
 
-    if image_url:
+    if safe_image_url:
 
         parts.append(
-            f'<p style="'
-            f'text-align:center;'
-            f'margin:0 0 14px 0;'
-            f'padding:0;">'
-            f'<a href="{link}" '
+            f'<table role="presentation" '
+            f'width="100%" '
+            f'cellspacing="0" '
+            f'cellpadding="0" '
+            f'border="0" '
+            f'style="border-collapse:collapse;">'
+            f'<tr>'
+            f'<td align="center" '
+            f'style="padding:0 0 14px 0;">'
+            f'<a href="{safe_link}" '
             f'target="_blank" '
             f'style="text-decoration:none;">'
             f'<img '
-            f'src="{image_url}" '
-            f'alt="" '
+            f'src="{safe_image_url}" '
+            f'width="{EMAIL_IMAGE_WIDTH}" '
+            f'alt="{safe_title}" '
             f'style="'
             f'display:block;'
+            f'width:100%;'
+            f'max-width:{EMAIL_IMAGE_WIDTH}px;'
             f'height:auto;'
             f'margin:0 auto;'
             f'padding:0;'
-            f'border:0;" />'
+            f'border:0;'
+            f'outline:none;'
+            f'text-decoration:none;" '
+            f'/>'
             f'</a>'
-            f'</p>'
+            f'</td>'
+            f'</tr>'
+            f'</table>'
         )
 
     # --------------------------------------------------------
@@ -325,9 +370,9 @@ def make_description(
     parts.append(
         f'<h2 style="'
         f'margin:0 0 10px 0;">'
-        f'<a href="{link}" '
+        f'<a href="{safe_link}" '
         f'target="_blank">'
-        f'{title}'
+        f'{safe_title}'
         f'</a>'
         f'</h2>'
     )
@@ -336,12 +381,12 @@ def make_description(
     # EXCERPT
     # --------------------------------------------------------
 
-    if excerpt:
+    if safe_excerpt:
 
         parts.append(
             f'<p style="'
             f'margin:0 0 12px 0;">'
-            f'{excerpt}'
+            f'{safe_excerpt}'
             f'</p>'
         )
 
@@ -352,7 +397,7 @@ def make_description(
     parts.append(
         f'<p style="'
         f'margin:0 0 24px 0;">'
-        f'<a href="{link}" '
+        f'<a href="{safe_link}" '
         f'target="_blank">'
         f'<strong>'
         f'Read the full story »'
@@ -361,9 +406,7 @@ def make_description(
         f'</p>'
     )
 
-    return "".join(
-        parts
-    )
+    return "".join(parts)
 
 
 # ============================================================
@@ -604,9 +647,10 @@ def build_feed(source_xml):
         # ORIGINAL MJR IMAGE
         # ----------------------------------------------------
         #
-        # No width is supplied here either.
-        # Mailchimp is allowed to inspect and resize the
-        # original image for the template.
+        # Keep the public original image URL in Media RSS for
+        # services that inspect media:thumbnail/content.
+        #
+        # No GitHub image copy is created.
         # ----------------------------------------------------
 
         if image_url:
