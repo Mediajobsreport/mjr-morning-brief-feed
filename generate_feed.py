@@ -35,7 +35,7 @@ FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 MAX_ITEMS = 20
 
 # Width of story images in the newsletter.
-IMAGE_WIDTH = 300
+IMAGE_WIDTH = 1200
 
 # JPEG quality for email images.
 JPEG_QUALITY = 85
