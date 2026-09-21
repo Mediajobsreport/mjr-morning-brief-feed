@@ -3,9 +3,10 @@ import html
 import io
 import os
 import re
+import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime, format_datetime
 
 from PIL import Image, ImageOps
@@ -32,11 +33,6 @@ FEED_URL = (
 FEED_TITLE = "Media Jobs Report Morning Brief"
 FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 
-
-# ============================================================
-# FEED SETTINGS
-# ============================================================
-
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
@@ -50,31 +46,21 @@ EXCLUDED_URL_PATHS = (
 # EMAIL IMAGE SETTINGS
 # ============================================================
 
-# Directory inside the GitHub repository where email-safe
-# versions of MJR story images are stored.
 EMAIL_IMAGE_DIR = "email-images"
 
-# Public GitHub Pages URL for those images.
 EMAIL_IMAGE_BASE_URL = (
     f"{GITHUB_PAGES_BASE}/{EMAIL_IMAGE_DIR}"
 )
 
-# Keep the source email image at up to 1200 pixels wide.
-# This preserves enough resolution for sharp rendering on
-# high-DPI/Retina screens.
+# Keep the generated JPEG up to 1200px wide.
+# This gives us good image quality for high-resolution screens.
 EMAIL_IMAGE_MAX_WIDTH = 1200
 
-# JPEG quality.
+# High-quality JPEG for email.
 EMAIL_JPEG_QUALITY = 92
 
-# Display width inside the actual email.
-#
-# The JPEG can remain 1200 pixels wide while Outlook and other
-# email clients display it at a maximum of 600 pixels.
+# Actual display width inside the newsletter.
 EMAIL_DISPLAY_WIDTH = 600
-
-# Keep email images available for old emails.
-EMAIL_IMAGE_RETENTION_DAYS = 30
 
 
 # ============================================================
@@ -102,7 +88,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/3.0; "
+                "MJR-Morning-Brief-Feed/2.2; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -160,11 +146,10 @@ def get_image(item):
     """
     Find the original MJR story image.
 
-    The original MJR image may be WebP, PNG, JPEG, etc.
+    The original website image may remain WebP.
 
-    The website image itself is NEVER changed.
-
-    A separate email-safe JPEG copy is created later.
+    We create a separate JPEG specifically for the
+    Morning Brief email.
     """
 
     # --------------------------------------------------------
@@ -270,142 +255,33 @@ def format_pub_date(date_value):
     )
 
 
-def publication_date_string(date_value):
-    """
-    Return YYYYMMDD for use in the email image filename.
-
-    The date is encoded into the filename so retention works
-    reliably even after GitHub checks out the repository again.
-    """
-
-    minimum_date = datetime.min.replace(
-        tzinfo=timezone.utc
-    )
-
-    if date_value == minimum_date:
-
-        date_value = datetime.now(
-            timezone.utc
-        )
-
-    return date_value.strftime(
-        "%Y%m%d"
-    )
-
-
 # ============================================================
 # EMAIL IMAGE DIRECTORY
 # ============================================================
 
 def prepare_email_image_directory():
     """
-    Make sure the email image directory exists.
+    Prepare a fresh email image directory for this test.
 
     IMPORTANT:
-    We DO NOT delete the directory on every run.
+    This is the same simple approach that produced the
+    working JPEG URLs.
 
-    Old newsletter images must remain online so previously
-    delivered emails continue displaying their images.
+    Once delivery and sizing are confirmed, retention can
+    be added separately without changing the URL format.
     """
+
+    if os.path.isdir(
+        EMAIL_IMAGE_DIR
+    ):
+
+        shutil.rmtree(
+            EMAIL_IMAGE_DIR
+        )
 
     os.makedirs(
         EMAIL_IMAGE_DIR,
         exist_ok=True,
-    )
-
-
-# ============================================================
-# EMAIL IMAGE RETENTION
-# ============================================================
-
-def cleanup_old_email_images():
-    """
-    Delete generated email images older than the configured
-    retention period.
-
-    Image age comes from the YYYYMMDD date embedded in the
-    filename instead of filesystem modification time.
-
-    This is important because GitHub checkout can change file
-    timestamps.
-
-    Legacy files without the date prefix are left alone.
-    """
-
-    if not os.path.isdir(
-        EMAIL_IMAGE_DIR
-    ):
-        return
-
-    cutoff_date = (
-        datetime.now(timezone.utc).date()
-        - timedelta(
-            days=EMAIL_IMAGE_RETENTION_DAYS
-        )
-    )
-
-    filename_pattern = re.compile(
-        r"^mjr-email-"
-        r"(\d{8})-"
-        r"[a-f0-9]{20}"
-        r"\.jpg$"
-    )
-
-    removed = 0
-
-    for filename in os.listdir(
-        EMAIL_IMAGE_DIR
-    ):
-
-        match = filename_pattern.match(
-            filename
-        )
-
-        # Leave legacy/non-matching files alone.
-        if not match:
-            continue
-
-        raw_date = match.group(1)
-
-        try:
-
-            image_date = datetime.strptime(
-                raw_date,
-                "%Y%m%d",
-            ).date()
-
-        except ValueError:
-            continue
-
-        if image_date >= cutoff_date:
-            continue
-
-        path = os.path.join(
-            EMAIL_IMAGE_DIR,
-            filename,
-        )
-
-        try:
-
-            os.remove(path)
-
-            removed += 1
-
-            print(
-                f"Removed expired email image: "
-                f"{filename}"
-            )
-
-        except OSError as exc:
-
-            print(
-                f"Could not remove expired image "
-                f"{filename}: {exc}"
-            )
-
-    print(
-        f"Email image cleanup complete. "
-        f"Removed {removed} expired image(s)."
     )
 
 
@@ -416,21 +292,15 @@ def cleanup_old_email_images():
 def make_email_image_filename(
     image_url,
     story_link,
-    publication_date,
 ):
     """
-    Create a stable, unique JPEG filename.
+    Create the stable filename format that was already
+    confirmed in the generated RSS.
 
     Example:
 
-    mjr-email-20260921-15799665181917b805bc.jpg
-
-    The publication date allows reliable 30-day cleanup.
+    mjr-email-15799665181917b805bc.jpg
     """
-
-    date_string = publication_date_string(
-        publication_date
-    )
 
     identity = (
         f"{story_link}|{image_url}"
@@ -444,7 +314,6 @@ def make_email_image_filename(
 
     return (
         f"mjr-email-"
-        f"{date_string}-"
         f"{digest}.jpg"
     )
 
@@ -456,23 +325,25 @@ def make_email_image_filename(
 def create_email_image(
     image_url,
     story_link,
-    publication_date,
 ):
     """
-    Create an email-safe JPEG version of the original MJR image.
+    Create an email-safe JPEG copy of the original image.
 
-    Website workflow:
-        Original WebP remains untouched.
+    The MJR website image remains untouched.
 
-    Email workflow:
-        Original image
-        -> download
-        -> convert to RGB
-        -> resize only if wider than 1200px
-        -> JPEG quality 92
-        -> GitHub Pages
-
-    Existing generated images are reused.
+    Original MJR WebP/PNG/JPEG
+              |
+              v
+       Email JPEG copy
+              |
+              v
+       GitHub Pages
+              |
+              v
+         Mailchimp
+              |
+              v
+          Outlook
     """
 
     if not image_url:
@@ -481,7 +352,6 @@ def create_email_image(
     filename = make_email_image_filename(
         image_url=image_url,
         story_link=story_link,
-        publication_date=publication_date,
     )
 
     output_path = os.path.join(
@@ -494,34 +364,6 @@ def create_email_image(
         f"{filename}"
     )
 
-    # --------------------------------------------------------
-    # REUSE EXISTING IMAGE
-    # --------------------------------------------------------
-
-    if os.path.isfile(
-        output_path
-    ):
-
-        try:
-
-            if os.path.getsize(
-                output_path
-            ) > 0:
-
-                print(
-                    f"Reusing email image: "
-                    f"{filename}"
-                )
-
-                return public_url
-
-        except OSError:
-            pass
-
-    # --------------------------------------------------------
-    # DOWNLOAD ORIGINAL IMAGE
-    # --------------------------------------------------------
-
     try:
 
         print(
@@ -533,15 +375,14 @@ def create_email_image(
             image_url
         )
 
-        # ----------------------------------------------------
-        # OPEN IMAGE
-        # ----------------------------------------------------
-
         with Image.open(
             io.BytesIO(image_bytes)
         ) as original_image:
 
-            # Correct orientation based on EXIF data.
+            # ------------------------------------------------
+            # FIX EXIF ORIENTATION
+            # ------------------------------------------------
+
             image = ImageOps.exif_transpose(
                 original_image
             )
@@ -590,7 +431,7 @@ def create_email_image(
                 )
 
             # ------------------------------------------------
-            # RESIZE ONLY WHEN NECESSARY
+            # RESIZE ONLY IF LARGER THAN 1200PX
             # ------------------------------------------------
 
             width, height = image.size
@@ -616,7 +457,7 @@ def create_email_image(
                 )
 
             # ------------------------------------------------
-            # SAVE JPEG
+            # SAVE HIGH-QUALITY JPEG
             # ------------------------------------------------
 
             image.save(
@@ -643,11 +484,8 @@ def create_email_image(
             f"{exc}"
         )
 
-        # Do not fall back to the original WebP.
-        #
-        # Classic Outlook may fail to display it.
-        # A story without an image is better than a
-        # deliberately broken image.
+        # Do NOT fall back to the original WebP.
+        # Classic Outlook may not display WebP correctly.
         return ""
 
 
@@ -692,21 +530,17 @@ def make_description(
     """
     Create the short email version of each story.
 
-    Layout:
-
     IMAGE
     HEADLINE
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    The physical JPEG is up to 1200px wide for image quality.
+    The JPEG itself can be up to 1200px wide.
 
-    The email explicitly displays it at a maximum of 600px.
+    It is explicitly displayed at a maximum of 600px.
 
-    width="600" provides an Outlook-friendly HTML width.
-
-    width:100%; max-width:600px provides responsive behavior
-    for modern/mobile email clients.
+    The HTML width attribute is important for Classic Outlook.
+    The CSS keeps the image responsive on smaller screens.
     """
 
     parts = []
@@ -741,7 +575,8 @@ def make_description(
             f'padding:0;'
             f'border:0;'
             f'outline:none;'
-            f'text-decoration:none;" />'
+            f'text-decoration:none;'
+            f'-ms-interpolation-mode:bicubic;" />'
 
             f'</a>'
 
@@ -969,7 +804,7 @@ def build_feed(source_xml):
         )
 
         # ----------------------------------------------------
-        # CREATE/REUSE EMAIL-SAFE JPEG
+        # CREATE EMAIL-SAFE JPEG
         # ----------------------------------------------------
 
         email_image_url = ""
@@ -979,7 +814,6 @@ def build_feed(source_xml):
             email_image_url = create_email_image(
                 image_url=original_image_url,
                 story_link=link,
-                publication_date=publication_date,
             )
 
         pub_date = format_pub_date(
@@ -1043,21 +877,18 @@ def build_feed(source_xml):
             image_url=email_image_url,
         )
 
-        # Mailchimp excerpt content.
         ET.SubElement(
             item,
             "description",
         ).text = description
 
-        # Mailchimp Full Content receives the SAME short
-        # version. The original full article is not inserted.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
         ).text = description
 
         # ----------------------------------------------------
-        # EMAIL-SAFE IMAGE
+        # EMAIL-SAFE JPEG FOR MAILCHIMP
         # ----------------------------------------------------
 
         if email_image_url:
@@ -1137,13 +968,6 @@ def main():
     )
 
     prepare_email_image_directory()
-
-    print(
-        "Removing email images older than "
-        f"{EMAIL_IMAGE_RETENTION_DAYS} days..."
-    )
-
-    cleanup_old_email_images()
 
     print(
         "Downloading MJR source RSS feed..."
