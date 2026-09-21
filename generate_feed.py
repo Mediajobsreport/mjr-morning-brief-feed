@@ -1,15 +1,9 @@
-import hashlib
 import html
-import io
-import os
 import re
-import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime, format_datetime
-
-from PIL import Image, ImageOps
 
 # ============================================================
 # MJR MORNING BRIEF FEED GENERATOR
@@ -29,25 +23,21 @@ FEED_URL = (
     f"{GITHUB_PAGES_BASE}/morning-brief.xml"
 )
 
-EMAIL_IMAGE_DIR = "email-images"
-
-EMAIL_IMAGE_BASE_URL = (
-    f"{GITHUB_PAGES_BASE}/{EMAIL_IMAGE_DIR}"
-)
-
 FEED_TITLE = "Media Jobs Report Morning Brief"
 FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
-# Email JPEG settings.
+# Maximum DISPLAY width inside the email.
 #
-# Keep the source at up to 1200px wide. Mailchimp can then
-# resize it for the newsletter without starting from a small
-# or heavily compressed image.
-EMAIL_IMAGE_MAX_WIDTH = 1200
-EMAIL_JPEG_QUALITY = 92
+# IMPORTANT:
+# This does NOT resize, convert or recompress the source image.
+# A 1200x630 PNG remains a 1200x630 PNG.
+#
+# It simply tells the email client to display the image
+# at no more than 600px wide.
+EMAIL_DISPLAY_WIDTH = 600
 
 # Content we do NOT want in the Morning Brief.
 EXCLUDED_URL_PATHS = (
@@ -75,7 +65,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/3.0; "
+                "MJR-Morning-Brief-Feed/2.2; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -102,7 +92,7 @@ def clean_text(value):
     """
     Convert RSS HTML/text to clean plain text.
 
-    ElementTree handles the final XML escaping.
+    ElementTree handles final XML escaping.
     """
 
     if not value:
@@ -133,8 +123,18 @@ def get_image(item):
     """
     Find the original MJR story image.
 
-    The source image can remain WebP, PNG, JPEG, etc.
-    It will be converted automatically to an email-safe JPEG.
+    The original image URL is passed directly to Mailchimp.
+
+    We do NOT:
+    - download the image
+    - resize the image
+    - convert the image
+    - recompress the image
+    - store an image copy on GitHub
+
+    PNG, JPEG and WEBP URLs can all pass through unchanged.
+    For email compatibility, MJR story graphics can be
+    published as PNG.
     """
 
     # --------------------------------------------------------
@@ -174,6 +174,10 @@ def get_image(item):
     # --------------------------------------------------------
     # BD COMMENTS FIELD FALLBACK
     # --------------------------------------------------------
+    #
+    # The BD-generated RSS feed may also place the image
+    # URL in the comments element.
+    # --------------------------------------------------------
 
     comments = item.findtext(
         "comments",
@@ -184,207 +188,6 @@ def get_image(item):
         return comments
 
     return ""
-
-
-# ============================================================
-# EMAIL IMAGE DIRECTORY
-# ============================================================
-
-def prepare_email_image_directory():
-    """
-    Start every run with a clean email-images directory.
-
-    This prevents old newsletter images from accumulating
-    indefinitely in the GitHub repository.
-
-    Only images needed by the current generated feed remain.
-    """
-
-    if os.path.isdir(
-        EMAIL_IMAGE_DIR
-    ):
-        shutil.rmtree(
-            EMAIL_IMAGE_DIR
-        )
-
-    os.makedirs(
-        EMAIL_IMAGE_DIR,
-        exist_ok=True,
-    )
-
-
-# ============================================================
-# EMAIL IMAGE FILENAME
-# ============================================================
-
-def make_email_image_filename(
-    image_url,
-    story_link,
-):
-    """
-    Create a stable unique JPEG filename.
-
-    Using the story URL and image URL means different stories
-    cannot accidentally overwrite one another.
-    """
-
-    source = (
-        f"{story_link}|{image_url}"
-    )
-
-    digest = hashlib.sha256(
-        source.encode("utf-8")
-    ).hexdigest()[:20]
-
-    return (
-        f"mjr-email-{digest}.jpg"
-    )
-
-
-# ============================================================
-# CONVERT IMAGE FOR EMAIL
-# ============================================================
-
-def create_email_image(
-    image_url,
-    story_link,
-):
-    """
-    Download the original MJR image and create an email-safe
-    JPEG copy.
-
-    The original MJR image is never changed.
-
-    Returns the public GitHub Pages JPEG URL.
-
-    If conversion fails, returns an empty string so a broken
-    image is not inserted into the Morning Brief feed.
-    """
-
-    if not image_url:
-        return ""
-
-    filename = make_email_image_filename(
-        image_url=image_url,
-        story_link=story_link,
-    )
-
-    output_path = os.path.join(
-        EMAIL_IMAGE_DIR,
-        filename,
-    )
-
-    public_url = (
-        f"{EMAIL_IMAGE_BASE_URL}/{filename}"
-    )
-
-    try:
-
-        print(
-            f"Downloading story image: {image_url}"
-        )
-
-        image_bytes = download_url(
-            image_url
-        )
-
-        with Image.open(
-            io.BytesIO(image_bytes)
-        ) as image:
-
-            # Correct orientation from EXIF metadata if needed.
-            image = ImageOps.exif_transpose(
-                image
-            )
-
-            # ------------------------------------------------
-            # HANDLE TRANSPARENCY
-            # ------------------------------------------------
-            #
-            # JPEG does not support transparency.
-            # Any transparent areas are placed on white.
-            # ------------------------------------------------
-
-            if (
-                image.mode in ("RGBA", "LA")
-                or (
-                    image.mode == "P"
-                    and "transparency" in image.info
-                )
-            ):
-
-                rgba_image = image.convert(
-                    "RGBA"
-                )
-
-                background = Image.new(
-                    "RGB",
-                    rgba_image.size,
-                    (255, 255, 255),
-                )
-
-                background.paste(
-                    rgba_image,
-                    mask=rgba_image.getchannel("A"),
-                )
-
-                image = background
-
-            else:
-
-                image = image.convert(
-                    "RGB"
-                )
-
-            # ------------------------------------------------
-            # RESIZE ONLY IF LARGER THAN 1200PX
-            # ------------------------------------------------
-
-            width, height = image.size
-
-            if width > EMAIL_IMAGE_MAX_WIDTH:
-
-                new_height = round(
-                    height
-                    * EMAIL_IMAGE_MAX_WIDTH
-                    / width
-                )
-
-                image = image.resize(
-                    (
-                        EMAIL_IMAGE_MAX_WIDTH,
-                        new_height,
-                    ),
-                    Image.Resampling.LANCZOS,
-                )
-
-            # ------------------------------------------------
-            # SAVE EMAIL-SAFE JPEG
-            # ------------------------------------------------
-
-            image.save(
-                output_path,
-                format="JPEG",
-                quality=EMAIL_JPEG_QUALITY,
-                optimize=True,
-                progressive=False,
-                subsampling=0,
-            )
-
-        print(
-            f"Created email image: {output_path}"
-        )
-
-        return public_url
-
-    except Exception as error:
-
-        print(
-            "WARNING: Could not create email image "
-            f"for {image_url}: {error}"
-        )
-
-        return ""
 
 
 # ============================================================
@@ -489,8 +292,11 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    image_url is the email-safe JPEG hosted through
-    GitHub Pages.
+    The original MJR image is used directly.
+
+    A 1200px source image is NOT altered. The HTML simply
+    tells Mailchimp/email clients to display it at a maximum
+    of 600px wide.
     """
 
     parts = []
@@ -499,9 +305,18 @@ def make_description(
     # IMAGE
     # --------------------------------------------------------
     #
-    # No fixed pixel width is supplied here.
-    # Mailchimp's RSS image resizing can size the 1200px
-    # JPEG for the newsletter template.
+    # width="600"
+    #
+    # Provides traditional email clients such as Outlook
+    # with an explicit display width.
+    #
+    # width:100%;
+    # max-width:600px;
+    #
+    # Allows the image to fill the newsletter content area
+    # while shrinking appropriately on smaller screens.
+    #
+    # The actual source image remains untouched.
     # --------------------------------------------------------
 
     if image_url:
@@ -517,8 +332,11 @@ def make_description(
             f'<img '
             f'src="{image_url}" '
             f'alt="" '
+            f'width="{EMAIL_DISPLAY_WIDTH}" '
             f'style="'
             f'display:block;'
+            f'width:100%;'
+            f'max-width:{EMAIL_DISPLAY_WIDTH}px;'
             f'height:auto;'
             f'margin:0 auto;'
             f'padding:0;'
@@ -651,12 +469,6 @@ def build_feed(source_xml):
     ]
 
     # --------------------------------------------------------
-    # CLEAN EMAIL IMAGE DIRECTORY
-    # --------------------------------------------------------
-
-    prepare_email_image_directory()
-
-    # --------------------------------------------------------
     # CREATE RSS DOCUMENT
     # --------------------------------------------------------
 
@@ -737,22 +549,9 @@ def build_feed(source_xml):
             )
         )
 
-        original_image_url = get_image(
+        image_url = get_image(
             source_item
         )
-
-        # ----------------------------------------------------
-        # CREATE EMAIL-SAFE JPEG
-        # ----------------------------------------------------
-
-        email_image_url = ""
-
-        if original_image_url:
-
-            email_image_url = create_email_image(
-                image_url=original_image_url,
-                story_link=link,
-            )
 
         pub_date = format_pub_date(
             publication_date
@@ -812,34 +611,41 @@ def build_feed(source_xml):
             title=title,
             link=link,
             excerpt=excerpt,
-            image_url=email_image_url,
+            image_url=image_url,
         )
 
+        # Mailchimp excerpt content.
         ET.SubElement(
             item,
             "description",
         ).text = description
 
+        # Mailchimp Full Content receives the SAME shortened
+        # version. The complete original article is never
+        # inserted into the newsletter.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
         ).text = description
 
         # ----------------------------------------------------
-        # EMAIL-SAFE RSS IMAGE
+        # ORIGINAL MJR IMAGE
         # ----------------------------------------------------
         #
-        # Both Mailchimp RSS image fields point to the
-        # GitHub-hosted JPEG instead of the MJR WebP.
+        # The original image URL is supplied here.
+        #
+        # No duplicate image is created.
+        # No image is stored in this GitHub repository.
+        # No image conversion takes place.
         # ----------------------------------------------------
 
-        if email_image_url:
+        if image_url:
 
             ET.SubElement(
                 item,
                 f"{{{MEDIA_NS}}}thumbnail",
                 {
-                    "url": email_image_url,
+                    "url": image_url,
                 },
             )
 
@@ -847,9 +653,8 @@ def build_feed(source_xml):
                 item,
                 f"{{{MEDIA_NS}}}content",
                 {
-                    "url": email_image_url,
+                    "url": image_url,
                     "medium": "image",
-                    "type": "image/jpeg",
                 },
             )
 
@@ -898,11 +703,6 @@ def build_feed(source_xml):
         f"with {added} Morning Brief stories."
     )
 
-    print(
-        f"Created email-safe JPEG images in "
-        f"{EMAIL_IMAGE_DIR}/."
-    )
-
 
 # ============================================================
 # RUN
@@ -921,10 +721,6 @@ def main():
     print(
         "Filtering Events and sorting "
         "stories newest-first..."
-    )
-
-    print(
-        "Creating email-safe JPEG images..."
     )
 
     build_feed(
