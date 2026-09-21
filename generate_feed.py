@@ -29,14 +29,6 @@ FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
-# The image is displayed inside the normal Mailchimp
-# newsletter content area.
-#
-# IMPORTANT:
-# The original MJR WEBP is NOT resized, downloaded,
-# converted or recompressed.
-EMAIL_DISPLAY_WIDTH = 600
-
 # Content we do NOT want in the Morning Brief.
 EXCLUDED_URL_PATHS = (
     "/events/",
@@ -63,7 +55,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/2.0; "
+                "MJR-Morning-Brief-Feed/2.1; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -90,7 +82,7 @@ def clean_text(value):
     """
     Convert RSS HTML/text to clean plain text.
 
-    ElementTree handles final XML escaping.
+    ElementTree handles the final XML escaping.
     """
 
     if not value:
@@ -121,8 +113,15 @@ def get_image(item):
     """
     Find the original MJR story image.
 
+    IMPORTANT:
     The original image URL is passed directly to Mailchimp.
-    No image conversion or recompression occurs.
+
+    We do NOT:
+    - download it
+    - resize it
+    - convert it
+    - recompress it
+    - store a copy on GitHub
     """
 
     # --------------------------------------------------------
@@ -160,11 +159,7 @@ def get_image(item):
             return image_url.strip()
 
     # --------------------------------------------------------
-    # BD COMMENTS FIELD
-    # --------------------------------------------------------
-    #
-    # The BD-generated feed also places the story image
-    # URL inside <comments>. We use this only as a fallback.
+    # BD COMMENTS FIELD FALLBACK
     # --------------------------------------------------------
 
     comments = item.findtext(
@@ -240,6 +235,8 @@ def should_include(item):
     """
     Decide whether the source item belongs in the
     MJR Morning Brief.
+
+    Event listings are excluded.
     """
 
     link = item.findtext(
@@ -278,13 +275,24 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    The image is the ORIGINAL image hosted by MJR.
+    Mailchimp controls RSS image resizing.
+    The original MJR image is used directly.
     """
 
     parts = []
 
     # --------------------------------------------------------
     # IMAGE
+    # --------------------------------------------------------
+    #
+    # IMPORTANT:
+    #
+    # No width attribute.
+    # No fixed pixel width.
+    # No max-width pixel restriction.
+    #
+    # This allows Mailchimp's RSS image resizing feature
+    # to size the original image for the template.
     # --------------------------------------------------------
 
     if image_url:
@@ -300,11 +308,8 @@ def make_description(
             f'<img '
             f'src="{image_url}" '
             f'alt="" '
-            f'width="{EMAIL_DISPLAY_WIDTH}" '
             f'style="'
             f'display:block;'
-            f'width:100%;'
-            f'max-width:{EMAIL_DISPLAY_WIDTH}px;'
             f'height:auto;'
             f'margin:0 auto;'
             f'padding:0;'
@@ -582,13 +587,14 @@ def build_feed(source_xml):
             image_url=image_url,
         )
 
+        # Mailchimp excerpt content.
         ET.SubElement(
             item,
             "description",
         ).text = description
 
-        # Mailchimp Full Content receives the SAME shortened
-        # version. It does not receive the original full story.
+        # Mailchimp Full Content receives the SAME short
+        # version. The original full article is not inserted.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
@@ -596,6 +602,11 @@ def build_feed(source_xml):
 
         # ----------------------------------------------------
         # ORIGINAL MJR IMAGE
+        # ----------------------------------------------------
+        #
+        # No width is supplied here either.
+        # Mailchimp is allowed to inspect and resize the
+        # original image for the template.
         # ----------------------------------------------------
 
         if image_url:
