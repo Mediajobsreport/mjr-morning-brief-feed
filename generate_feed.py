@@ -1,12 +1,12 @@
 import hashlib
 import html
 import io
+import json
 import os
 import re
-import shutil
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime, format_datetime
 
 from PIL import Image, ImageOps
@@ -52,15 +52,21 @@ EMAIL_IMAGE_BASE_URL = (
     f"{GITHUB_PAGES_BASE}/{EMAIL_IMAGE_DIR}"
 )
 
-# Keep the generated JPEG up to 1200px wide.
-# This gives us good image quality for high-resolution screens.
+# Manifest records when each image was last seen in the feed.
+EMAIL_IMAGE_MANIFEST = "email-images-manifest.json"
+
+# Keep generated JPEGs at up to 1200px wide.
 EMAIL_IMAGE_MAX_WIDTH = 1200
 
-# High-quality JPEG for email.
+# High-quality JPEG.
 EMAIL_JPEG_QUALITY = 92
 
-# Actual display width inside the newsletter.
+# Display width inside the newsletter.
 EMAIL_DISPLAY_WIDTH = 600
+
+# Number of days to retain an image AFTER it disappears
+# from the current Morning Brief feed.
+EMAIL_IMAGE_RETENTION_DAYS = 30
 
 
 # ============================================================
@@ -88,7 +94,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/2.2; "
+                "MJR-Morning-Brief-Feed/3.1; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -115,7 +121,7 @@ def clean_text(value):
     """
     Convert RSS HTML/text to clean plain text.
 
-    ElementTree handles the final XML escaping.
+    ElementTree handles final XML escaping.
     """
 
     if not value:
@@ -146,10 +152,9 @@ def get_image(item):
     """
     Find the original MJR story image.
 
-    The original website image may remain WebP.
+    The website image remains untouched.
 
-    We create a separate JPEG specifically for the
-    Morning Brief email.
+    A separate JPEG is generated specifically for email.
     """
 
     # --------------------------------------------------------
@@ -261,28 +266,97 @@ def format_pub_date(date_value):
 
 def prepare_email_image_directory():
     """
-    Prepare a fresh email image directory for this test.
+    Make sure the email image directory exists.
 
     IMPORTANT:
-    This is the same simple approach that produced the
-    working JPEG URLs.
 
-    Once delivery and sizing are confirmed, retention can
-    be added separately without changing the URL format.
+    We no longer delete this directory on every run.
+
+    Existing JPEGs stay online so images in previously
+    delivered Morning Brief emails continue working.
     """
-
-    if os.path.isdir(
-        EMAIL_IMAGE_DIR
-    ):
-
-        shutil.rmtree(
-            EMAIL_IMAGE_DIR
-        )
 
     os.makedirs(
         EMAIL_IMAGE_DIR,
         exist_ok=True,
     )
+
+
+# ============================================================
+# IMAGE MANIFEST
+# ============================================================
+
+def load_image_manifest():
+    """
+    Load the email image retention manifest.
+
+    The manifest stores the last date each image appeared
+    in the generated Morning Brief feed.
+    """
+
+    if not os.path.isfile(
+        EMAIL_IMAGE_MANIFEST
+    ):
+        return {}
+
+    try:
+
+        with open(
+            EMAIL_IMAGE_MANIFEST,
+            "r",
+            encoding="utf-8",
+        ) as file:
+
+            data = json.load(
+                file
+            )
+
+        if isinstance(
+            data,
+            dict,
+        ):
+            return data
+
+    except Exception as exc:
+
+        print(
+            "WARNING: Could not read "
+            f"{EMAIL_IMAGE_MANIFEST}: {exc}"
+        )
+
+    return {}
+
+
+def save_image_manifest(manifest):
+    """
+    Save the email image retention manifest.
+    """
+
+    try:
+
+        with open(
+            EMAIL_IMAGE_MANIFEST,
+            "w",
+            encoding="utf-8",
+        ) as file:
+
+            json.dump(
+                manifest,
+                file,
+                indent=2,
+                sort_keys=True,
+            )
+
+            file.write(
+                "\n"
+            )
+
+    except Exception as exc:
+
+        print(
+            "WARNING: Could not save "
+            f"{EMAIL_IMAGE_MANIFEST}: {exc}"
+        )
 
 
 # ============================================================
@@ -294,12 +368,17 @@ def make_email_image_filename(
     story_link,
 ):
     """
-    Create the stable filename format that was already
-    confirmed in the generated RSS.
+    Create the SAME stable filename format that is already
+    working in Mailchimp and Outlook.
 
     Example:
 
     mjr-email-15799665181917b805bc.jpg
+
+    IMPORTANT:
+
+    We are deliberately NOT changing the public filename
+    format.
     """
 
     identity = (
@@ -327,27 +406,19 @@ def create_email_image(
     story_link,
 ):
     """
-    Create an email-safe JPEG copy of the original image.
+    Create or reuse an email-safe JPEG copy.
 
-    The MJR website image remains untouched.
+    Website:
+        Original WebP remains untouched.
 
-    Original MJR WebP/PNG/JPEG
-              |
-              v
-       Email JPEG copy
-              |
-              v
-       GitHub Pages
-              |
-              v
-         Mailchimp
-              |
-              v
-          Outlook
+    Email:
+        High-quality JPEG stored on GitHub Pages.
+
+    Existing JPEGs are reused instead of recompressed.
     """
 
     if not image_url:
-        return ""
+        return "", ""
 
     filename = make_email_image_filename(
         image_url=image_url,
@@ -363,6 +434,34 @@ def create_email_image(
         f"{EMAIL_IMAGE_BASE_URL}/"
         f"{filename}"
     )
+
+    # --------------------------------------------------------
+    # REUSE EXISTING JPEG
+    # --------------------------------------------------------
+
+    if os.path.isfile(
+        output_path
+    ):
+
+        try:
+
+            if os.path.getsize(
+                output_path
+            ) > 0:
+
+                print(
+                    f"Reusing email image: "
+                    f"{filename}"
+                )
+
+                return public_url, filename
+
+        except OSError:
+            pass
+
+    # --------------------------------------------------------
+    # DOWNLOAD ORIGINAL IMAGE
+    # --------------------------------------------------------
 
     try:
 
@@ -474,7 +573,7 @@ def create_email_image(
             f"{filename}"
         )
 
-        return public_url
+        return public_url, filename
 
     except Exception as exc:
 
@@ -484,9 +583,147 @@ def create_email_image(
             f"{exc}"
         )
 
-        # Do NOT fall back to the original WebP.
-        # Classic Outlook may not display WebP correctly.
-        return ""
+        # Do NOT fall back to WebP.
+        return "", ""
+
+
+# ============================================================
+# IMAGE RETENTION
+# ============================================================
+
+def update_image_manifest(
+    manifest,
+    active_filenames,
+):
+    """
+    Update last-seen dates for images currently in the feed.
+
+    Every image currently being used receives today's date.
+    """
+
+    today = datetime.now(
+        timezone.utc
+    ).date().isoformat()
+
+    for filename in active_filenames:
+
+        manifest[filename] = {
+            "last_seen": today
+        }
+
+    return manifest
+
+
+def cleanup_old_email_images(
+    manifest,
+    active_filenames,
+):
+    """
+    Remove images that:
+
+    1. Are no longer in the current feed, AND
+    2. Have not been seen for more than 30 days.
+
+    Images currently in the feed are NEVER removed.
+    """
+
+    today = datetime.now(
+        timezone.utc
+    ).date()
+
+    cutoff = (
+        today
+        - timedelta(
+            days=EMAIL_IMAGE_RETENTION_DAYS
+        )
+    )
+
+    active_set = set(
+        active_filenames
+    )
+
+    removed = 0
+
+    # --------------------------------------------------------
+    # CLEAN MANIFESTED IMAGES
+    # --------------------------------------------------------
+
+    for filename in list(
+        manifest.keys()
+    ):
+
+        # Never remove an image currently in the feed.
+        if filename in active_set:
+            continue
+
+        record = manifest.get(
+            filename,
+            {},
+        )
+
+        last_seen_raw = record.get(
+            "last_seen",
+            "",
+        )
+
+        if not last_seen_raw:
+            continue
+
+        try:
+
+            last_seen = datetime.strptime(
+                last_seen_raw,
+                "%Y-%m-%d",
+            ).date()
+
+        except ValueError:
+            continue
+
+        if last_seen >= cutoff:
+            continue
+
+        image_path = os.path.join(
+            EMAIL_IMAGE_DIR,
+            filename,
+        )
+
+        if os.path.isfile(
+            image_path
+        ):
+
+            try:
+
+                os.remove(
+                    image_path
+                )
+
+                print(
+                    f"Removed expired email image: "
+                    f"{filename}"
+                )
+
+            except OSError as exc:
+
+                print(
+                    f"WARNING: Could not remove "
+                    f"{filename}: {exc}"
+                )
+
+                continue
+
+        manifest.pop(
+            filename,
+            None,
+        )
+
+        removed += 1
+
+    print(
+        f"Email image cleanup complete. "
+        f"Removed {removed} expired image(s)."
+    )
+
+    return manifest
 
 
 # ============================================================
@@ -535,12 +772,15 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
+    IMPORTANT:
+
     The JPEG itself can be up to 1200px wide.
 
-    It is explicitly displayed at a maximum of 600px.
+    It is displayed at a maximum of 600px.
 
-    The HTML width attribute is important for Classic Outlook.
-    The CSS keeps the image responsive on smaller screens.
+    This exact sizing arrangement is retained because it
+    has been confirmed working in both Mailchimp Preview
+    and the delivered Outlook email.
     """
 
     parts = []
@@ -648,7 +888,12 @@ def make_description(
 # ============================================================
 
 def build_feed(source_xml):
-    """Create the clean MJR Morning Brief RSS feed."""
+    """
+    Create the clean MJR Morning Brief RSS feed.
+
+    Returns a list of JPEG filenames actively used by
+    the current feed.
+    """
 
     source_root = ET.fromstring(
         source_xml
@@ -764,6 +1009,9 @@ def build_feed(source_xml):
         },
     )
 
+    # Track every JPEG actively used by this feed.
+    active_filenames = []
+
     # --------------------------------------------------------
     # ADD STORIES
     # --------------------------------------------------------
@@ -804,16 +1052,26 @@ def build_feed(source_xml):
         )
 
         # ----------------------------------------------------
-        # CREATE EMAIL-SAFE JPEG
+        # CREATE OR REUSE EMAIL-SAFE JPEG
         # ----------------------------------------------------
 
         email_image_url = ""
+        email_image_filename = ""
 
         if original_image_url:
 
-            email_image_url = create_email_image(
+            (
+                email_image_url,
+                email_image_filename,
+            ) = create_email_image(
                 image_url=original_image_url,
                 story_link=link,
+            )
+
+        if email_image_filename:
+
+            active_filenames.append(
+                email_image_filename
             )
 
         pub_date = format_pub_date(
@@ -956,6 +1214,8 @@ def build_feed(source_xml):
         f"with {added} Morning Brief stories."
     )
 
+    return active_filenames
+
 
 # ============================================================
 # RUN
@@ -969,6 +1229,20 @@ def main():
 
     prepare_email_image_directory()
 
+    # --------------------------------------------------------
+    # LOAD RETENTION MANIFEST
+    # --------------------------------------------------------
+
+    print(
+        "Loading email image manifest..."
+    )
+
+    manifest = load_image_manifest()
+
+    # --------------------------------------------------------
+    # DOWNLOAD SOURCE RSS
+    # --------------------------------------------------------
+
     print(
         "Downloading MJR source RSS feed..."
     )
@@ -977,13 +1251,48 @@ def main():
         SOURCE_FEED
     )
 
+    # --------------------------------------------------------
+    # BUILD MORNING BRIEF
+    # --------------------------------------------------------
+
     print(
         "Filtering Events and sorting "
         "stories newest-first..."
     )
 
-    build_feed(
+    active_filenames = build_feed(
         source_xml
+    )
+
+    # --------------------------------------------------------
+    # UPDATE MANIFEST
+    # --------------------------------------------------------
+
+    manifest = update_image_manifest(
+        manifest=manifest,
+        active_filenames=active_filenames,
+    )
+
+    # --------------------------------------------------------
+    # CLEAN OLD IMAGES
+    # --------------------------------------------------------
+
+    print(
+        "Checking for email images older than "
+        f"{EMAIL_IMAGE_RETENTION_DAYS} days..."
+    )
+
+    manifest = cleanup_old_email_images(
+        manifest=manifest,
+        active_filenames=active_filenames,
+    )
+
+    # --------------------------------------------------------
+    # SAVE MANIFEST
+    # --------------------------------------------------------
+
+    save_image_manifest(
+        manifest
     )
 
     print(
