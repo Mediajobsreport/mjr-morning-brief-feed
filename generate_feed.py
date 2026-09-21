@@ -10,19 +10,27 @@ from email.utils import parsedate_to_datetime, format_datetime
 # ============================================================
 
 SOURCE_FEED = "https://www.mediajobsreport.com/rss-image"
-
 OUTPUT_FILE = "morning-brief.xml"
 
 SITE_URL = "https://www.mediajobsreport.com"
+FEED_URL = (
+    "https://mediajobsreport.github.io/"
+    "mjr-morning-brief-feed/morning-brief.xml"
+)
+
 FEED_TITLE = "Media Jobs Report Morning Brief"
 FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 
-# Number of items to include in the generated feed.
+# Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
-# Image width used in the Mailchimp-ready excerpt.
+# Width of story images in the newsletter.
 IMAGE_WIDTH = 300
 
+# URLs containing any of these paths will NOT be included.
+EXCLUDED_URL_PATHS = (
+    "/events/",
+)
 
 MEDIA_NS = "http://search.yahoo.com/mrss/"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
@@ -40,7 +48,7 @@ def fetch_feed(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/1.0; "
+                "MJR-Morning-Brief-Feed/1.1; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -51,7 +59,7 @@ def fetch_feed(url):
 
 
 def clean_text(value):
-    """Convert RSS text/HTML to clean plain text."""
+    """Convert RSS HTML/text to clean plain text."""
     if not value:
         return ""
 
@@ -66,27 +74,33 @@ def get_image(item):
     """Find the story image in the BD RSS item."""
 
     media_content = item.find(f"{{{MEDIA_NS}}}content")
+
     if media_content is not None:
         image_url = media_content.get("url")
+
         if image_url:
             return image_url.strip()
 
     media_thumbnail = item.find(f"{{{MEDIA_NS}}}thumbnail")
+
     if media_thumbnail is not None:
         image_url = media_thumbnail.get("url")
+
         if image_url:
             return image_url.strip()
 
     # BD also places the image URL in <comments>.
     comments = item.findtext("comments", "").strip()
+
     if comments.startswith("http"):
         return comments
 
     return ""
 
 
-def get_date(item):
-    """Return a valid RSS publication date."""
+def parse_date(item):
+    """Return the item's publication date as a datetime."""
+
     raw_date = item.findtext("pubDate", "").strip()
 
     if raw_date:
@@ -96,22 +110,53 @@ def get_date(item):
             if parsed.tzinfo is None:
                 parsed = parsed.replace(tzinfo=timezone.utc)
 
-            return format_datetime(parsed)
+            return parsed
+
         except Exception:
             pass
 
-    return format_datetime(datetime.now(timezone.utc))
+    # Items without a usable date go to the bottom.
+    return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def format_pub_date(date_value):
+    """Format datetime as an RSS publication date."""
+
+    if date_value == datetime.min.replace(tzinfo=timezone.utc):
+        return format_datetime(datetime.now(timezone.utc))
+
+    return format_datetime(date_value)
+
+
+def should_include(item):
+    """
+    Determine whether an RSS item belongs in the Morning Brief.
+
+    Events are excluded because the BD source feed currently
+    places event listings ahead of news stories.
+    """
+
+    link = item.findtext("link", "").strip().lower()
+
+    if not link:
+        return False
+
+    for excluded_path in EXCLUDED_URL_PATHS:
+        if excluded_path.lower() in link:
+            return False
+
+    return True
 
 
 def make_description(title, link, excerpt, image_url):
     """
-    Build the short Mailchimp-ready version of each story.
+    Build the short Mailchimp-ready version.
 
-    IMPORTANT:
-    The image is deliberately embedded inside <description>.
-    This lets Mailchimp process it as RSS content rather than
-    through RSSITEM:IMAGE, which was displaying the BD image
-    at its original oversized dimensions.
+    Output:
+    IMAGE
+    HEADLINE
+    SHORT EXCERPT
+    READ THE FULL STORY
     """
 
     safe_title = html.escape(title, quote=True)
@@ -121,9 +166,14 @@ def make_description(title, link, excerpt, image_url):
 
     parts = []
 
+    # --------------------------------------------------------
+    # STORY IMAGE
+    # --------------------------------------------------------
+
     if image_url:
         parts.append(
-            f'<p style="text-align:center; margin:0 0 14px 0;">'
+            f'<p style="text-align:center; '
+            f'margin:0 0 14px 0;">'
             f'<a href="{safe_link}" target="_blank">'
             f'<img src="{safe_image}" '
             f'alt="{safe_title}" '
@@ -137,6 +187,10 @@ def make_description(title, link, excerpt, image_url):
             f"</p>"
         )
 
+    # --------------------------------------------------------
+    # HEADLINE
+    # --------------------------------------------------------
+
     parts.append(
         f'<h2 style="margin:0 0 10px 0;">'
         f'<a href="{safe_link}" target="_blank">'
@@ -145,12 +199,20 @@ def make_description(title, link, excerpt, image_url):
         f"</h2>"
     )
 
+    # --------------------------------------------------------
+    # EXCERPT
+    # --------------------------------------------------------
+
     if safe_excerpt:
         parts.append(
             f'<p style="margin:0 0 12px 0;">'
             f"{safe_excerpt}"
             f"</p>"
         )
+
+    # --------------------------------------------------------
+    # READ MORE LINK
+    # --------------------------------------------------------
 
     parts.append(
         f'<p style="margin:0 0 24px 0;">'
@@ -170,7 +232,55 @@ def build_feed(source_xml):
     source_channel = source_root.find("channel")
 
     if source_channel is None:
-        raise RuntimeError("The source RSS feed does not contain a channel.")
+        raise RuntimeError(
+            "The source RSS feed does not contain a channel."
+        )
+
+    # --------------------------------------------------------
+    # COLLECT ELIGIBLE STORIES
+    # --------------------------------------------------------
+
+    eligible_items = []
+
+    for source_item in source_channel.findall("item"):
+
+        if not should_include(source_item):
+            continue
+
+        title = clean_text(
+            source_item.findtext("title", "")
+        )
+
+        link = source_item.findtext(
+            "link", ""
+        ).strip()
+
+        if not title or not link:
+            continue
+
+        publication_date = parse_date(source_item)
+
+        eligible_items.append(
+            (
+                publication_date,
+                source_item,
+            )
+        )
+
+    # --------------------------------------------------------
+    # NEWEST STORIES FIRST
+    # --------------------------------------------------------
+
+    eligible_items.sort(
+        key=lambda entry: entry[0],
+        reverse=True,
+    )
+
+    eligible_items = eligible_items[:MAX_ITEMS]
+
+    # --------------------------------------------------------
+    # CREATE NEW RSS DOCUMENT
+    # --------------------------------------------------------
 
     rss = ET.Element(
         "rss",
@@ -179,59 +289,121 @@ def build_feed(source_xml):
         },
     )
 
-    channel = ET.SubElement(rss, "channel")
+    channel = ET.SubElement(
+        rss,
+        "channel",
+    )
 
-    ET.SubElement(channel, "title").text = FEED_TITLE
-    ET.SubElement(channel, "link").text = SITE_URL
-    ET.SubElement(channel, "description").text = FEED_DESCRIPTION
-    ET.SubElement(channel, "language").text = "en-us"
+    ET.SubElement(
+        channel,
+        "title",
+    ).text = FEED_TITLE
+
+    ET.SubElement(
+        channel,
+        "link",
+    ).text = SITE_URL
+
+    ET.SubElement(
+        channel,
+        "description",
+    ).text = FEED_DESCRIPTION
+
+    ET.SubElement(
+        channel,
+        "language",
+    ).text = "en-us"
 
     ET.SubElement(
         channel,
         f"{{{ATOM_NS}}}link",
         {
-            "href": (
-                "https://mediajobsreport.github.io/"
-                "mjr-morning-brief-feed/morning-brief.xml"
-            ),
+            "href": FEED_URL,
             "rel": "self",
             "type": "application/rss+xml",
         },
     )
 
-    items = source_channel.findall("item")
+    # --------------------------------------------------------
+    # CREATE RSS ITEMS
+    # --------------------------------------------------------
 
     added = 0
 
-    for source_item in items:
-        if added >= MAX_ITEMS:
-            break
+    for publication_date, source_item in eligible_items:
 
-        title = clean_text(source_item.findtext("title", ""))
-        link = source_item.findtext("link", "").strip()
-        guid = source_item.findtext("guid", "").strip() or link
-        excerpt = clean_text(source_item.findtext("description", ""))
+        title = clean_text(
+            source_item.findtext("title", "")
+        )
+
+        link = source_item.findtext(
+            "link", ""
+        ).strip()
+
+        guid = source_item.findtext(
+            "guid", ""
+        ).strip() or link
+
+        excerpt = clean_text(
+            source_item.findtext("description", "")
+        )
+
         image_url = get_image(source_item)
-        pub_date = get_date(source_item)
 
-        if not title or not link:
-            continue
+        pub_date = format_pub_date(
+            publication_date
+        )
 
-        item = ET.SubElement(channel, "item")
+        item = ET.SubElement(
+            channel,
+            "item",
+        )
 
-        ET.SubElement(item, "title").text = title
-        ET.SubElement(item, "link").text = link
+        # ----------------------------------------------------
+        # TITLE
+        # ----------------------------------------------------
+
+        ET.SubElement(
+            item,
+            "title",
+        ).text = title
+
+        # ----------------------------------------------------
+        # STORY LINK
+        # ----------------------------------------------------
+
+        ET.SubElement(
+            item,
+            "link",
+        ).text = link
+
+        # ----------------------------------------------------
+        # GUID
+        # ----------------------------------------------------
 
         guid_element = ET.SubElement(
             item,
             "guid",
-            {"isPermaLink": "true"},
+            {
+                "isPermaLink": "true",
+            },
         )
+
         guid_element.text = guid
 
-        ET.SubElement(item, "pubDate").text = pub_date
+        # ----------------------------------------------------
+        # DATE
+        # ----------------------------------------------------
 
-        # This is the short version Mailchimp will use.
+        ET.SubElement(
+            item,
+            "pubDate",
+        ).text = pub_date
+
+        # ----------------------------------------------------
+        # MAILCHIMP CONTENT
+        # ----------------------------------------------------
+
         description = make_description(
             title=title,
             link=link,
@@ -239,17 +411,28 @@ def build_feed(source_xml):
             image_url=image_url,
         )
 
-        ET.SubElement(item, "description").text = description
+        # Short version for Mailchimp Excerpts.
+        ET.SubElement(
+            item,
+            "description",
+        ).text = description
 
-        # Also provide the same short content as content:encoded.
-        # This means Mailchimp's Full Content option can be used
-        # WITHOUT receiving the original full BD article.
+        # IMPORTANT:
+        # Full Content also receives ONLY our short version.
+        #
+        # This lets us use Mailchimp's Full Content image
+        # handling without sending the original complete story.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
         ).text = description
 
+        # ----------------------------------------------------
+        # MEDIA IMAGE
+        # ----------------------------------------------------
+
         if image_url:
+
             ET.SubElement(
                 item,
                 f"{{{MEDIA_NS}}}thumbnail",
@@ -269,18 +452,39 @@ def build_feed(source_xml):
                 },
             )
 
-        # Preserve categories when present.
-        for category in source_item.findall("category"):
-            category_text = clean_text(category.text or "")
+        # ----------------------------------------------------
+        # CATEGORIES
+        # ----------------------------------------------------
+
+        for category in source_item.findall(
+            "category"
+        ):
+
+            category_text = clean_text(
+                category.text or ""
+            )
 
             if category_text:
-                ET.SubElement(item, "category").text = category_text
+
+                ET.SubElement(
+                    item,
+                    "category",
+                ).text = category_text
 
         added += 1
 
-    ET.indent(rss, space="  ")
+    # --------------------------------------------------------
+    # SAVE RSS FILE
+    # --------------------------------------------------------
 
-    tree = ET.ElementTree(rss)
+    ET.indent(
+        rss,
+        space="  ",
+    )
+
+    tree = ET.ElementTree(
+        rss
+    )
 
     tree.write(
         OUTPUT_FILE,
@@ -288,17 +492,34 @@ def build_feed(source_xml):
         xml_declaration=True,
     )
 
-    print(f"Created {OUTPUT_FILE} with {added} items.")
+    print(
+        f"Created {OUTPUT_FILE} "
+        f"with {added} Morning Brief stories."
+    )
 
 
 def main():
-    print("Downloading MJR RSS feed...")
-    source_xml = fetch_feed(SOURCE_FEED)
 
-    print("Building Morning Brief feed...")
-    build_feed(source_xml)
+    print(
+        "Downloading MJR source RSS feed..."
+    )
 
-    print("Finished.")
+    source_xml = fetch_feed(
+        SOURCE_FEED
+    )
+
+    print(
+        "Filtering Events and sorting "
+        "stories newest-first..."
+    )
+
+    build_feed(
+        source_xml
+    )
+
+    print(
+        "Morning Brief feed finished."
+    )
 
 
 if __name__ == "__main__":
