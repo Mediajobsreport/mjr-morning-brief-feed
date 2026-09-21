@@ -54,7 +54,7 @@ def fetch_feed(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/1.2; "
+                "MJR-Morning-Brief-Feed/1.3; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -75,8 +75,10 @@ def clean_text(value):
     """
     Convert RSS HTML/text to clean plain text.
 
-    html.unescape() is important because the source feed may
-    already contain HTML entities such as &amp;.
+    The source feed may contain HTML entities such as &amp;.
+    We decode those here so the internal Python value contains
+    the actual character. ElementTree will handle XML escaping
+    when the finished feed is written.
     """
 
     if not value:
@@ -203,7 +205,7 @@ def should_include(item):
     """
     Decide whether the source item belongs in the Morning Brief.
 
-    Events are excluded.
+    Event listings are excluded.
     """
 
     link = item.findtext(
@@ -242,38 +244,14 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    ElementTree will perform the XML escaping when the final
-    RSS document is written. We therefore avoid escaping the
-    visible text twice.
+    IMPORTANT:
+    We do NOT HTML-escape the title or excerpt here.
+
+    ElementTree performs the required XML escaping when the
+    finished RSS document is written. Escaping the text here
+    as well would cause characters such as & to become
+    double-encoded as &amp;amp;.
     """
-
-    # Escape ONLY values that are being inserted into HTML
-    # attributes or HTML markup.
-    safe_link = html.escape(
-        link,
-        quote=True,
-    )
-
-    safe_image = html.escape(
-        image_url,
-        quote=True,
-    )
-
-    # Escape once for HTML.
-    safe_title = html.escape(
-        title,
-        quote=False,
-    )
-
-    safe_title_attribute = html.escape(
-        title,
-        quote=True,
-    )
-
-    safe_excerpt = html.escape(
-        excerpt,
-        quote=False,
-    )
 
     parts = []
 
@@ -286,10 +264,9 @@ def make_description(
         parts.append(
             f'<p style="text-align:center; '
             f'margin:0 0 14px 0;">'
-            f'<a href="{safe_link}" '
-            f'target="_blank">'
-            f'<img src="{safe_image}" '
-            f'alt="{safe_title_attribute}" '
+            f'<a href="{link}" target="_blank">'
+            f'<img src="{image_url}" '
+            f'alt="" '
             f'width="{IMAGE_WIDTH}" '
             f'style="display:inline-block; '
             f'width:{IMAGE_WIDTH}px; '
@@ -306,9 +283,8 @@ def make_description(
 
     parts.append(
         f'<h2 style="margin:0 0 10px 0;">'
-        f'<a href="{safe_link}" '
-        f'target="_blank">'
-        f"{safe_title}"
+        f'<a href="{link}" target="_blank">'
+        f"{title}"
         f"</a>"
         f"</h2>"
     )
@@ -321,7 +297,7 @@ def make_description(
 
         parts.append(
             f'<p style="margin:0 0 12px 0;">'
-            f"{safe_excerpt}"
+            f"{excerpt}"
             f"</p>"
         )
 
@@ -329,12 +305,9 @@ def make_description(
     # READ FULL STORY
     # --------------------------------------------------------
 
-    # Use the actual Unicode » character instead of &raquo;.
-    # This prevents the entity itself from being double-escaped.
     parts.append(
         f'<p style="margin:0 0 24px 0;">'
-        f'<a href="{safe_link}" '
-        f'target="_blank">'
+        f'<a href="{link}" target="_blank">'
         f"<strong>"
         f"Read the full story »"
         f"</strong>"
@@ -408,7 +381,7 @@ def build_feed(source_xml):
         )
 
     # --------------------------------------------------------
-    # NEWEST FIRST
+    # NEWEST STORIES FIRST
     # --------------------------------------------------------
 
     eligible_items.sort(
@@ -514,21 +487,27 @@ def build_feed(source_xml):
             "item",
         )
 
+        # ----------------------------------------------------
         # TITLE
+        # ----------------------------------------------------
 
         ET.SubElement(
             item,
             "title",
         ).text = title
 
-        # LINK
+        # ----------------------------------------------------
+        # STORY LINK
+        # ----------------------------------------------------
 
         ET.SubElement(
             item,
             "link",
         ).text = link
 
+        # ----------------------------------------------------
         # GUID
+        # ----------------------------------------------------
 
         guid_element = ET.SubElement(
             item,
@@ -540,7 +519,9 @@ def build_feed(source_xml):
 
         guid_element.text = guid
 
+        # ----------------------------------------------------
         # DATE
+        # ----------------------------------------------------
 
         ET.SubElement(
             item,
@@ -566,12 +547,16 @@ def build_feed(source_xml):
 
         # Mailchimp Full Content.
         #
-        # We intentionally place the SAME short version here.
-        # Mailchimp therefore thinks it is receiving full
-        # content, but our feed only supplies:
+        # We intentionally put the SAME short version here.
         #
-        # image + headline + excerpt + read-more link
+        # Mailchimp therefore receives:
         #
+        # image
+        # headline
+        # short excerpt
+        # read-the-full-story link
+        #
+        # It does NOT receive the complete original article.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
@@ -628,7 +613,7 @@ def build_feed(source_xml):
         added += 1
 
     # --------------------------------------------------------
-    # WRITE FILE
+    # WRITE RSS FILE
     # --------------------------------------------------------
 
     ET.indent(
