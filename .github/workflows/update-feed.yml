@@ -1,0 +1,39 @@
+name: Update MJR Morning Brief Feed
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Morning Brief feed
+        run: python generate_feed.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "MJR Feed Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add morning-brief.xml
+
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit."
+          else
+            git commit -m "Update Morning Brief feed"
+            git push
+          fi
