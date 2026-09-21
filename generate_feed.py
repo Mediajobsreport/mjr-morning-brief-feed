@@ -1,14 +1,9 @@
 import html
-import io
-import os
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime, format_datetime
-from urllib.parse import urlparse
-
-from PIL import Image, ImageOps
 
 # ============================================================
 # MJR MORNING BRIEF FEED GENERATOR
@@ -34,23 +29,13 @@ FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
-# Email image source width.
+# The image is displayed inside the normal Mailchimp
+# newsletter content area.
 #
-# MJR social/web graphics are normally 1200px wide.
-# Mailchimp/email clients can scale these down for display
-# while retaining a sharper source image.
-IMAGE_WIDTH = 1200
-
-# High JPEG quality for graphics containing text/screenshots.
-JPEG_QUALITY = 95
-
-# Folder created in the GitHub repository.
-EMAIL_IMAGE_DIR = "email-images"
-
-# Public URL for those images through GitHub Pages.
-EMAIL_IMAGE_URL = (
-    f"{GITHUB_PAGES_BASE}/email-images"
-)
+# IMPORTANT:
+# The original MJR WEBP is NOT resized, downloaded,
+# converted or recompressed.
+EMAIL_DISPLAY_WIDTH = 600
 
 # Content we do NOT want in the Morning Brief.
 EXCLUDED_URL_PATHS = (
@@ -78,7 +63,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/1.5; "
+                "MJR-Morning-Brief-Feed/2.0; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -105,8 +90,7 @@ def clean_text(value):
     """
     Convert RSS HTML/text to clean plain text.
 
-    ElementTree handles the final XML escaping, so visible
-    text is not manually HTML-escaped here.
+    ElementTree handles final XML escaping.
     """
 
     if not value:
@@ -130,11 +114,20 @@ def clean_text(value):
 
 
 # ============================================================
-# ORIGINAL STORY IMAGE
+# STORY IMAGE
 # ============================================================
 
 def get_image(item):
-    """Find the story image in the MJR source RSS item."""
+    """
+    Find the original MJR story image.
+
+    The original image URL is passed directly to Mailchimp.
+    No image conversion or recompression occurs.
+    """
+
+    # --------------------------------------------------------
+    # MEDIA CONTENT
+    # --------------------------------------------------------
 
     media_content = item.find(
         f"{{{MEDIA_NS}}}content"
@@ -142,10 +135,16 @@ def get_image(item):
 
     if media_content is not None:
 
-        image_url = media_content.get("url")
+        image_url = media_content.get(
+            "url"
+        )
 
         if image_url:
             return image_url.strip()
+
+    # --------------------------------------------------------
+    # MEDIA THUMBNAIL
+    # --------------------------------------------------------
 
     media_thumbnail = item.find(
         f"{{{MEDIA_NS}}}thumbnail"
@@ -153,12 +152,21 @@ def get_image(item):
 
     if media_thumbnail is not None:
 
-        image_url = media_thumbnail.get("url")
+        image_url = media_thumbnail.get(
+            "url"
+        )
 
         if image_url:
             return image_url.strip()
 
-    # BD also places the image URL in <comments>.
+    # --------------------------------------------------------
+    # BD COMMENTS FIELD
+    # --------------------------------------------------------
+    #
+    # The BD-generated feed also places the story image
+    # URL inside <comments>. We use this only as a fallback.
+    # --------------------------------------------------------
+
     comments = item.findtext(
         "comments",
         "",
@@ -168,196 +176,6 @@ def get_image(item):
         return comments
 
     return ""
-
-
-# ============================================================
-# EMAIL-SAFE JPEG IMAGE
-# ============================================================
-
-def make_safe_filename(link, index):
-    """
-    Create a predictable JPEG filename from the story URL.
-    """
-
-    parsed = urlparse(link)
-
-    slug = parsed.path.rstrip("/").split("/")[-1]
-
-    slug = re.sub(
-        r"[^a-zA-Z0-9_-]+",
-        "-",
-        slug,
-    )
-
-    slug = slug.strip("-").lower()
-
-    if not slug:
-        slug = f"story-{index}"
-
-    # Prevent excessively long filenames.
-    slug = slug[:100]
-
-    return f"{index:02d}-{slug}.jpg"
-
-
-def prepare_rgb_image(image):
-    """
-    Convert an image to RGB while safely handling
-    transparency.
-    """
-
-    image = ImageOps.exif_transpose(
-        image
-    )
-
-    if image.mode in (
-        "RGBA",
-        "LA",
-    ):
-
-        rgba_image = image.convert(
-            "RGBA"
-        )
-
-        background = Image.new(
-            "RGB",
-            rgba_image.size,
-            "white",
-        )
-
-        background.paste(
-            rgba_image,
-            mask=rgba_image.getchannel("A"),
-        )
-
-        return background
-
-    if image.mode == "P":
-
-        rgba_image = image.convert(
-            "RGBA"
-        )
-
-        background = Image.new(
-            "RGB",
-            rgba_image.size,
-            "white",
-        )
-
-        background.paste(
-            rgba_image,
-            mask=rgba_image.getchannel("A"),
-        )
-
-        return background
-
-    return image.convert(
-        "RGB"
-    )
-
-
-def convert_image_to_jpeg(
-    source_url,
-    filename,
-):
-    """
-    Download the original MJR story image and create an
-    email-safe JPEG.
-
-    Images wider than 1200px are reduced to 1200px.
-    Images already 1200px or smaller are NOT enlarged.
-
-    JPEG quality is intentionally high because many MJR
-    graphics contain text, logos, screenshots and other
-    details that can look soft with aggressive compression.
-    """
-
-    if not source_url:
-        return ""
-
-    try:
-
-        image_data = download_url(
-            source_url
-        )
-
-        with Image.open(
-            io.BytesIO(image_data)
-        ) as original_image:
-
-            image = prepare_rgb_image(
-                original_image
-            )
-
-            # ------------------------------------------------
-            # RESIZE ONLY WHEN ORIGINAL IS WIDER THAN 1200PX
-            # ------------------------------------------------
-
-            if image.width > IMAGE_WIDTH:
-
-                ratio = (
-                    IMAGE_WIDTH /
-                    float(image.width)
-                )
-
-                new_height = max(
-                    1,
-                    round(
-                        image.height *
-                        ratio
-                    ),
-                )
-
-                image = image.resize(
-                    (
-                        IMAGE_WIDTH,
-                        new_height,
-                    ),
-                    Image.Resampling.LANCZOS,
-                )
-
-            # ------------------------------------------------
-            # SAVE EMAIL-SAFE JPEG
-            # ------------------------------------------------
-
-            output_path = os.path.join(
-                EMAIL_IMAGE_DIR,
-                filename,
-            )
-
-            image.save(
-                output_path,
-                "JPEG",
-                quality=JPEG_QUALITY,
-                optimize=True,
-                progressive=False,
-                subsampling=0,
-            )
-
-        return (
-            f"{EMAIL_IMAGE_URL}/"
-            f"{filename}"
-        )
-
-    except Exception as error:
-
-        print(
-            "WARNING: Could not convert image:"
-        )
-
-        print(
-            source_url
-        )
-
-        print(
-            error
-        )
-
-        # Do not fall back to WEBP.
-        #
-        # If conversion fails, the story is sent without
-        # an image rather than risking a broken Outlook image.
-        return ""
 
 
 # ============================================================
@@ -422,8 +240,6 @@ def should_include(item):
     """
     Decide whether the source item belongs in the
     MJR Morning Brief.
-
-    Event listings are excluded.
     """
 
     link = item.findtext(
@@ -461,6 +277,8 @@ def make_description(
     HEADLINE
     SHORT EXCERPT
     READ THE FULL STORY »
+
+    The image is the ORIGINAL image hosted by MJR.
     """
 
     parts = []
@@ -472,20 +290,27 @@ def make_description(
     if image_url:
 
         parts.append(
-            f'<p style="text-align:center;'
-            f'margin:0 0 14px 0;">'
-            f'<a href="{link}" target="_blank">'
-            f'<img src="{image_url}" '
+            f'<p style="'
+            f'text-align:center;'
+            f'margin:0 0 14px 0;'
+            f'padding:0;">'
+            f'<a href="{link}" '
+            f'target="_blank" '
+            f'style="text-decoration:none;">'
+            f'<img '
+            f'src="{image_url}" '
             f'alt="" '
-            f'width="600" '
-            f'style="display:block;'
+            f'width="{EMAIL_DISPLAY_WIDTH}" '
+            f'style="'
+            f'display:block;'
             f'width:100%;'
-            f'max-width:600px;'
+            f'max-width:{EMAIL_DISPLAY_WIDTH}px;'
             f'height:auto;'
             f'margin:0 auto;'
+            f'padding:0;'
             f'border:0;" />'
-            f"</a>"
-            f"</p>"
+            f'</a>'
+            f'</p>'
         )
 
     # --------------------------------------------------------
@@ -493,11 +318,13 @@ def make_description(
     # --------------------------------------------------------
 
     parts.append(
-        f'<h2 style="margin:0 0 10px 0;">'
-        f'<a href="{link}" target="_blank">'
-        f"{title}"
-        f"</a>"
-        f"</h2>"
+        f'<h2 style="'
+        f'margin:0 0 10px 0;">'
+        f'<a href="{link}" '
+        f'target="_blank">'
+        f'{title}'
+        f'</a>'
+        f'</h2>'
     )
 
     # --------------------------------------------------------
@@ -507,9 +334,10 @@ def make_description(
     if excerpt:
 
         parts.append(
-            f'<p style="margin:0 0 12px 0;">'
-            f"{excerpt}"
-            f"</p>"
+            f'<p style="'
+            f'margin:0 0 12px 0;">'
+            f'{excerpt}'
+            f'</p>'
         )
 
     # --------------------------------------------------------
@@ -517,13 +345,15 @@ def make_description(
     # --------------------------------------------------------
 
     parts.append(
-        f'<p style="margin:0 0 24px 0;">'
-        f'<a href="{link}" target="_blank">'
-        f"<strong>"
-        f"Read the full story »"
-        f"</strong>"
-        f"</a>"
-        f"</p>"
+        f'<p style="'
+        f'margin:0 0 24px 0;">'
+        f'<a href="{link}" '
+        f'target="_blank">'
+        f'<strong>'
+        f'Read the full story »'
+        f'</strong>'
+        f'</a>'
+        f'</p>'
     )
 
     return "".join(
@@ -551,37 +381,6 @@ def build_feed(source_xml):
         raise RuntimeError(
             "The source RSS feed does not contain a channel."
         )
-
-    # --------------------------------------------------------
-    # CREATE/CLEAN EMAIL IMAGE DIRECTORY
-    # --------------------------------------------------------
-
-    os.makedirs(
-        EMAIL_IMAGE_DIR,
-        exist_ok=True,
-    )
-
-    # Remove previously generated JPEGs so old stories
-    # do not accumulate indefinitely.
-    for filename in os.listdir(
-        EMAIL_IMAGE_DIR
-    ):
-
-        if filename.lower().endswith(
-            ".jpg"
-        ):
-
-            try:
-
-                os.remove(
-                    os.path.join(
-                        EMAIL_IMAGE_DIR,
-                        filename,
-                    )
-                )
-
-            except OSError:
-                pass
 
     # --------------------------------------------------------
     # COLLECT ELIGIBLE STORIES
@@ -694,8 +493,6 @@ def build_feed(source_xml):
         source_item,
     ) in eligible_items:
 
-        story_number = added + 1
-
         title = clean_text(
             source_item.findtext(
                 "title",
@@ -720,35 +517,9 @@ def build_feed(source_xml):
             )
         )
 
-        original_image_url = get_image(
+        image_url = get_image(
             source_item
         )
-
-        # ----------------------------------------------------
-        # CREATE EMAIL-SAFE JPEG
-        # ----------------------------------------------------
-
-        email_image_url = ""
-
-        if original_image_url:
-
-            image_filename = make_safe_filename(
-                link,
-                story_number,
-            )
-
-            print(
-                f"Creating email image "
-                f"{story_number}: "
-                f"{image_filename}"
-            )
-
-            email_image_url = (
-                convert_image_to_jpeg(
-                    original_image_url,
-                    image_filename,
-                )
-            )
 
         pub_date = format_pub_date(
             publication_date
@@ -792,7 +563,7 @@ def build_feed(source_xml):
         guid_element.text = guid
 
         # ----------------------------------------------------
-        # DATE
+        # PUBLICATION DATE
         # ----------------------------------------------------
 
         ET.SubElement(
@@ -808,39 +579,32 @@ def build_feed(source_xml):
             title=title,
             link=link,
             excerpt=excerpt,
-            image_url=email_image_url,
+            image_url=image_url,
         )
 
-        # Mailchimp Excerpt content.
         ET.SubElement(
             item,
             "description",
         ).text = description
 
-        # Mailchimp Full Content.
-        #
-        # We intentionally put the SAME short version here.
-        # The complete original article is never inserted
-        # into the newsletter.
+        # Mailchimp Full Content receives the SAME shortened
+        # version. It does not receive the original full story.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
         ).text = description
 
         # ----------------------------------------------------
-        # MEDIA IMAGE
+        # ORIGINAL MJR IMAGE
         # ----------------------------------------------------
 
-        if email_image_url:
+        if image_url:
 
             ET.SubElement(
                 item,
                 f"{{{MEDIA_NS}}}thumbnail",
                 {
-                    "url": email_image_url,
-                    "width": str(
-                        IMAGE_WIDTH
-                    ),
+                    "url": image_url,
                 },
             )
 
@@ -848,11 +612,8 @@ def build_feed(source_xml):
                 item,
                 f"{{{MEDIA_NS}}}content",
                 {
-                    "url": email_image_url,
+                    "url": image_url,
                     "medium": "image",
-                    "width": str(
-                        IMAGE_WIDTH
-                    ),
                 },
             )
 
