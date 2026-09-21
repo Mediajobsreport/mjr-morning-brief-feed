@@ -28,9 +28,6 @@ FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 # Maximum number of stories available to Mailchimp.
 MAX_ITEMS = 20
 
-# Email content width.
-EMAIL_IMAGE_WIDTH = 600
-
 # Content we do NOT want in the Morning Brief.
 EXCLUDED_URL_PATHS = (
     "/events/",
@@ -40,7 +37,6 @@ MEDIA_NS = "http://search.yahoo.com/mrss/"
 CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 
-ET.register_namespace("media", MEDIA_NS)
 ET.register_namespace("content", CONTENT_NS)
 ET.register_namespace("atom", ATOM_NS)
 
@@ -57,7 +53,7 @@ def download_url(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 (compatible; "
-                "MJR-Morning-Brief-Feed/3.0; "
+                "MJR-Morning-Brief-Feed/3.1; "
                 "+https://www.mediajobsreport.com)"
             )
         },
@@ -108,7 +104,7 @@ def clean_text(value):
 
 
 def escape_html(value):
-    """Escape text before placing it inside email HTML."""
+    """Escape text before inserting it into HTML."""
 
     return html.escape(
         value or "",
@@ -122,19 +118,18 @@ def escape_html(value):
 
 def get_image(item):
     """
-    Find the original public MJR story image.
+    Find the original MJR story image.
 
-    The original MJR-hosted image is used directly.
+    The source image remains hosted by Media Jobs Report.
 
     We do NOT:
-    - download it
-    - resize it
-    - convert it
-    - recompress it
-    - store it on GitHub
+    - download the image
+    - resize the image
+    - convert the image
+    - recompress the image
+    - store the image on GitHub
 
-    The email HTML controls the DISPLAY size while the
-    original high-resolution image remains the source.
+    The image is inserted ONCE into the generated story HTML.
     """
 
     # --------------------------------------------------------
@@ -150,6 +145,7 @@ def get_image(item):
         image_url = media_content.get("url")
 
         if image_url:
+
             image_url = image_url.strip()
 
             if image_url.startswith(
@@ -170,6 +166,7 @@ def get_image(item):
         image_url = media_thumbnail.get("url")
 
         if image_url:
+
             image_url = image_url.strip()
 
             if image_url.startswith(
@@ -296,10 +293,14 @@ def make_description(
     SHORT EXCERPT
     READ THE FULL STORY »
 
-    Images remain hosted by Media Jobs Report.
+    IMPORTANT:
 
-    The original high-resolution source image is displayed
-    at a maximum width of 600 pixels for email clients.
+    The original MJR image appears ONLY here.
+
+    No media:thumbnail or media:content image is added to
+    the generated Morning Brief feed.
+
+    Mailchimp's RSS image resizing should remain ON.
     """
 
     safe_title = escape_html(title)
@@ -313,43 +314,29 @@ def make_description(
     # IMAGE
     # --------------------------------------------------------
     #
-    # Email-safe sizing:
+    # Do not specify a fixed width here.
     #
-    # width="600"
-    # width:100%
-    # max-width:600px
-    # height:auto
+    # Mailchimp's RSS image-resizing feature will size the
+    # original MJR image to fit the campaign template.
     #
-    # This gives desktop email clients an explicit width while
-    # allowing the image to shrink responsively on mobile.
-    #
-    # The ORIGINAL MJR image remains the source. It is not
-    # recompressed or converted by this script.
+    # The original high-resolution MJR image remains the source.
     # --------------------------------------------------------
 
     if safe_image_url:
 
         parts.append(
-            f'<table role="presentation" '
-            f'width="100%" '
-            f'cellspacing="0" '
-            f'cellpadding="0" '
-            f'border="0" '
-            f'style="border-collapse:collapse;">'
-            f'<tr>'
-            f'<td align="center" '
-            f'style="padding:0 0 14px 0;">'
+            f'<p style="'
+            f'text-align:center;'
+            f'margin:0 0 14px 0;'
+            f'padding:0;">'
             f'<a href="{safe_link}" '
             f'target="_blank" '
             f'style="text-decoration:none;">'
             f'<img '
             f'src="{safe_image_url}" '
-            f'width="{EMAIL_IMAGE_WIDTH}" '
             f'alt="{safe_title}" '
             f'style="'
             f'display:block;'
-            f'width:100%;'
-            f'max-width:{EMAIL_IMAGE_WIDTH}px;'
             f'height:auto;'
             f'margin:0 auto;'
             f'padding:0;'
@@ -358,9 +345,7 @@ def make_description(
             f'text-decoration:none;" '
             f'/>'
             f'</a>'
-            f'</td>'
-            f'</tr>'
-            f'</table>'
+            f'</p>'
         )
 
     # --------------------------------------------------------
@@ -630,47 +615,26 @@ def build_feed(source_xml):
             image_url=image_url,
         )
 
-        # Mailchimp excerpt content.
         ET.SubElement(
             item,
             "description",
         ).text = description
 
-        # Mailchimp Full Content receives the SAME short
-        # version. The original full article is not inserted.
         ET.SubElement(
             item,
             f"{{{CONTENT_NS}}}encoded",
         ).text = description
 
         # ----------------------------------------------------
-        # ORIGINAL MJR IMAGE
+        # IMPORTANT
         # ----------------------------------------------------
         #
-        # Keep the public original image URL in Media RSS for
-        # services that inspect media:thumbnail/content.
+        # DO NOT add media:thumbnail.
+        # DO NOT add media:content.
         #
-        # No GitHub image copy is created.
+        # There is now exactly ONE image reference for this
+        # story: the <img> inside the HTML above.
         # ----------------------------------------------------
-
-        if image_url:
-
-            ET.SubElement(
-                item,
-                f"{{{MEDIA_NS}}}thumbnail",
-                {
-                    "url": image_url,
-                },
-            )
-
-            ET.SubElement(
-                item,
-                f"{{{MEDIA_NS}}}content",
-                {
-                    "url": image_url,
-                    "medium": "image",
-                },
-            )
 
         # ----------------------------------------------------
         # CATEGORY
