@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "title": "SBE Awards Five $3,000 Ennes Scholarships for Broadcast Engineering Education",
+      "link": "https://www.mediajobsreport.com/articles/sbe-awards-five-3-000-ennes-scholarships-for-broadcast-engineering-education",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Mon, 28 Sep 2026 14:35:01 -0400",
+      "selected": false
+    },
+    {
+      "title": "Universal Music Group Names Òscar Celma SVP of Applied AI and Machine Learning",
+      "link": "https://www.mediajobsreport.com/articles/universal-music-group-names-%C3%B2scar-celma-svp-of-applied-ai-and-machine-learning",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Mon, 28 Sep 2026 14:25:21 -0400",
+      "selected": false
+    },
+    {
+      "title": "USA TODAY Co. and Lee Enterprises Realign Local Newspaper Portfolios",
+      "link": "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios",
+      "type": "News",
+      "category": "Newspaper",
+      "pubDate": "Mon, 28 Sep 2026 14:18:18 -0400",
+      "selected": false
+    },
+    {
       "title": "Media Jobs Report Adds Local Adoptable Pets Feature to Prep",
       "link": "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep",
       "type": "News",
@@ -54,30 +78,6 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 24 Sep 2026 17:32:47 -0400",
-      "selected": true
-    },
-    {
-      "title": "FOX Sports 1370 AM Launches in Baltimore With VSiN Nights and Weekends",
-      "link": "https://www.mediajobsreport.com/articles/fox-sports-1370-am-launches-in-baltimore-with-vsin-nights-and-weekends",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Thu, 24 Sep 2026 17:21:49 -0400",
-      "selected": true
-    },
-    {
-      "title": "Houston Public Media Launches $15.5 Million Future Fund",
-      "link": "https://www.mediajobsreport.com/articles/houston-public-media-launches-15-5-million-future-fund",
-      "type": "News",
-      "category": "Public Media",
-      "pubDate": "Thu, 24 Sep 2026 17:16:29 -0400",
-      "selected": true
-    },
-    {
-      "title": "Sonia Carreno Named Next CEO of IAB Europe",
-      "link": "https://www.mediajobsreport.com/articles/sonia-carreno-named-next-ceo-of-iab-europe",
-      "type": "News",
-      "category": "Digital",
-      "pubDate": "Thu, 24 Sep 2026 17:11:23 -0400",
       "selected": true
     },
     {
