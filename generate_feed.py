@@ -937,6 +937,98 @@ def make_description(
 
 
 # ============================================================
+# MIXED EDITORIAL ORDER / NEWSLETTER-ONLY MESSAGES
+# ============================================================
+
+def apply_editorial_order(channel, story_count):
+    """Apply the manager's mixed story/message order without changing story image handling."""
+    try:
+        with open(SELECTION_FILE, "r", encoding="utf-8") as file:
+            data = json.load(file)
+    except Exception:
+        return story_count
+
+    order = data.get("order", [])
+    custom = data.get("custom", [])
+    if not order:
+        return story_count
+
+    custom_by_id = {
+        str(x.get("id", "")): x
+        for x in custom
+        if isinstance(x, dict) and x.get("id")
+    }
+
+    existing_items = list(channel.findall("item"))
+    story_by_link = {}
+    for node in existing_items:
+        link = (node.findtext("link", "") or "").strip()
+        if link:
+            story_by_link[link] = node
+        channel.remove(node)
+
+    added = 0
+    for entry in order[:MAX_ITEMS]:
+        if not isinstance(entry, dict):
+            continue
+
+        if entry.get("kind") == "story":
+            node = story_by_link.get(str(entry.get("link", "")).strip())
+            if node is not None:
+                channel.append(node)
+                added += 1
+            continue
+
+        if entry.get("kind") != "custom":
+            continue
+
+        record = custom_by_id.get(str(entry.get("id", "")))
+        if not record:
+            continue
+
+        title = clean_text(str(record.get("title") or "From Media Jobs Report"))[:160]
+        message = str(record.get("message") or "").strip()[:5000]
+        if not message:
+            continue
+
+        raw_url = str(record.get("url") or "").strip()
+        link = raw_url if raw_url.startswith(("https://", "http://")) else SITE_URL
+        button_text = clean_text(str(record.get("buttonText") or ""))[:60]
+
+        safe_title = html.escape(title)
+        safe_message = html.escape(message).replace("\n", "<br>")
+        safe_link = html.escape(link, quote=True)
+        safe_button = html.escape(button_text)
+
+        parts = [
+            f'<h2 style="margin:0 0 10px 0;">{safe_title}</h2>',
+            f'<p style="margin:0 0 16px 0;">{safe_message}</p>',
+        ]
+        if raw_url.startswith(("https://", "http://")):
+            label = safe_button or "Learn More"
+            parts.append(
+                f'<p style="margin:0 0 24px 0;">'
+                f'<a href="{safe_link}" target="_blank"><strong>{label} »</strong></a>'
+                f'</p>'
+            )
+        description = "".join(parts)
+
+        item = ET.Element("item")
+        ET.SubElement(item, "title").text = title
+        ET.SubElement(item, "link").text = link
+        guid = ET.SubElement(item, "guid", {"isPermaLink": "false"})
+        guid.text = str(record.get("id"))
+        ET.SubElement(item, "pubDate").text = format_datetime(datetime.now(timezone.utc))
+        ET.SubElement(item, "description").text = description
+        ET.SubElement(item, f"{{{CONTENT_NS}}}encoded").text = description
+        ET.SubElement(item, "category").text = "Newsletter Only"
+        channel.append(item)
+        added += 1
+
+    return added
+
+
+# ============================================================
 # BUILD FEED
 # ============================================================
 
@@ -1263,7 +1355,7 @@ def build_feed(source_xml):
 
         added += 1
 
-    # --------------------------------------------------------
+    # Apply the exact mixed order chosen in the Newsletter Manager.\n    added = apply_editorial_order(channel, added)\n\n    # --------------------------------------------------------
     # WRITE RSS FILE
     # --------------------------------------------------------
 
