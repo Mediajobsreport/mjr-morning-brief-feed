@@ -39,7 +39,7 @@ def main():
     selected=load_selection()
 
     if a.action=="refresh":
-        subprocess.run([sys.executable,str(ROOT/"generate_feed.py")],check=True)
+        subprocess.run([sys.executable,str(ROOT/"refresh_available.py")],check=True)
         return
     if a.action=="publish":
         subprocess.run([sys.executable,str(ROOT/"generate_feed.py")],check=True)
