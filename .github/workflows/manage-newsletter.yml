@@ -13,11 +13,12 @@ on:
           - up
           - down
           - clear
+          - deselect_all
           - select_all
           - refresh
           - publish
       item:
-        description: "Paste the exact headline or URL (not needed for clear/select all/refresh/publish)"
+        description: "Paste the exact headline or URL (not needed for clear/deselect all/select all/refresh/publish)"
         required: false
         type: string
 
