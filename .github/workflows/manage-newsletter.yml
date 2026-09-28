@@ -1,0 +1,48 @@
+name: Manage MJR Newsletter
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What do you want to do?"
+        required: true
+        type: choice
+        options:
+          - include
+          - exclude
+          - up
+          - down
+          - clear
+          - select_all
+          - refresh
+          - publish
+      item:
+        description: "Paste the exact headline or URL (not needed for clear/select all/refresh/publish)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install Pillow
+      - name: Manage newsletter
+        run: python newsletter_manager.py "${{ inputs.action }}" --item "${{ inputs.item }}"
+      - name: Save changes
+        run: |
+          git config user.name "MJR Newsletter Manager"
+          git config user.email "actions@users.noreply.github.com"
+          git add newsletter-selection.json available-items.json morning-brief.xml email-images/ email-images-manifest.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Newsletter: ${{ inputs.action }}"
+            git push
+          fi
