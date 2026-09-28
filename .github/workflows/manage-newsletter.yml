@@ -54,11 +54,24 @@ jobs:
         if: ${{ inputs.action == 'publish_manager' || inputs.action == 'publish' }}
         run: python generate_feed.py
 
+      - name: Mark manual edition date
+        if: ${{ inputs.action == 'publish_manager' || inputs.action == 'publish' }}
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          today=datetime.now(ZoneInfo("America/New_York")).date().isoformat()
+          with open("last-manual-publish.json","w",encoding="utf-8") as f:
+              json.dump({"date":today},f,indent=2)
+              f.write("\n")
+          PY
+
       - name: Save changes
         run: |
           git config user.name "MJR Newsletter Manager"
           git config user.email "actions@users.noreply.github.com"
-          git add newsletter-selection.json available-items.json morning-brief.xml email-images/ email-images-manifest.json 2>/dev/null || true
+          git add newsletter-selection.json available-items.json morning-brief.xml email-images/ email-images-manifest.json last-manual-publish.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to save."
           else
