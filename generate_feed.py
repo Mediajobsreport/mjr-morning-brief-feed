@@ -33,13 +33,16 @@ FEED_URL = (
 FEED_TITLE = "Media Jobs Report Morning Brief"
 FEED_DESCRIPTION = "Media industry news from Media Jobs Report"
 
-# Maximum number of stories available to Mailchimp.
+# Maximum number of selected stories sent to Mailchimp.
 MAX_ITEMS = 20
 
-# Content we do NOT want in the Morning Brief.
-EXCLUDED_URL_PATHS = (
-    "/events/",
-)
+# Keep a larger editorial pool so News, Blogs and Events remain available.
+AVAILABLE_ITEMS = 50
+SELECTION_FILE = "newsletter-selection.json"
+AVAILABLE_FILE = "available-items.json"
+
+# Nothing is permanently excluded. Editorial selection controls the newsletter.
+EXCLUDED_URL_PATHS = ()
 
 
 # ============================================================
@@ -755,6 +758,56 @@ def should_include(item):
 
 
 # ============================================================
+# EDITORIAL CONTROL
+# ============================================================
+
+def content_type(link):
+    value=(link or "").lower()
+    if "/events/" in value:
+        return "Event"
+    if "/blog/" in value:
+        return "Blog"
+    return "News"
+
+
+def load_selection():
+    if not os.path.isfile(SELECTION_FILE):
+        return None
+    try:
+        with open(SELECTION_FILE,"r",encoding="utf-8") as file:
+            data=json.load(file)
+        selected=data.get("selected",[])
+        return [str(link).strip() for link in selected if str(link).strip()]
+    except Exception as exc:
+        print(f"WARNING: Could not read {SELECTION_FILE}: {exc}")
+        return None
+
+
+def save_available_items(eligible_items, selected_links):
+    selected_set=set(selected_links or [])
+    records=[]
+    for publication_date, source_item in eligible_items[:AVAILABLE_ITEMS]:
+        link=source_item.findtext("link","").strip()
+        title=clean_text(source_item.findtext("title",""))
+        categories=[
+            clean_text(node.text or "")
+            for node in source_item.findall("category")
+            if clean_text(node.text or "")
+        ]
+        records.append({
+            "title": title,
+            "link": link,
+            "type": content_type(link),
+            "category": categories[0] if categories else "",
+            "pubDate": format_pub_date(publication_date),
+            "selected": link in selected_set,
+        })
+    with open(AVAILABLE_FILE,"w",encoding="utf-8") as file:
+        json.dump({"items":records},file,indent=2,ensure_ascii=False)
+        file.write("\n")
+
+
+# ============================================================
 # MAILCHIMP STORY CONTENT
 # ============================================================
 
@@ -959,9 +1012,29 @@ def build_feed(source_xml):
         reverse=True,
     )
 
-    eligible_items = eligible_items[
-        :MAX_ITEMS
-    ]
+    # --------------------------------------------------------
+    # EDITORIAL SELECTION AND ORDER
+    # --------------------------------------------------------
+
+    selection = load_selection()
+    save_available_items(eligible_items, selection)
+
+    if selection is not None:
+        by_link={
+            source_item.findtext("link","").strip(): (publication_date,source_item)
+            for publication_date,source_item in eligible_items
+        }
+        eligible_items=[
+            by_link[link]
+            for link in selection
+            if link in by_link
+        ][:MAX_ITEMS]
+    else:
+        # Backward-compatible fallback if the control file is ever missing.
+        eligible_items=[
+            entry for entry in eligible_items
+            if "/events/" not in entry[1].findtext("link","").strip().lower()
+        ][:MAX_ITEMS]
 
     # --------------------------------------------------------
     # CREATE RSS DOCUMENT
@@ -1256,8 +1329,8 @@ def main():
     # --------------------------------------------------------
 
     print(
-        "Filtering Events and sorting "
-        "stories newest-first..."
+        "Refreshing editorial choices and building "
+        "the selected newsletter feed..."
     )
 
     active_filenames = build_feed(
