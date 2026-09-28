@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 28 Sep 2026 17:00:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Audacy’s We Can Survive Makes New York Debut at UBS Arena",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 16:37:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Beasley Named Official Audio Partner of Vegas Golden Knights",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 16:27:13 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Scripps Promotes Sean McGarvy to Head of News",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 28 Sep 2026 16:20:34 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "SBE Awards Five $3,000 Ennes Scholarships for Broadcast Engineering Education",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Mon, 28 Sep 2026 14:35:01 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Universal Music Group Names Òscar Celma SVP of Applied AI and Machine Learning",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Mon, 28 Sep 2026 14:25:21 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "USA TODAY Co. and Lee Enterprises Realign Local Newspaper Portfolios",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Newspaper",
       "pubDate": "Mon, 28 Sep 2026 14:18:18 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Adds Local Adoptable Pets Feature to Prep",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Programming",
       "pubDate": "Mon, 28 Sep 2026 09:27:54 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartRadio Unveils 2026 Jingle Ball Tour Lineups and Dates",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Fri, 25 Sep 2026 20:01:09 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "NBC Adds Line of Fire, Newlyweds and New Traitors Series for Fall 2026",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Fri, 25 Sep 2026 19:37:30 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The Future of Radio and Adapting to Change",
@@ -86,7 +86,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 23 Sep 2026 09:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Why Compelling Radio Personalities Matter as Much as the Music",
@@ -94,7 +94,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 22 Sep 2026 19:15:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The Art of Resilience",
@@ -102,7 +102,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 16 Sep 2026 09:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "15 Radio Truths Every Programmer and Broadcaster Should Know",
@@ -110,7 +110,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 15 Sep 2026 21:30:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Don’t Play Keep Away with Success",
@@ -118,7 +118,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 13 Sep 2026 06:30:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio & 9/11: Remembering the Connection 25 Years Later",
@@ -126,7 +126,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Fri, 11 Sep 2026 18:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Why Fear Is Running the Show",
@@ -134,7 +134,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 09 Sep 2026 12:41:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Made Easy: 10 Rules for Building a Better Radio Show",
@@ -142,7 +142,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 08 Sep 2026 20:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "2026 NABOB Black Media Summit & Power of Urban Radio Forum",
@@ -158,7 +158,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 01 Sep 2026 20:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Showmanship: What The Savannah Bananas Can Teach Us",
@@ -166,7 +166,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 01 Sep 2026 06:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "IRE AccessFest 2026",
