@@ -351,8 +351,7 @@ def save_image_manifest(manifest):
             )
 
             file.write(
-                "
-"
+                "\n"
             )
 
     except Exception as exc:
@@ -805,8 +804,7 @@ def save_available_items(eligible_items, selected_links):
         })
     with open(AVAILABLE_FILE,"w",encoding="utf-8") as file:
         json.dump({"items":records},file,indent=2,ensure_ascii=False)
-        file.write("
-")
+        file.write("\n")
 
 
 # ============================================================
@@ -998,8 +996,7 @@ def apply_editorial_order(channel, story_count):
         button_text = clean_text(str(record.get("buttonText") or ""))[:60]
 
         safe_title = html.escape(title)
-        safe_message = html.escape(message).replace("
-", "<br>")
+        safe_message = html.escape(message).replace("\n", "<br>")
         safe_link = html.escape(link, quote=True)
         safe_button = html.escape(button_text)
 
@@ -1362,8 +1359,7 @@ def build_feed(source_xml, use_selection=True):
 
         added += 1
 
-    # Apply the exact mixed order chosen in the Newsletter Manager.
-    if use_selection:
+    # Apply the exact mixed order chosen in the Newsletter Manager.\n    if use_selection:
         added = apply_editorial_order(channel, added)
 
     # --------------------------------------------------------
