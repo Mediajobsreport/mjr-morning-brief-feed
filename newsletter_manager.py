@@ -33,7 +33,7 @@ def resolve(value):
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument("action",choices=["include","exclude","up","down","clear","select_all","publish","refresh"])
+    p.add_argument("action",choices=["include","exclude","up","down","clear","deselect_all","select_all","publish","refresh"])
     p.add_argument("--item",default="")
     a=p.parse_args()
     selected=load_selection()
@@ -44,7 +44,7 @@ def main():
     if a.action=="publish":
         subprocess.run([sys.executable,str(ROOT/"generate_feed.py")],check=True)
         return
-    if a.action=="clear":
+    if a.action in ("clear","deselect_all"):
         selected=[]
     elif a.action=="select_all":
         selected=[x["link"] for x in available()][:20]
