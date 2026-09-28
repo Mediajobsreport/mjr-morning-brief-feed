@@ -1032,7 +1032,7 @@ def apply_editorial_order(channel, story_count):
 # BUILD FEED
 # ============================================================
 
-def build_feed(source_xml):
+def build_feed(source_xml, use_selection=True):
     """
     Create the clean MJR Morning Brief RSS feed.
 
@@ -1108,10 +1108,10 @@ def build_feed(source_xml):
     # EDITORIAL SELECTION AND ORDER
     # --------------------------------------------------------
 
-    selection = load_selection()
+    selection = load_selection() if use_selection else None
     save_available_items(eligible_items, selection)
 
-    if selection is not None:
+    if use_selection and selection is not None:
         by_link={
             source_item.findtext("link","").strip(): (publication_date,source_item)
             for publication_date,source_item in eligible_items
@@ -1122,10 +1122,14 @@ def build_feed(source_xml):
             if link in by_link
         ][:MAX_ITEMS]
     else:
-        # Backward-compatible fallback if the control file is ever missing.
+        # Automatic/default edition: newest News items from the regular MJR RSS.
+        # Blogs and Events remain available for manual editions but are not
+        # inserted into an unattended fallback edition.
+
         eligible_items=[
             entry for entry in eligible_items
             if "/events/" not in entry[1].findtext("link","").strip().lower()
+            and "/blog/" not in entry[1].findtext("link","").strip().lower()
         ][:MAX_ITEMS]
 
     # --------------------------------------------------------
@@ -1355,7 +1359,8 @@ def build_feed(source_xml):
 
         added += 1
 
-    # Apply the exact mixed order chosen in the Newsletter Manager.\n    added = apply_editorial_order(channel, added)\n\n    # --------------------------------------------------------
+    # Apply the exact mixed order chosen in the Newsletter Manager.\n    if use_selection:
+        added = apply_editorial_order(channel, added)\n\n    # --------------------------------------------------------
     # WRITE RSS FILE
     # --------------------------------------------------------
 
@@ -1387,6 +1392,10 @@ def build_feed(source_xml):
 # ============================================================
 
 def main():
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--automatic',action='store_true',help='Build a default edition from the regular MJR RSS and ignore manual selections/messages.')
+    args=parser.parse_args()
 
     print(
         "Preparing email image directory..."
@@ -1426,7 +1435,8 @@ def main():
     )
 
     active_filenames = build_feed(
-        source_xml
+        source_xml,
+        use_selection=not args.automatic,
     )
 
     # --------------------------------------------------------
