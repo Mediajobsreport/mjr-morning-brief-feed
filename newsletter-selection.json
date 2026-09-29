@@ -1,31 +1,36 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent",
-    "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena",
-    "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights",
+    "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep",
+    "https://www.mediajobsreport.com/articles/jud-heussler-named-director-of-operations-for-cmg-jacksonville-radio",
+    "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios",
     "https://www.mediajobsreport.com/articles/scripps-promotes-sean-mcgarvy-to-head-of-news",
+    "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena",
     "https://www.mediajobsreport.com/articles/sbe-awards-five-3-000-ennes-scholarships-for-broadcast-engineering-education",
     "https://www.mediajobsreport.com/articles/universal-music-group-names-%C3%B2scar-celma-svp-of-applied-ai-and-machine-learning",
-    "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios",
-    "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep"
+    "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights",
+    "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent"
+      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena"
+      "link": "https://www.mediajobsreport.com/articles/jud-heussler-named-director-of-operations-for-cmg-jacksonville-radio"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights"
+      "link": "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios"
     },
     {
       "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/scripps-promotes-sean-mcgarvy-to-head-of-news"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena"
     },
     {
       "kind": "story",
@@ -37,11 +42,11 @@
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios"
+      "link": "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep"
+      "link": "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent"
     }
   ]
 }
