@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 20:42:49 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "KDNL Rebrands as STL30 as St. Louis Station Goes Independent",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 28 Sep 2026 17:00:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Audacy’s We Can Survive Makes New York Debut at UBS Arena",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 16:37:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Beasley Named Official Audio Partner of Vegas Golden Knights",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 16:27:13 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Scripps Promotes Sean McGarvy to Head of News",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 28 Sep 2026 16:20:34 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "SBE Awards Five $3,000 Ennes Scholarships for Broadcast Engineering Education",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Mon, 28 Sep 2026 14:35:01 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Universal Music Group Names Òscar Celma SVP of Applied AI and Machine Learning",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Mon, 28 Sep 2026 14:25:21 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "USA TODAY Co. and Lee Enterprises Realign Local Newspaper Portfolios",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Newspaper",
       "pubDate": "Mon, 28 Sep 2026 14:18:18 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Adds Local Adoptable Pets Feature to Prep",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Programming",
       "pubDate": "Mon, 28 Sep 2026 09:27:54 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartRadio Unveils 2026 Jingle Ball Tour Lineups and Dates",
