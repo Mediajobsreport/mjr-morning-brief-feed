@@ -44,8 +44,9 @@ export default {
     try { body = await request.json(); }
     catch { return new Response(JSON.stringify({ok:false,error:"Invalid request."}), {status:400,headers:cors(origin)}); }
 
+    const action = body.action === "refresh" ? "refresh" : "publish_manager";
     const payload = String(body.payload || "");
-    if (!payload || payload.length > 30000 || !/^[A-Za-z0-9+/=]+$/.test(payload)) {
+    if (action === "publish_manager" && (!payload || payload.length > 30000 || !/^[A-Za-z0-9+/=]+$/.test(payload))) {
       return new Response(JSON.stringify({ok:false,error:"Invalid publish data."}), {status:400,headers:cors(origin)});
     }
 
@@ -60,7 +61,7 @@ export default {
       },
       body: JSON.stringify({
         ref: "main",
-        inputs: { action: "publish_manager", payload, item: "" }
+        inputs: { action, payload: action === "publish_manager" ? payload : "", item: "" }
       })
     });
 
@@ -68,6 +69,6 @@ export default {
       const detail = (await gh.text()).slice(0,500);
       return new Response(JSON.stringify({ok:false,error:"GitHub publisher rejected the request.",detail}), {status:502,headers:cors(origin)});
     }
-    return new Response(JSON.stringify({ok:true,message:"Morning Brief publish started."}), {status:200,headers:cors(origin)});
+    return new Response(JSON.stringify({ok:true,message: action === "refresh" ? "Story refresh started." : "Morning Brief publish started."}), {status:200,headers:cors(origin)});
   }
 };
