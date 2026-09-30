@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Motown Gospel/TAMLA Promotes Justin Tomlinson to VP of Marketing",
+      "link": "https://www.mediajobsreport.com/articles/motown-gospel-tamla-promotes-justin-tomlinson-to-vp-of-marketing",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Wed, 30 Sep 2026 12:32:26 -0400",
+      "selected": false
+    },
+    {
       "title": "The CW Lands NHRA Drag Racing Rights in Multi-Year Deal",
       "link": "https://www.mediajobsreport.com/articles/the-cw-lands-nhra-drag-racing-rights-in-multi-year-deal",
       "type": "News",
@@ -38,7 +46,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Tue, 29 Sep 2026 20:15:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "She’s Country With Emily Harlan Surpasses 40 Affiliates",
@@ -46,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 29 Sep 2026 17:33:12 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "GMA Dove Awards Final Lineup Adds Brandon Lake, Lainey Wilson and Dolly Parton Tribute",
@@ -54,7 +62,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 29 Sep 2026 17:22:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Premiere Networks and Buzz Knight Media Launch ‘Jersey Made’ Podcast",
@@ -62,7 +70,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 29 Sep 2026 17:07:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Finney Media Study Finds Christian Listeners Favor Familiar Christmas Songs",
@@ -70,7 +78,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Tue, 29 Sep 2026 17:01:23 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "2026 MTV VMAs Draw 8.4 Million Viewers, Hit 11-Year Ratings High",
@@ -78,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 29 Sep 2026 16:54:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Billy Bush Relaunches ‘Hot Mics’ With Four-Day Live Schedule",
@@ -86,15 +94,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 29 Sep 2026 16:39:06 -0400",
-      "selected": false
-    },
-    {
-      "title": "U.S. Job Openings Hold at 7.1 Million as Hiring Remains Steady",
-      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-1-million-as-hiring-remains-steady",
-      "type": "News",
-      "category": "Announcements",
-      "pubDate": "Tue, 29 Sep 2026 16:31:55 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "The Future of Radio and Adapting to Change",
@@ -142,7 +142,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Fri, 11 Sep 2026 18:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Why Fear Is Running the Show",
