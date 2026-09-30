@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "title": "Country Radio Hall of Fame Opens 2027 Nominations",
+      "link": "https://www.mediajobsreport.com/articles/country-radio-hall-of-fame-opens-2027-nominations",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Wed, 30 Sep 2026 14:04:46 -0400",
+      "selected": false
+    },
+    {
+      "title": "Public Radio Techsurvey 2026 Webinar: New Insights on Public Radio’s Digital Future",
+      "link": "https://www.mediajobsreport.com/events/public-radio-techsurvey-2026-webinar-new-insights-on-public-radios-digital-future",
+      "type": "Event",
+      "category": "Webinars",
+      "pubDate": "Wed, 30 Sep 2026 13:52:07 -0400",
+      "selected": false
+    },
+    {
+      "title": "Clay Travis and Buck Sexton Recap Oval Office Visit With President Trump",
+      "link": "https://www.mediajobsreport.com/articles/clay-travis-and-buck-sexton-recap-oval-office-visit-with-president-trump",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Wed, 30 Sep 2026 13:30:59 -0400",
+      "selected": false
+    },
+    {
+      "title": "Audiohook Acquires Podscan, Opens Podcast Intelligence Data for Free",
+      "link": "https://www.mediajobsreport.com/articles/audiohook-acquires-podscan-opens-podcast-intelligence-data-for-free",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Wed, 30 Sep 2026 12:40:47 -0400",
+      "selected": false
+    },
+    {
       "title": "Motown Gospel/TAMLA Promotes Justin Tomlinson to VP of Marketing",
       "link": "https://www.mediajobsreport.com/articles/motown-gospel-tamla-promotes-justin-tomlinson-to-vp-of-marketing",
       "type": "News",
@@ -70,30 +102,6 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 29 Sep 2026 17:07:00 -0400",
-      "selected": true
-    },
-    {
-      "title": "Finney Media Study Finds Christian Listeners Favor Familiar Christmas Songs",
-      "link": "https://www.mediajobsreport.com/articles/finney-media-study-finds-christian-listeners-favor-familiar-christmas-songs",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Tue, 29 Sep 2026 17:01:23 -0400",
-      "selected": true
-    },
-    {
-      "title": "2026 MTV VMAs Draw 8.4 Million Viewers, Hit 11-Year Ratings High",
-      "link": "https://www.mediajobsreport.com/articles/2026-mtv-vmas-draw-8-4-million-viewers-hit-11-year-ratings-high",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Tue, 29 Sep 2026 16:54:00 -0400",
-      "selected": true
-    },
-    {
-      "title": "Billy Bush Relaunches ‘Hot Mics’ With Four-Day Live Schedule",
-      "link": "https://www.mediajobsreport.com/articles/billy-bush-relaunches-hot-mics-with-four-day-live-schedule",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Tue, 29 Sep 2026 16:39:06 -0400",
       "selected": true
     },
     {
