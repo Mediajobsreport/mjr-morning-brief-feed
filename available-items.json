@@ -6,7 +6,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Tue, 29 Sep 2026 20:15:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "She’s Country With Emily Harlan Surpasses 40 Affiliates",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 29 Sep 2026 17:33:12 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "GMA Dove Awards Final Lineup Adds Brandon Lake, Lainey Wilson and Dolly Parton Tribute",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 29 Sep 2026 17:22:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Premiere Networks and Buzz Knight Media Launch ‘Jersey Made’ Podcast",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 29 Sep 2026 17:07:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Finney Media Study Finds Christian Listeners Favor Familiar Christmas Songs",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Tue, 29 Sep 2026 17:01:23 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "2026 MTV VMAs Draw 8.4 Million Viewers, Hit 11-Year Ratings High",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 29 Sep 2026 16:54:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Billy Bush Relaunches ‘Hot Mics’ With Four-Day Live Schedule",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 29 Sep 2026 16:39:06 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "U.S. Job Openings Hold at 7.1 Million as Hiring Remains Steady",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Tue, 29 Sep 2026 16:31:55 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "LMA Opens Applications for AI Growth Lab for Local Newsrooms",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Tue, 29 Sep 2026 16:28:27 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Jud Heussler Named Director of Operations for CMG Jacksonville Radio",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 28 Sep 2026 20:42:49 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "KDNL Rebrands as STL30 as St. Louis Station Goes Independent",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 28 Sep 2026 17:00:33 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The Future of Radio and Adapting to Change",
@@ -134,7 +134,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Fri, 11 Sep 2026 18:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Why Fear Is Running the Show",

@@ -1,52 +1,57 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep",
-    "https://www.mediajobsreport.com/articles/jud-heussler-named-director-of-operations-for-cmg-jacksonville-radio",
-    "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios",
-    "https://www.mediajobsreport.com/articles/scripps-promotes-sean-mcgarvy-to-head-of-news",
-    "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena",
-    "https://www.mediajobsreport.com/articles/sbe-awards-five-3-000-ennes-scholarships-for-broadcast-engineering-education",
-    "https://www.mediajobsreport.com/articles/universal-music-group-names-%C3%B2scar-celma-svp-of-applied-ai-and-machine-learning",
-    "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights",
-    "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent"
+    "https://www.mediajobsreport.com/blog/radio-sales-revenue-plan-set-goals-and-build-your-pipeline",
+    "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-1-million-as-hiring-remains-steady",
+    "https://www.mediajobsreport.com/articles/billy-bush-relaunches-hot-mics-with-four-day-live-schedule",
+    "https://www.mediajobsreport.com/articles/2026-mtv-vmas-draw-8-4-million-viewers-hit-11-year-ratings-high",
+    "https://www.mediajobsreport.com/articles/shes-country-with-emily-harlan-surpasses-40-affiliates",
+    "https://www.mediajobsreport.com/articles/finney-media-study-finds-christian-listeners-favor-familiar-christmas-songs",
+    "https://www.mediajobsreport.com/articles/lma-opens-applications-for-ai-growth-lab-for-local-newsrooms",
+    "https://www.mediajobsreport.com/articles/gma-dove-awards-final-lineup-adds-brandon-lake-lainey-wilson-and-dolly-parton-tribute",
+    "https://www.mediajobsreport.com/articles/premiere-networks-and-buzz-knight-media-launch-jersey-made-podcast",
+    "https://www.mediajobsreport.com/blog/radio-9-11-remembering-the-connection-25-years-later"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-adds-local-adoptable-pets-feature-to-prep"
+      "link": "https://www.mediajobsreport.com/blog/radio-sales-revenue-plan-set-goals-and-build-your-pipeline"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jud-heussler-named-director-of-operations-for-cmg-jacksonville-radio"
+      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-1-million-as-hiring-remains-steady"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/usa-today-co-and-lee-enterprises-realign-local-newspaper-portfolios"
+      "link": "https://www.mediajobsreport.com/articles/billy-bush-relaunches-hot-mics-with-four-day-live-schedule"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/scripps-promotes-sean-mcgarvy-to-head-of-news"
+      "link": "https://www.mediajobsreport.com/articles/2026-mtv-vmas-draw-8-4-million-viewers-hit-11-year-ratings-high"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacys-we-can-survive-makes-new-york-debut-at-ubs-arena"
+      "link": "https://www.mediajobsreport.com/articles/shes-country-with-emily-harlan-surpasses-40-affiliates"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/sbe-awards-five-3-000-ennes-scholarships-for-broadcast-engineering-education"
+      "link": "https://www.mediajobsreport.com/articles/finney-media-study-finds-christian-listeners-favor-familiar-christmas-songs"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/universal-music-group-names-%C3%B2scar-celma-svp-of-applied-ai-and-machine-learning"
+      "link": "https://www.mediajobsreport.com/articles/lma-opens-applications-for-ai-growth-lab-for-local-newsrooms"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/beasley-named-official-audio-partner-of-vegas-golden-knights"
+      "link": "https://www.mediajobsreport.com/articles/gma-dove-awards-final-lineup-adds-brandon-lake-lainey-wilson-and-dolly-parton-tribute"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/kdnl-rebrands-as-stl30-as-st-louis-station-goes-independent"
+      "link": "https://www.mediajobsreport.com/articles/premiere-networks-and-buzz-knight-media-launch-jersey-made-podcast"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/radio-9-11-remembering-the-connection-25-years-later"
     }
   ]
 }
