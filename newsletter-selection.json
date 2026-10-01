@@ -1,52 +1,57 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/events/public-radio-techsurvey-2026-webinar-new-insights-on-public-radios-digital-future",
-    "https://www.mediajobsreport.com/articles/country-radio-hall-of-fame-opens-2027-nominations",
-    "https://www.mediajobsreport.com/articles/motown-gospel-tamla-promotes-justin-tomlinson-to-vp-of-marketing",
-    "https://www.mediajobsreport.com/articles/clay-travis-and-buck-sexton-recap-oval-office-visit-with-president-trump",
-    "https://www.mediajobsreport.com/articles/the-cw-lands-nhra-drag-racing-rights-in-multi-year-deal",
-    "https://www.mediajobsreport.com/articles/audiohook-acquires-podscan-opens-podcast-intelligence-data-for-free",
-    "https://www.mediajobsreport.com/articles/cma-foundation-partners-with-lainey-wilson-zach-top-on-music-education",
-    "https://www.mediajobsreport.com/articles/radiocraft-taps-compass-media-networks-for-ad-sales",
-    "https://www.mediajobsreport.com/blog/positive-psychology-for-broadcasters"
+    "https://www.mediajobsreport.com/articles/world-college-radio-day-celebrates-future-media-professionals",
+    "https://www.mediajobsreport.com/articles/newsom-signs-sb-690-cipa-reform-protecting-news-publishers",
+    "https://www.mediajobsreport.com/articles/paramount-skydance-lines-up-massive-debt-financing-for-warner-bros-discovery-acquisition",
+    "https://www.mediajobsreport.com/articles/podcast-reach-holds-steady-as-netflix-and-video-reshape-consumption",
+    "https://www.mediajobsreport.com/articles/nine-pbs-awarded-11-million-ready-to-learn-grant-for-national-literacy-initiative",
+    "https://www.mediajobsreport.com/articles/tiktok-supported-81-billion-in-u-s-gdp-and-410-000-jobs-in-2025",
+    "https://www.mediajobsreport.com/articles/iheartradio-fiesta-latina-kick-off-party-returns-to-miami-design-district",
+    "https://www.mediajobsreport.com/articles/frank-briegmann-promoted-to-lead-expanded-universal-music-markets",
+    "https://www.mediajobsreport.com/articles/townsquare-and-lakes-media-network-form-digital-advertising-partnership",
+    "https://www.mediajobsreport.com/blog/the-listener-truth-project-what-radio-listeners-are-telling-us"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/events/public-radio-techsurvey-2026-webinar-new-insights-on-public-radios-digital-future"
+      "link": "https://www.mediajobsreport.com/articles/world-college-radio-day-celebrates-future-media-professionals"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/country-radio-hall-of-fame-opens-2027-nominations"
+      "link": "https://www.mediajobsreport.com/articles/newsom-signs-sb-690-cipa-reform-protecting-news-publishers"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/motown-gospel-tamla-promotes-justin-tomlinson-to-vp-of-marketing"
+      "link": "https://www.mediajobsreport.com/articles/paramount-skydance-lines-up-massive-debt-financing-for-warner-bros-discovery-acquisition"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/clay-travis-and-buck-sexton-recap-oval-office-visit-with-president-trump"
+      "link": "https://www.mediajobsreport.com/articles/podcast-reach-holds-steady-as-netflix-and-video-reshape-consumption"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/the-cw-lands-nhra-drag-racing-rights-in-multi-year-deal"
+      "link": "https://www.mediajobsreport.com/articles/nine-pbs-awarded-11-million-ready-to-learn-grant-for-national-literacy-initiative"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audiohook-acquires-podscan-opens-podcast-intelligence-data-for-free"
+      "link": "https://www.mediajobsreport.com/articles/tiktok-supported-81-billion-in-u-s-gdp-and-410-000-jobs-in-2025"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cma-foundation-partners-with-lainey-wilson-zach-top-on-music-education"
+      "link": "https://www.mediajobsreport.com/articles/iheartradio-fiesta-latina-kick-off-party-returns-to-miami-design-district"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/radiocraft-taps-compass-media-networks-for-ad-sales"
+      "link": "https://www.mediajobsreport.com/articles/frank-briegmann-promoted-to-lead-expanded-universal-music-markets"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/positive-psychology-for-broadcasters"
+      "link": "https://www.mediajobsreport.com/articles/townsquare-and-lakes-media-network-form-digital-advertising-partnership"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/the-listener-truth-project-what-radio-listeners-are-telling-us"
     }
   ]
 }

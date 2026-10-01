@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 01 Oct 2026 17:39:05 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Newsom Signs SB 690 CIPA Reform Protecting News Publishers",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 01 Oct 2026 16:23:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Paramount Skydance Lines Up Massive Debt Financing for Warner Bros. Discovery Acquisition",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Management",
       "pubDate": "Thu, 01 Oct 2026 16:17:39 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Podcast Reach Holds Steady as Netflix and Video Reshape Consumption",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Thu, 01 Oct 2026 16:08:20 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nine PBS Awarded $11 Million Ready To Learn Grant for National Literacy Initiative",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Thu, 01 Oct 2026 15:59:46 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TikTok Supported $81 Billion in U.S. GDP and 410,000 Jobs in 2025",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Thu, 01 Oct 2026 15:16:32 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartRadio Fiesta Latina Kick Off Party Returns to Miami Design District",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 01 Oct 2026 15:10:35 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Frank Briegmann Promoted to Lead Expanded Universal Music Markets",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Thu, 01 Oct 2026 14:54:01 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Townsquare and Lakes Media Network Form Digital Advertising Partnership",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Thu, 01 Oct 2026 14:32:49 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Thu, 01 Oct 2026 06:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Country Radio Hall of Fame Opens 2027 Nominations",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 30 Sep 2026 14:04:46 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Public Radio Techsurvey 2026 Webinar: New Insights on Public Radio’s Digital Future",
@@ -94,7 +94,7 @@
       "type": "Event",
       "category": "Webinars",
       "pubDate": "Wed, 30 Sep 2026 13:52:07 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Positive Psychology for Broadcasters",
@@ -102,7 +102,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 30 Sep 2026 09:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Sales Revenue Plan: Set Goals and Build Your Pipeline",
