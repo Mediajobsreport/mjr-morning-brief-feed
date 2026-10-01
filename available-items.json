@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
+      "link": "https://www.mediajobsreport.com/blog/the-listener-truth-project-what-radio-listeners-are-telling-us",
+      "type": "Blog",
+      "category": "Programming",
+      "pubDate": "Thu, 01 Oct 2026 06:00:00 -0400",
+      "selected": false
+    },
+    {
       "title": "Country Radio Hall of Fame Opens 2027 Nominations",
       "link": "https://www.mediajobsreport.com/articles/country-radio-hall-of-fame-opens-2027-nominations",
       "type": "News",
@@ -158,14 +166,6 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 09 Sep 2026 12:41:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "Radio Made Easy: 10 Rules for Building a Better Radio Show",
-      "link": "https://www.mediajobsreport.com/blog/radio-made-easy-10-rules-for-building-a-better-radio-show",
-      "type": "Blog",
-      "category": "Programming",
-      "pubDate": "Tue, 08 Sep 2026 20:00:00 -0400",
       "selected": false
     },
     {
