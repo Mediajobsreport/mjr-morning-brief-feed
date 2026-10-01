@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "World College Radio Day Celebrates Future Media Professionals",
+      "link": "https://www.mediajobsreport.com/articles/world-college-radio-day-celebrates-future-media-professionals",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Thu, 01 Oct 2026 17:39:05 -0400",
+      "selected": false
+    },
+    {
       "title": "Newsom Signs SB 690 CIPA Reform Protecting News Publishers",
       "link": "https://www.mediajobsreport.com/articles/newsom-signs-sb-690-cipa-reform-protecting-news-publishers",
       "type": "News",
@@ -86,14 +94,6 @@
       "type": "Event",
       "category": "Webinars",
       "pubDate": "Wed, 30 Sep 2026 13:52:07 -0400",
-      "selected": true
-    },
-    {
-      "title": "Clay Travis and Buck Sexton Recap Oval Office Visit With President Trump",
-      "link": "https://www.mediajobsreport.com/articles/clay-travis-and-buck-sexton-recap-oval-office-visit-with-president-trump",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Wed, 30 Sep 2026 13:30:59 -0400",
       "selected": true
     },
     {
