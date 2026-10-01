@@ -1,6 +1,70 @@
 {
   "items": [
     {
+      "title": "Newsom Signs SB 690 CIPA Reform Protecting News Publishers",
+      "link": "https://www.mediajobsreport.com/articles/newsom-signs-sb-690-cipa-reform-protecting-news-publishers",
+      "type": "News",
+      "category": "Journalism",
+      "pubDate": "Thu, 01 Oct 2026 16:23:00 -0400",
+      "selected": false
+    },
+    {
+      "title": "Paramount Skydance Lines Up Massive Debt Financing for Warner Bros. Discovery Acquisition",
+      "link": "https://www.mediajobsreport.com/articles/paramount-skydance-lines-up-massive-debt-financing-for-warner-bros-discovery-acquisition",
+      "type": "News",
+      "category": "Management",
+      "pubDate": "Thu, 01 Oct 2026 16:17:39 -0400",
+      "selected": false
+    },
+    {
+      "title": "Podcast Reach Holds Steady as Netflix and Video Reshape Consumption",
+      "link": "https://www.mediajobsreport.com/articles/podcast-reach-holds-steady-as-netflix-and-video-reshape-consumption",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Thu, 01 Oct 2026 16:08:20 -0400",
+      "selected": false
+    },
+    {
+      "title": "Nine PBS Awarded $11 Million Ready To Learn Grant for National Literacy Initiative",
+      "link": "https://www.mediajobsreport.com/articles/nine-pbs-awarded-11-million-ready-to-learn-grant-for-national-literacy-initiative",
+      "type": "News",
+      "category": "Public Media",
+      "pubDate": "Thu, 01 Oct 2026 15:59:46 -0400",
+      "selected": false
+    },
+    {
+      "title": "TikTok Supported $81 Billion in U.S. GDP and 410,000 Jobs in 2025",
+      "link": "https://www.mediajobsreport.com/articles/tiktok-supported-81-billion-in-u-s-gdp-and-410-000-jobs-in-2025",
+      "type": "News",
+      "category": "Digital",
+      "pubDate": "Thu, 01 Oct 2026 15:16:32 -0400",
+      "selected": false
+    },
+    {
+      "title": "iHeartRadio Fiesta Latina Kick Off Party Returns to Miami Design District",
+      "link": "https://www.mediajobsreport.com/articles/iheartradio-fiesta-latina-kick-off-party-returns-to-miami-design-district",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Thu, 01 Oct 2026 15:10:35 -0400",
+      "selected": false
+    },
+    {
+      "title": "Frank Briegmann Promoted to Lead Expanded Universal Music Markets",
+      "link": "https://www.mediajobsreport.com/articles/frank-briegmann-promoted-to-lead-expanded-universal-music-markets",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Thu, 01 Oct 2026 14:54:01 -0400",
+      "selected": false
+    },
+    {
+      "title": "Townsquare and Lakes Media Network Form Digital Advertising Partnership",
+      "link": "https://www.mediajobsreport.com/articles/townsquare-and-lakes-media-network-form-digital-advertising-partnership",
+      "type": "News",
+      "category": "Digital",
+      "pubDate": "Thu, 01 Oct 2026 14:32:49 -0400",
+      "selected": false
+    },
+    {
       "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
       "link": "https://www.mediajobsreport.com/blog/the-listener-truth-project-what-radio-listeners-are-telling-us",
       "type": "Blog",
@@ -14,7 +78,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 30 Sep 2026 14:04:46 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Public Radio Techsurvey 2026 Webinar: New Insights on Public Radio’s Digital Future",
@@ -22,7 +86,7 @@
       "type": "Event",
       "category": "Webinars",
       "pubDate": "Wed, 30 Sep 2026 13:52:07 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Clay Travis and Buck Sexton Recap Oval Office Visit With President Trump",
@@ -30,47 +94,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 30 Sep 2026 13:30:59 -0400",
-      "selected": false
-    },
-    {
-      "title": "Audiohook Acquires Podscan, Opens Podcast Intelligence Data for Free",
-      "link": "https://www.mediajobsreport.com/articles/audiohook-acquires-podscan-opens-podcast-intelligence-data-for-free",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Wed, 30 Sep 2026 12:40:47 -0400",
-      "selected": false
-    },
-    {
-      "title": "Motown Gospel/TAMLA Promotes Justin Tomlinson to VP of Marketing",
-      "link": "https://www.mediajobsreport.com/articles/motown-gospel-tamla-promotes-justin-tomlinson-to-vp-of-marketing",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 30 Sep 2026 12:32:26 -0400",
-      "selected": false
-    },
-    {
-      "title": "The CW Lands NHRA Drag Racing Rights in Multi-Year Deal",
-      "link": "https://www.mediajobsreport.com/articles/the-cw-lands-nhra-drag-racing-rights-in-multi-year-deal",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Wed, 30 Sep 2026 12:20:51 -0400",
-      "selected": false
-    },
-    {
-      "title": "Radiocraft Taps Compass Media Networks for Ad Sales",
-      "link": "https://www.mediajobsreport.com/articles/radiocraft-taps-compass-media-networks-for-ad-sales",
-      "type": "News",
-      "category": "Sales",
-      "pubDate": "Wed, 30 Sep 2026 12:13:32 -0400",
-      "selected": false
-    },
-    {
-      "title": "CMA Foundation Partners With Lainey Wilson, Zach Top on Music Education",
-      "link": "https://www.mediajobsreport.com/articles/cma-foundation-partners-with-lainey-wilson-zach-top-on-music-education",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 30 Sep 2026 11:46:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Positive Psychology for Broadcasters",
@@ -78,7 +102,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 30 Sep 2026 09:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Radio Sales Revenue Plan: Set Goals and Build Your Pipeline",
@@ -86,30 +110,6 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Tue, 29 Sep 2026 20:15:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "She’s Country With Emily Harlan Surpasses 40 Affiliates",
-      "link": "https://www.mediajobsreport.com/articles/shes-country-with-emily-harlan-surpasses-40-affiliates",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Tue, 29 Sep 2026 17:33:12 -0400",
-      "selected": false
-    },
-    {
-      "title": "GMA Dove Awards Final Lineup Adds Brandon Lake, Lainey Wilson and Dolly Parton Tribute",
-      "link": "https://www.mediajobsreport.com/articles/gma-dove-awards-final-lineup-adds-brandon-lake-lainey-wilson-and-dolly-parton-tribute",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Tue, 29 Sep 2026 17:22:22 -0400",
-      "selected": false
-    },
-    {
-      "title": "Premiere Networks and Buzz Knight Media Launch ‘Jersey Made’ Podcast",
-      "link": "https://www.mediajobsreport.com/articles/premiere-networks-and-buzz-knight-media-launch-jersey-made-podcast",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Tue, 29 Sep 2026 17:07:00 -0400",
       "selected": false
     },
     {
