@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Nielsen Plans New Cross-Platform Content Measurement Suite for 2027",
+      "link": "https://www.mediajobsreport.com/articles/nielsen-plans-new-cross-platform-content-measurement-suite-for-2027",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Fri, 02 Oct 2026 18:52:01 -0400",
+      "selected": false
+    },
+    {
       "title": "World College Radio Day Celebrates Future Media Professionals",
       "link": "https://www.mediajobsreport.com/articles/world-college-radio-day-celebrates-future-media-professionals",
       "type": "News",
@@ -79,14 +87,6 @@
       "category": "Programming",
       "pubDate": "Thu, 01 Oct 2026 06:00:00 -0400",
       "selected": true
-    },
-    {
-      "title": "Country Radio Hall of Fame Opens 2027 Nominations",
-      "link": "https://www.mediajobsreport.com/articles/country-radio-hall-of-fame-opens-2027-nominations",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Wed, 30 Sep 2026 14:04:46 -0400",
-      "selected": false
     },
     {
       "title": "Public Radio Techsurvey 2026 Webinar: New Insights on Public Radio’s Digital Future",
