@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "A Simple Next Step",
+      "link": "https://www.mediajobsreport.com/blog/a-simple-next-step",
+      "type": "Blog",
+      "category": "Sales",
+      "pubDate": "Sun, 04 Oct 2026 07:41:00 -0400",
+      "selected": false
+    },
+    {
       "title": "Media Jobs Report Launches Radio Airplay Charts Powered by SpinCounts",
       "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-radio-airplay-charts-powered-by-spincounts",
       "type": "News",
@@ -158,14 +166,6 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Fri, 11 Sep 2026 18:00:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "Why Fear Is Running the Show",
-      "link": "https://www.mediajobsreport.com/blog/why-fear-is-running-the-show",
-      "type": "Blog",
-      "category": "Management",
-      "pubDate": "Wed, 09 Sep 2026 12:41:00 -0400",
       "selected": false
     },
     {
