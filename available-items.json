@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "Skydance Names Leadership Team for Combined Paramount-Warner Bros.",
+      "link": "https://www.mediajobsreport.com/articles/skydance-names-leadership-team-for-combined-paramount-warner-bros",
+      "type": "News",
+      "category": "Management",
+      "pubDate": "Mon, 05 Oct 2026 16:24:51 -0400",
+      "selected": false
+    },
+    {
+      "title": "Nexstar and DAZN to Air 15 Indiana Pacers Games Free",
+      "link": "https://www.mediajobsreport.com/articles/nexstar-and-dazn-to-air-15-indiana-pacers-games-free",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Mon, 05 Oct 2026 16:15:46 -0400",
+      "selected": false
+    },
+    {
+      "title": "Soul Train Awards 2026 Nominees Announced, Fan Voting Opens",
+      "link": "https://www.mediajobsreport.com/articles/soul-train-awards-2026-nominees-announced-fan-voting-opens",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Mon, 05 Oct 2026 15:55:38 -0400",
+      "selected": false
+    },
+    {
+      "title": "SBE Names Andrew Sveum Marketing and Growth Director",
+      "link": "https://www.mediajobsreport.com/articles/sbe-names-andrew-sveum-marketing-and-growth-director",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Mon, 05 Oct 2026 15:43:39 -0400",
+      "selected": false
+    },
+    {
+      "title": "Hubbard Seattle Launches Bull Classics on KKNW-AM and 98.9 HD2",
+      "link": "https://www.mediajobsreport.com/articles/hubbard-seattle-launches-bull-classics-on-kknw-am-and-98-9-hd2",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Mon, 05 Oct 2026 15:22:17 -0400",
+      "selected": false
+    },
+    {
       "title": "Tickets Go on Sale for 62nd ACM Awards in Las Vegas",
       "link": "https://www.mediajobsreport.com/articles/tickets-go-on-sale-for-62nd-acm-awards-in-las-vegas",
       "type": "News",
@@ -14,7 +54,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 04 Oct 2026 07:41:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Launches Radio Airplay Charts Powered by SpinCounts",
@@ -22,7 +62,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Sat, 03 Oct 2026 10:01:07 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NAB Opens 2027 Crystal Radio Awards Entry Window",
@@ -30,7 +70,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Sat, 03 Oct 2026 09:54:59 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NRB Welcomes 11 New Members During Third Quarter of 2026",
@@ -38,7 +78,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Sat, 03 Oct 2026 09:51:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Anthony Anderson to Host 2026 Soul Train Awards on BET and CBS",
@@ -46,47 +86,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Sat, 03 Oct 2026 09:40:46 -0400",
-      "selected": false
-    },
-    {
-      "title": "Americans Value Press Freedom but Differ on Its Limits, Pew-Knight Study Finds",
-      "link": "https://www.mediajobsreport.com/articles/americans-value-press-freedom-but-differ-on-its-limits-pew-knight-study-finds",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Sat, 03 Oct 2026 09:30:10 -0400",
-      "selected": false
-    },
-    {
-      "title": "Doug Lederman Joins Open Campus Board of Directors",
-      "link": "https://www.mediajobsreport.com/articles/doug-lederman-joins-open-campus-board-of-directors",
-      "type": "News",
-      "category": "Education",
-      "pubDate": "Sat, 03 Oct 2026 09:19:06 -0400",
-      "selected": false
-    },
-    {
-      "title": "Dove Awards Pre-Telecast Lineup Announced for 57th Annual Show",
-      "link": "https://www.mediajobsreport.com/articles/dove-awards-pre-telecast-lineup-announced-for-57th-annual-show",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Sat, 03 Oct 2026 09:09:18 -0400",
-      "selected": false
-    },
-    {
-      "title": "Yusim Aladro Promoted to General Manager of Warner Music Mexico",
-      "link": "https://www.mediajobsreport.com/articles/yusim-aladro-promoted-to-general-manager-of-warner-music-mexico",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Sat, 03 Oct 2026 08:59:30 -0400",
-      "selected": false
-    },
-    {
-      "title": "Nielsen Plans New Cross-Platform Content Measurement Suite for 2027",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-plans-new-cross-platform-content-measurement-suite-for-2027",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Fri, 02 Oct 2026 18:52:01 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
