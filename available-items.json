@@ -54,7 +54,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 04 Oct 2026 07:41:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Media Jobs Report Launches Radio Airplay Charts Powered by SpinCounts",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Sat, 03 Oct 2026 10:01:07 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "NAB Opens 2027 Crystal Radio Awards Entry Window",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Sat, 03 Oct 2026 09:54:59 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "NRB Welcomes 11 New Members During Third Quarter of 2026",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Sat, 03 Oct 2026 09:51:19 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Anthony Anderson to Host 2026 Soul Train Awards on BET and CBS",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Sat, 03 Oct 2026 09:40:46 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
