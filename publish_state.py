@@ -24,7 +24,8 @@ def published_today(now):
             data = json.loads(Path(filename).read_text())
         except (OSError, ValueError):
             continue
-        if data.get('edition_date', data.get('date')) == today:
+        if (data.get('edition_date', data.get('date')) == today
+                or (filename == 'last-manual-publish.json' and data.get('date') == today)):
             return True
     return False
 
