@@ -1,11 +1,11 @@
 {
   "selected": [
     "https://www.mediajobsreport.com/articles/nab-names-hellum-radio-board-first-vice-chair-adds-santrella",
-    "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program",
     "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters",
+    "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program",
+    "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc",
     "https://www.mediajobsreport.com/articles/russell-weissman-joins-800-pound-gorilla-as-head-of-licensing",
     "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments",
-    "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc",
     "https://www.mediajobsreport.com/blog/direct-contact-how-five-listener-calls-a-day-can-build-radio-loyalty"
   ],
   "custom": [],
@@ -16,11 +16,15 @@
     },
     {
       "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters"
+    },
+    {
+      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters"
+      "link": "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc"
     },
     {
       "kind": "story",
@@ -29,10 +33,6 @@
     {
       "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc"
     },
     {
       "kind": "story",
