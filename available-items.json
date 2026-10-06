@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 06 Oct 2026 17:06:12 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",
@@ -14,7 +14,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 06 Oct 2026 16:45:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Russell Weissman Joins 800 Pound Gorilla as Head of Licensing",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Tue, 06 Oct 2026 16:13:10 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gracie Abrams Set for SiriusXM Small Stage Series in NYC",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 06 Oct 2026 16:05:56 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Announces Five Promotions Across Key Departments",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Tue, 06 Oct 2026 15:59:35 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NAB Names Hellum Radio Board First Vice Chair, Adds Santrella",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Management",
       "pubDate": "Tue, 06 Oct 2026 15:47:53 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "LMA Releases AI Roadmap for Local Broadcasters",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Tue, 06 Oct 2026 15:41:18 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Skydance Names Leadership Team for Combined Paramount-Warner Bros.",
@@ -94,7 +94,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 04 Oct 2026 07:41:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",

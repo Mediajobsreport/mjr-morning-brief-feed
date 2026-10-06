@@ -1,57 +1,42 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-launches-radio-airplay-charts-powered-by-spincounts",
-    "https://www.mediajobsreport.com/articles/nielsen-plans-new-cross-platform-content-measurement-suite-for-2027",
-    "https://www.mediajobsreport.com/articles/nab-opens-2027-crystal-radio-awards-entry-window",
-    "https://www.mediajobsreport.com/articles/anthony-anderson-to-host-2026-soul-train-awards-on-bet-and-cbs",
-    "https://www.mediajobsreport.com/articles/americans-value-press-freedom-but-differ-on-its-limits-pew-knight-study-finds",
-    "https://www.mediajobsreport.com/articles/dove-awards-pre-telecast-lineup-announced-for-57th-annual-show",
-    "https://www.mediajobsreport.com/articles/doug-lederman-joins-open-campus-board-of-directors",
-    "https://www.mediajobsreport.com/articles/nrb-welcomes-11-new-members-during-third-quarter-of-2026",
-    "https://www.mediajobsreport.com/articles/yusim-aladro-promoted-to-general-manager-of-warner-music-mexico",
-    "https://www.mediajobsreport.com/blog/a-simple-next-step"
+    "https://www.mediajobsreport.com/articles/nab-names-hellum-radio-board-first-vice-chair-adds-santrella",
+    "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program",
+    "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters",
+    "https://www.mediajobsreport.com/articles/russell-weissman-joins-800-pound-gorilla-as-head-of-licensing",
+    "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments",
+    "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc",
+    "https://www.mediajobsreport.com/blog/direct-contact-how-five-listener-calls-a-day-can-build-radio-loyalty"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-radio-airplay-charts-powered-by-spincounts"
+      "link": "https://www.mediajobsreport.com/articles/nab-names-hellum-radio-board-first-vice-chair-adds-santrella"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-plans-new-cross-platform-content-measurement-suite-for-2027"
+      "link": "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nab-opens-2027-crystal-radio-awards-entry-window"
+      "link": "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/anthony-anderson-to-host-2026-soul-train-awards-on-bet-and-cbs"
+      "link": "https://www.mediajobsreport.com/articles/russell-weissman-joins-800-pound-gorilla-as-head-of-licensing"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/americans-value-press-freedom-but-differ-on-its-limits-pew-knight-study-finds"
+      "link": "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/dove-awards-pre-telecast-lineup-announced-for-57th-annual-show"
+      "link": "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/doug-lederman-joins-open-campus-board-of-directors"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nrb-welcomes-11-new-members-during-third-quarter-of-2026"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/yusim-aladro-promoted-to-general-manager-of-warner-music-mexico"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/a-simple-next-step"
+      "link": "https://www.mediajobsreport.com/blog/direct-contact-how-five-listener-calls-a-day-can-build-radio-loyalty"
     }
   ]
 }
