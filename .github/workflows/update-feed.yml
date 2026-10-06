@@ -6,6 +6,10 @@ on:
   schedule:
     - cron: "0 * * * *"
 
+concurrency:
+  group: mjr-newsletter-publish
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -33,7 +37,7 @@ jobs:
           python -c "from PIL import Image, ImageOps; print('Pillow installed successfully')"
 
       - name: Generate Morning Brief feed
-        run: python generate_feed.py
+        run: python refresh_available.py
 
       - name: Commit updated feed and email images
         run: |

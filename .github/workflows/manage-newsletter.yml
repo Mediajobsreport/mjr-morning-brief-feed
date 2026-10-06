@@ -27,6 +27,10 @@ on:
         required: false
         type: string
 
+concurrency:
+  group: mjr-newsletter-publish
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -56,16 +60,7 @@ jobs:
 
       - name: Mark manual edition date
         if: ${{ inputs.action == 'publish_manager' || inputs.action == 'publish' }}
-        run: |
-          python - <<'PY'
-          import json
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          today=datetime.now(ZoneInfo("America/New_York")).date().isoformat()
-          with open("last-manual-publish.json","w",encoding="utf-8") as f:
-              json.dump({"date":today},f,indent=2)
-              f.write("\n")
-          PY
+        run: python publish_state.py manual
 
       - name: Save changes
         run: |

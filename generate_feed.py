@@ -1359,7 +1359,8 @@ def build_feed(source_xml, use_selection=True):
 
         added += 1
 
-    # Apply the exact mixed order chosen in the Newsletter Manager.\n    if use_selection:
+    # Apply the manager order only to a manually selected edition.
+    if use_selection:
         added = apply_editorial_order(channel, added)
 
     # --------------------------------------------------------
