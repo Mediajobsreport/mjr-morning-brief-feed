@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 07 Oct 2026 17:04:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "USA TODAY Sports Launches National High School Esports Championship",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Newspaper",
       "pubDate": "Wed, 07 Oct 2026 16:52:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Dick Clark’s New Year’s Rockin’ Eve 2027 to Simulcast on ABC and Disney+",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 07 Oct 2026 16:35:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "John Hakim Promoted to GM of Saga Charleston",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 07 Oct 2026 16:21:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Reveals Lineup for Dolly Parton TV Celebration",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 07 Oct 2026 16:05:39 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Skydance Names New Directors, Tony Blair as Advisor",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 07 Oct 2026 15:55:41 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Lauren Alaina Brings Stages to ‘Live With Kelly and Mark’ as ‘All My Exes’ Hits Top 5",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 07 Oct 2026 15:47:09 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Podtrac Releases September Podcast Rankings, Crime Junkie Remains No. 1",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Wed, 07 Oct 2026 14:58:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "MIW and NABLF Open Applications for 2026 LAUNCH Mentorship Program",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 06 Oct 2026 17:06:12 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 06 Oct 2026 16:45:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Russell Weissman Joins 800 Pound Gorilla as Head of Licensing",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Tue, 06 Oct 2026 16:13:10 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "A Simple Next Step",

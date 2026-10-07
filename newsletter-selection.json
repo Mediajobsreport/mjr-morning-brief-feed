@@ -1,42 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/nab-names-hellum-radio-board-first-vice-chair-adds-santrella",
-    "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters",
-    "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program",
-    "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc",
-    "https://www.mediajobsreport.com/articles/russell-weissman-joins-800-pound-gorilla-as-head-of-licensing",
-    "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments",
-    "https://www.mediajobsreport.com/blog/direct-contact-how-five-listener-calls-a-day-can-build-radio-loyalty"
+    "https://www.mediajobsreport.com/articles/skydance-names-new-directors-tony-blair-as-advisor",
+    "https://www.mediajobsreport.com/articles/john-hakim-promoted-to-gm-of-saga-charleston",
+    "https://www.mediajobsreport.com/articles/usa-today-sports-launches-national-high-school-esports-championship",
+    "https://www.mediajobsreport.com/articles/cma-reveals-lineup-for-dolly-parton-tv-celebration",
+    "https://www.mediajobsreport.com/articles/hubbard-south-florida-gives-students-behind-the-scenes-look-at-radio",
+    "https://www.mediajobsreport.com/articles/podtrac-releases-september-podcast-rankings-crime-junkie-remains-no-1",
+    "https://www.mediajobsreport.com/articles/lauren-alaina-brings-stages-to-live-with-kelly-and-mark-as-all-my-exes-hits-top-5",
+    "https://www.mediajobsreport.com/articles/dick-clarks-new-years-rockin-eve-2027-to-simulcast-on-abc-and-disney"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nab-names-hellum-radio-board-first-vice-chair-adds-santrella"
+      "link": "https://www.mediajobsreport.com/articles/skydance-names-new-directors-tony-blair-as-advisor"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/lma-releases-ai-roadmap-for-local-broadcasters"
+      "link": "https://www.mediajobsreport.com/articles/john-hakim-promoted-to-gm-of-saga-charleston"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/miw-and-nablf-open-applications-for-2026-launch-mentorship-program"
+      "link": "https://www.mediajobsreport.com/articles/usa-today-sports-launches-national-high-school-esports-championship"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gracie-abrams-set-for-siriusxm-small-stage-series-in-nyc"
+      "link": "https://www.mediajobsreport.com/articles/cma-reveals-lineup-for-dolly-parton-tv-celebration"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/russell-weissman-joins-800-pound-gorilla-as-head-of-licensing"
+      "link": "https://www.mediajobsreport.com/articles/hubbard-south-florida-gives-students-behind-the-scenes-look-at-radio"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cma-announces-five-promotions-across-key-departments"
+      "link": "https://www.mediajobsreport.com/articles/podtrac-releases-september-podcast-rankings-crime-junkie-remains-no-1"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/direct-contact-how-five-listener-calls-a-day-can-build-radio-loyalty"
+      "link": "https://www.mediajobsreport.com/articles/lauren-alaina-brings-stages-to-live-with-kelly-and-mark-as-all-my-exes-hits-top-5"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/dick-clarks-new-years-rockin-eve-2027-to-simulcast-on-abc-and-disney"
     }
   ]
 }
