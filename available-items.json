@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 08 Oct 2026 16:48:15 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Academy Opens Media Credential Applications for 99th Oscars",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 08 Oct 2026 16:36:35 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "GBH Names Three New Trustees During 75th Anniversary",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Thu, 08 Oct 2026 16:21:04 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Zixi Appoints John Towers as Chief Financial Officer",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Thu, 08 Oct 2026 16:07:56 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Audacy Names Trey Morgan and Loren Raye to WCBS-FM Morning Show",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 08 Oct 2026 15:35:46 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gracie Awards Open Entries for 2027 Competition",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "General Broadcast",
       "pubDate": "Thu, 08 Oct 2026 14:56:55 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "A Different World Stars Reunite for New iHeart Podcast",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 08 Oct 2026 14:38:54 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NBCUniversal Opens Spring 2027 Page Program Applications",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Thu, 08 Oct 2026 14:21:35 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Hubbard South Florida Gives Students Behind-the-Scenes Look at Radio",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 07 Oct 2026 17:04:19 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "USA TODAY Sports Launches National High School Esports Championship",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Newspaper",
       "pubDate": "Wed, 07 Oct 2026 16:52:22 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",
