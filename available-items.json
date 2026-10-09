@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Fri, 09 Oct 2026 14:42:51 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "The New York Times Names Renée Rippberger Opinion Editorial Assistant",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Fri, 09 Oct 2026 14:08:16 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Scripps News Unveils Alisyn Camerota Season 2 and Fall Lineup",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Fri, 09 Oct 2026 14:00:05 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Alex Warren to Host 2026 Kids’ Choice Awards as Taylor Swift Leads Nominations",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Fri, 09 Oct 2026 13:51:47 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Spotify and Joe Rogan Renew Multi-Year Podcast Partnership",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Fri, 09 Oct 2026 13:34:28 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Free Q4 Radio Sales Event Offers Strategies to Grow Revenue",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Sales",
       "pubDate": "Fri, 09 Oct 2026 13:09:06 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gray Media to Air 15 Minnesota Timberwolves Games Free Over-the-Air",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 08 Oct 2026 16:48:15 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Academy Opens Media Credential Applications for 99th Oscars",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 08 Oct 2026 16:36:35 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "GBH Names Three New Trustees During 75th Anniversary",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Thu, 08 Oct 2026 16:21:04 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Zixi Appoints John Towers as Chief Financial Officer",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Thu, 08 Oct 2026 16:07:56 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",

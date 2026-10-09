@@ -1,47 +1,37 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/audacy-names-trey-morgan-and-loren-raye-to-wcbs-fm-morning-show",
-    "https://www.mediajobsreport.com/articles/gray-media-to-air-15-minnesota-timberwolves-games-free-over-the-air",
-    "https://www.mediajobsreport.com/articles/gracie-awards-open-entries-for-2027-competition",
-    "https://www.mediajobsreport.com/articles/gbh-names-three-new-trustees-during-75th-anniversary",
-    "https://www.mediajobsreport.com/articles/zixi-appoints-john-towers-as-chief-financial-officer",
-    "https://www.mediajobsreport.com/articles/nbcuniversal-opens-spring-2027-page-program-applications",
-    "https://www.mediajobsreport.com/articles/a-different-world-stars-reunite-for-new-iheart-podcast",
-    "https://www.mediajobsreport.com/articles/academy-opens-media-credential-applications-for-99th-oscars"
+    "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results",
+    "https://www.mediajobsreport.com/articles/free-q4-radio-sales-event-offers-strategies-to-grow-revenue",
+    "https://www.mediajobsreport.com/articles/spotify-and-joe-rogan-renew-multi-year-podcast-partnership",
+    "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations",
+    "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant",
+    "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-names-trey-morgan-and-loren-raye-to-wcbs-fm-morning-show"
+      "link": "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gray-media-to-air-15-minnesota-timberwolves-games-free-over-the-air"
+      "link": "https://www.mediajobsreport.com/articles/free-q4-radio-sales-event-offers-strategies-to-grow-revenue"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gracie-awards-open-entries-for-2027-competition"
+      "link": "https://www.mediajobsreport.com/articles/spotify-and-joe-rogan-renew-multi-year-podcast-partnership"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gbh-names-three-new-trustees-during-75th-anniversary"
+      "link": "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/zixi-appoints-john-towers-as-chief-financial-officer"
+      "link": "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nbcuniversal-opens-spring-2027-page-program-applications"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/a-different-world-stars-reunite-for-new-iheart-podcast"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/academy-opens-media-credential-applications-for-99th-oscars"
+      "link": "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup"
     }
   ]
 }
