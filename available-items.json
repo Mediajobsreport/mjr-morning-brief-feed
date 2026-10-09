@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "Five Major Media Companies Set Dates for Third-Quarter 2026 Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results",
+      "type": "News",
+      "category": "Financial",
+      "pubDate": "Fri, 09 Oct 2026 14:42:51 -0400",
+      "selected": false
+    },
+    {
+      "title": "The New York Times Names Renée Rippberger Opinion Editorial Assistant",
+      "link": "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant",
+      "type": "News",
+      "category": "Journalism",
+      "pubDate": "Fri, 09 Oct 2026 14:08:16 -0400",
+      "selected": false
+    },
+    {
+      "title": "Scripps News Unveils Alisyn Camerota Season 2 and Fall Lineup",
+      "link": "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 09 Oct 2026 14:00:05 -0400",
+      "selected": false
+    },
+    {
+      "title": "Alex Warren to Host 2026 Kids’ Choice Awards as Taylor Swift Leads Nominations",
+      "link": "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Fri, 09 Oct 2026 13:51:47 -0400",
+      "selected": false
+    },
+    {
+      "title": "Spotify and Joe Rogan Renew Multi-Year Podcast Partnership",
+      "link": "https://www.mediajobsreport.com/articles/spotify-and-joe-rogan-renew-multi-year-podcast-partnership",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Fri, 09 Oct 2026 13:34:28 -0400",
+      "selected": false
+    },
+    {
+      "title": "Free Q4 Radio Sales Event Offers Strategies to Grow Revenue",
+      "link": "https://www.mediajobsreport.com/articles/free-q4-radio-sales-event-offers-strategies-to-grow-revenue",
+      "type": "News",
+      "category": "Sales",
+      "pubDate": "Fri, 09 Oct 2026 13:09:06 -0400",
+      "selected": false
+    },
+    {
       "title": "Gray Media to Air 15 Minnesota Timberwolves Games Free Over-the-Air",
       "link": "https://www.mediajobsreport.com/articles/gray-media-to-air-15-minnesota-timberwolves-games-free-over-the-air",
       "type": "News",
@@ -31,54 +79,6 @@
       "category": "Technical",
       "pubDate": "Thu, 08 Oct 2026 16:07:56 -0400",
       "selected": true
-    },
-    {
-      "title": "Audacy Names Trey Morgan and Loren Raye to WCBS-FM Morning Show",
-      "link": "https://www.mediajobsreport.com/articles/audacy-names-trey-morgan-and-loren-raye-to-wcbs-fm-morning-show",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Thu, 08 Oct 2026 15:35:46 -0400",
-      "selected": true
-    },
-    {
-      "title": "Gracie Awards Open Entries for 2027 Competition",
-      "link": "https://www.mediajobsreport.com/articles/gracie-awards-open-entries-for-2027-competition",
-      "type": "News",
-      "category": "General Broadcast",
-      "pubDate": "Thu, 08 Oct 2026 14:56:55 -0400",
-      "selected": true
-    },
-    {
-      "title": "A Different World Stars Reunite for New iHeart Podcast",
-      "link": "https://www.mediajobsreport.com/articles/a-different-world-stars-reunite-for-new-iheart-podcast",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Thu, 08 Oct 2026 14:38:54 -0400",
-      "selected": true
-    },
-    {
-      "title": "NBCUniversal Opens Spring 2027 Page Program Applications",
-      "link": "https://www.mediajobsreport.com/articles/nbcuniversal-opens-spring-2027-page-program-applications",
-      "type": "News",
-      "category": "Education",
-      "pubDate": "Thu, 08 Oct 2026 14:21:35 -0400",
-      "selected": true
-    },
-    {
-      "title": "Hubbard South Florida Gives Students Behind-the-Scenes Look at Radio",
-      "link": "https://www.mediajobsreport.com/articles/hubbard-south-florida-gives-students-behind-the-scenes-look-at-radio",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Wed, 07 Oct 2026 17:04:19 -0400",
-      "selected": false
-    },
-    {
-      "title": "USA TODAY Sports Launches National High School Esports Championship",
-      "link": "https://www.mediajobsreport.com/articles/usa-today-sports-launches-national-high-school-esports-championship",
-      "type": "News",
-      "category": "Newspaper",
-      "pubDate": "Wed, 07 Oct 2026 16:52:22 -0400",
-      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",
