@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 12 Oct 2026 16:41:29 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "IRE Receives $25K Gift from Late Director Diana Fuentes",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Mon, 12 Oct 2026 16:32:12 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Compass Media Networks Lands Pac-12 Championship Audio Rights",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 12 Oct 2026 16:13:14 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FEMA National EAS Test Preparation Webinars",
@@ -38,7 +38,7 @@
       "type": "Event",
       "category": "Engineering",
       "pubDate": "Mon, 12 Oct 2026 16:03:20 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "KYW Newsradio Inducts David Yadgaroff into Hall of Fame",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 12 Oct 2026 13:56:12 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA Names Three Group General Managers",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 12 Oct 2026 13:06:26 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Releases 12 Free Emergency Preparedness Guides",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Sat, 10 Oct 2026 17:04:59 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Five Major Media Companies Set Dates for Third-Quarter 2026 Financial Results",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Fri, 09 Oct 2026 14:42:51 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "The New York Times Names Renée Rippberger Opinion Editorial Assistant",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Fri, 09 Oct 2026 14:08:16 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Scripps News Unveils Alisyn Camerota Season 2 and Fall Lineup",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Fri, 09 Oct 2026 14:00:05 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Alex Warren to Host 2026 Kids’ Choice Awards as Taylor Swift Leads Nominations",
@@ -94,7 +94,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Fri, 09 Oct 2026 13:51:47 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",

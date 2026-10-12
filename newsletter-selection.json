@@ -1,37 +1,42 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results",
-    "https://www.mediajobsreport.com/articles/free-q4-radio-sales-event-offers-strategies-to-grow-revenue",
-    "https://www.mediajobsreport.com/articles/spotify-and-joe-rogan-renew-multi-year-podcast-partnership",
-    "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations",
-    "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant",
-    "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup"
+    "https://www.mediajobsreport.com/articles/media-jobs-report-releases-12-free-emergency-preparedness-guides",
+    "https://www.mediajobsreport.com/events/fema-national-eas-test-preparation-webinars",
+    "https://www.mediajobsreport.com/articles/kyw-newsradio-inducts-david-yadgaroff-into-hall-of-fame",
+    "https://www.mediajobsreport.com/articles/tegna-names-three-group-general-managers",
+    "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive",
+    "https://www.mediajobsreport.com/articles/ire-receives-25k-gift-from-late-director-diana-fuentes",
+    "https://www.mediajobsreport.com/articles/compass-media-networks-lands-pac-12-championship-audio-rights"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results"
+      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-releases-12-free-emergency-preparedness-guides"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/free-q4-radio-sales-event-offers-strategies-to-grow-revenue"
+      "link": "https://www.mediajobsreport.com/events/fema-national-eas-test-preparation-webinars"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/spotify-and-joe-rogan-renew-multi-year-podcast-partnership"
+      "link": "https://www.mediajobsreport.com/articles/kyw-newsradio-inducts-david-yadgaroff-into-hall-of-fame"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations"
+      "link": "https://www.mediajobsreport.com/articles/tegna-names-three-group-general-managers"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant"
+      "link": "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup"
+      "link": "https://www.mediajobsreport.com/articles/ire-receives-25k-gift-from-late-director-diana-fuentes"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/compass-media-networks-lands-pac-12-championship-audio-rights"
     }
   ]
 }
