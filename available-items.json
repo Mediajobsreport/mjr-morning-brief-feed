@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "title": "CMA Announces 2026 Broadcast Awards Winners",
+      "link": "https://www.mediajobsreport.com/articles/cma-announces-2026-broadcast-awards-winners",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 13 Oct 2026 16:48:19 -0400",
+      "selected": false
+    },
+    {
+      "title": "Cumulus Media Promotes Kathy “KB” Brown to VP/Urban Formats",
+      "link": "https://www.mediajobsreport.com/articles/cumulus-media-promotes-kathy-kb-brown-to-vp-urban-formats",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Tue, 13 Oct 2026 16:36:21 -0400",
+      "selected": false
+    },
+    {
+      "title": "New York Times Wins Two 2026 Gerald Loeb Awards",
+      "link": "https://www.mediajobsreport.com/articles/new-york-times-wins-two-2026-gerald-loeb-awards",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 13 Oct 2026 16:23:20 -0400",
+      "selected": false
+    },
+    {
+      "title": "Radio Hall of Fame Celebrates Eight Inductees in Class of 2026",
+      "link": "https://www.mediajobsreport.com/articles/radio-hall-of-fame-celebrates-eight-inductees-in-class-of-2026",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 13 Oct 2026 16:09:31 -0400",
+      "selected": false
+    },
+    {
+      "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
+      "link": "https://www.mediajobsreport.com/blog/radio-is-a-stage-why-your-on-air-delivery-matters",
+      "type": "Blog",
+      "category": "Programming",
+      "pubDate": "Tue, 13 Oct 2026 16:00:00 -0400",
+      "selected": false
+    },
+    {
+      "title": "Clay & Buck Join Fargo's AM 1100 The Flag",
+      "link": "https://www.mediajobsreport.com/articles/clay-buck-join-fargos-am-1100-the-flag",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Tue, 13 Oct 2026 15:59:14 -0400",
+      "selected": false
+    },
+    {
+      "title": "Academy Names Tatti Ribeiro and Noora Niasari 2026 Gold Fellowship for Women Recipients",
+      "link": "https://www.mediajobsreport.com/articles/academy-names-tatti-ribeiro-and-noora-niasari-2026-gold-fellowship-for-women-recipients",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Tue, 13 Oct 2026 15:36:27 -0400",
+      "selected": false
+    },
+    {
       "title": "Medill Report: U.S. News Deserts Surge as Newspaper Closures Accelerate",
       "link": "https://www.mediajobsreport.com/articles/medill-report-u-s-news-deserts-surge-as-newspaper-closures-accelerate",
       "type": "News",
@@ -33,38 +89,6 @@
       "selected": false
     },
     {
-      "title": "Media Jobs Report Launches Two Alexa Skills for Daily Media Industry News",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-two-alexa-skills-for-daily-media-industry-news",
-      "type": "News",
-      "category": "Announcements",
-      "pubDate": "Mon, 12 Oct 2026 16:57:36 -0400",
-      "selected": false
-    },
-    {
-      "title": "Comcast Supports WMMR Camp Out for Hunger Food Drive",
-      "link": "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 12 Oct 2026 16:41:29 -0400",
-      "selected": true
-    },
-    {
-      "title": "IRE Receives $25K Gift from Late Director Diana Fuentes",
-      "link": "https://www.mediajobsreport.com/articles/ire-receives-25k-gift-from-late-director-diana-fuentes",
-      "type": "News",
-      "category": "Journalism",
-      "pubDate": "Mon, 12 Oct 2026 16:32:12 -0400",
-      "selected": true
-    },
-    {
-      "title": "Compass Media Networks Lands Pac-12 Championship Audio Rights",
-      "link": "https://www.mediajobsreport.com/articles/compass-media-networks-lands-pac-12-championship-audio-rights",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 12 Oct 2026 16:13:14 -0400",
-      "selected": true
-    },
-    {
       "title": "FEMA National EAS Test Preparation Webinars",
       "link": "https://www.mediajobsreport.com/events/fema-national-eas-test-preparation-webinars-5210",
       "type": "Event",
@@ -78,22 +102,6 @@
       "type": "Event",
       "category": "Engineering",
       "pubDate": "Mon, 12 Oct 2026 16:03:20 -0400",
-      "selected": true
-    },
-    {
-      "title": "KYW Newsradio Inducts David Yadgaroff into Hall of Fame",
-      "link": "https://www.mediajobsreport.com/articles/kyw-newsradio-inducts-david-yadgaroff-into-hall-of-fame",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 12 Oct 2026 13:56:12 -0400",
-      "selected": true
-    },
-    {
-      "title": "TEGNA Names Three Group General Managers",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-three-group-general-managers",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 12 Oct 2026 13:06:26 -0400",
       "selected": true
     },
     {
@@ -166,14 +174,6 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 15 Sep 2026 21:30:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "Don’t Play Keep Away with Success",
-      "link": "https://www.mediajobsreport.com/blog/dont-play-keep-away-with-success",
-      "type": "Blog",
-      "category": "Sales",
-      "pubDate": "Sun, 13 Sep 2026 06:30:00 -0400",
       "selected": false
     },
     {
