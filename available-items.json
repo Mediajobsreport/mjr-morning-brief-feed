@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "Medill Report: U.S. News Deserts Surge as Newspaper Closures Accelerate",
+      "link": "https://www.mediajobsreport.com/articles/medill-report-u-s-news-deserts-surge-as-newspaper-closures-accelerate",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Tue, 13 Oct 2026 12:25:25 -0400",
+      "selected": false
+    },
+    {
+      "title": "International Women’s Podcast Awards Announce 2026 Winners",
+      "link": "https://www.mediajobsreport.com/articles/international-womens-podcast-awards-announce-2026-winners",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Tue, 13 Oct 2026 11:58:18 -0400",
+      "selected": false
+    },
+    {
+      "title": "Miami Media School Students Get Behind-the-Scenes Look at Hubbard South Florida Radio",
+      "link": "https://www.mediajobsreport.com/articles/miami-media-school-students-get-behind-the-scenes-look-at-hubbard-south-florida-radio",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Tue, 13 Oct 2026 11:10:40 -0400",
+      "selected": false
+    },
+    {
+      "title": "TEGNA and Disney Renew ABC Affiliation Agreements in 13 Markets",
+      "link": "https://www.mediajobsreport.com/articles/tegna-and-disney-renew-abc-affiliation-agreements-in-13-markets",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 13 Oct 2026 10:49:20 -0400",
+      "selected": false
+    },
+    {
+      "title": "Media Jobs Report Launches Two Alexa Skills for Daily Media Industry News",
+      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-two-alexa-skills-for-daily-media-industry-news",
+      "type": "News",
+      "category": "Announcements",
+      "pubDate": "Mon, 12 Oct 2026 16:57:36 -0400",
+      "selected": false
+    },
+    {
       "title": "Comcast Supports WMMR Camp Out for Hunger Food Drive",
       "link": "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive",
       "type": "News",
@@ -55,46 +95,6 @@
       "category": "Television",
       "pubDate": "Mon, 12 Oct 2026 13:06:26 -0400",
       "selected": true
-    },
-    {
-      "title": "Media Jobs Report Releases 12 Free Emergency Preparedness Guides",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-releases-12-free-emergency-preparedness-guides",
-      "type": "News",
-      "category": "Announcements",
-      "pubDate": "Sat, 10 Oct 2026 17:04:59 -0400",
-      "selected": true
-    },
-    {
-      "title": "Five Major Media Companies Set Dates for Third-Quarter 2026 Financial Results",
-      "link": "https://www.mediajobsreport.com/articles/five-major-media-companies-set-dates-for-third-quarter-2026-financial-results",
-      "type": "News",
-      "category": "Financial",
-      "pubDate": "Fri, 09 Oct 2026 14:42:51 -0400",
-      "selected": false
-    },
-    {
-      "title": "The New York Times Names Renée Rippberger Opinion Editorial Assistant",
-      "link": "https://www.mediajobsreport.com/articles/the-new-york-times-names-ren%C3%A9e-rippberger-opinion-editorial-assistant",
-      "type": "News",
-      "category": "Journalism",
-      "pubDate": "Fri, 09 Oct 2026 14:08:16 -0400",
-      "selected": false
-    },
-    {
-      "title": "Scripps News Unveils Alisyn Camerota Season 2 and Fall Lineup",
-      "link": "https://www.mediajobsreport.com/articles/scripps-news-unveils-alisyn-camerota-season-2-and-fall-lineup",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Fri, 09 Oct 2026 14:00:05 -0400",
-      "selected": false
-    },
-    {
-      "title": "Alex Warren to Host 2026 Kids’ Choice Awards as Taylor Swift Leads Nominations",
-      "link": "https://www.mediajobsreport.com/articles/alex-warren-to-host-2026-kids-choice-awards-as-taylor-swift-leads-nominations",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Fri, 09 Oct 2026 13:51:47 -0400",
-      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",
