@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 13 Oct 2026 16:48:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Cumulus Media Promotes Kathy “KB” Brown to VP/Urban Formats",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 13 Oct 2026 16:36:21 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "New York Times Wins Two 2026 Gerald Loeb Awards",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 13 Oct 2026 16:23:20 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Radio Hall of Fame Celebrates Eight Inductees in Class of 2026",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 13 Oct 2026 16:09:31 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
@@ -38,7 +38,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 13 Oct 2026 16:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Clay & Buck Join Fargo's AM 1100 The Flag",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 13 Oct 2026 15:59:14 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Academy Names Tatti Ribeiro and Noora Niasari 2026 Gold Fellowship for Women Recipients",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 13 Oct 2026 15:36:27 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Medill Report: U.S. News Deserts Surge as Newspaper Closures Accelerate",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Tue, 13 Oct 2026 12:25:25 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "International Women’s Podcast Awards Announce 2026 Winners",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 13 Oct 2026 11:58:18 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Miami Media School Students Get Behind-the-Scenes Look at Hubbard South Florida Radio",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 13 Oct 2026 11:10:40 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA and Disney Renew ABC Affiliation Agreements in 13 Markets",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 13 Oct 2026 10:49:20 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FEMA National EAS Test Preparation Webinars",
@@ -102,7 +102,7 @@
       "type": "Event",
       "category": "Engineering",
       "pubDate": "Mon, 12 Oct 2026 16:03:20 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Direct Contact: How Five Listener Calls a Day Can Build Radio Loyalty",

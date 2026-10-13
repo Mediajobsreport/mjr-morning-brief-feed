@@ -1,42 +1,62 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-releases-12-free-emergency-preparedness-guides",
-    "https://www.mediajobsreport.com/events/fema-national-eas-test-preparation-webinars",
-    "https://www.mediajobsreport.com/articles/kyw-newsradio-inducts-david-yadgaroff-into-hall-of-fame",
-    "https://www.mediajobsreport.com/articles/tegna-names-three-group-general-managers",
-    "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive",
-    "https://www.mediajobsreport.com/articles/ire-receives-25k-gift-from-late-director-diana-fuentes",
-    "https://www.mediajobsreport.com/articles/compass-media-networks-lands-pac-12-championship-audio-rights"
+    "https://www.mediajobsreport.com/articles/cma-announces-2026-broadcast-awards-winners",
+    "https://www.mediajobsreport.com/articles/medill-report-u-s-news-deserts-surge-as-newspaper-closures-accelerate",
+    "https://www.mediajobsreport.com/articles/cumulus-media-promotes-kathy-kb-brown-to-vp-urban-formats",
+    "https://www.mediajobsreport.com/articles/new-york-times-wins-two-2026-gerald-loeb-awards",
+    "https://www.mediajobsreport.com/articles/radio-hall-of-fame-celebrates-eight-inductees-in-class-of-2026",
+    "https://www.mediajobsreport.com/articles/clay-buck-join-fargos-am-1100-the-flag",
+    "https://www.mediajobsreport.com/articles/academy-names-tatti-ribeiro-and-noora-niasari-2026-gold-fellowship-for-women-recipients",
+    "https://www.mediajobsreport.com/articles/miami-media-school-students-get-behind-the-scenes-look-at-hubbard-south-florida-radio",
+    "https://www.mediajobsreport.com/articles/tegna-and-disney-renew-abc-affiliation-agreements-in-13-markets",
+    "https://www.mediajobsreport.com/articles/international-womens-podcast-awards-announce-2026-winners",
+    "https://www.mediajobsreport.com/blog/radio-is-a-stage-why-your-on-air-delivery-matters"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-releases-12-free-emergency-preparedness-guides"
+      "link": "https://www.mediajobsreport.com/articles/cma-announces-2026-broadcast-awards-winners"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/events/fema-national-eas-test-preparation-webinars"
+      "link": "https://www.mediajobsreport.com/articles/medill-report-u-s-news-deserts-surge-as-newspaper-closures-accelerate"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/kyw-newsradio-inducts-david-yadgaroff-into-hall-of-fame"
+      "link": "https://www.mediajobsreport.com/articles/cumulus-media-promotes-kathy-kb-brown-to-vp-urban-formats"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-three-group-general-managers"
+      "link": "https://www.mediajobsreport.com/articles/new-york-times-wins-two-2026-gerald-loeb-awards"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/comcast-supports-wmmr-camp-out-for-hunger-food-drive"
+      "link": "https://www.mediajobsreport.com/articles/radio-hall-of-fame-celebrates-eight-inductees-in-class-of-2026"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/ire-receives-25k-gift-from-late-director-diana-fuentes"
+      "link": "https://www.mediajobsreport.com/articles/clay-buck-join-fargos-am-1100-the-flag"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/compass-media-networks-lands-pac-12-championship-audio-rights"
+      "link": "https://www.mediajobsreport.com/articles/academy-names-tatti-ribeiro-and-noora-niasari-2026-gold-fellowship-for-women-recipients"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/miami-media-school-students-get-behind-the-scenes-look-at-hubbard-south-florida-radio"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/tegna-and-disney-renew-abc-affiliation-agreements-in-13-markets"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/international-womens-podcast-awards-announce-2026-winners"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/radio-is-a-stage-why-your-on-air-delivery-matters"
     }
   ]
 }
