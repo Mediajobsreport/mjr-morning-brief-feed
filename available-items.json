@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "IRE Adopts Revised Code of Conduct for Journalism Community",
+      "link": "https://www.mediajobsreport.com/articles/ire-adopts-revised-code-of-conduct-for-journalism-community",
+      "type": "News",
+      "category": "Journalism",
+      "pubDate": "Thu, 15 Oct 2026 13:31:45 -0400",
+      "selected": false
+    },
+    {
+      "title": "iHeartMedia Announces Celebrity Presenters for 2026 iHeartRadio Fiesta Latina in Miami",
+      "link": "https://www.mediajobsreport.com/articles/iheartmedia-announces-celebrity-presenters-for-2026-iheartradio-fiesta-latina-in-miami",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Thu, 15 Oct 2026 11:48:25 -0400",
+      "selected": false
+    },
+    {
+      "title": "Triton Digital Adds Datonics Audience Data to Strengthen Audio Advertising Targeting",
+      "link": "https://www.mediajobsreport.com/articles/triton-digital-adds-datonics-audience-data-to-strengthen-audio-advertising-targeting",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Thu, 15 Oct 2026 11:26:14 -0400",
+      "selected": false
+    },
+    {
+      "title": "TelevisaUnivision Names Elizabeth Roldán VP of News for WLTV 23 in Miami",
+      "link": "https://www.mediajobsreport.com/articles/televisaunivision-names-elizabeth-rold%C3%A1n-vp-of-news-for-wltv-23-in-miami",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Thu, 15 Oct 2026 11:19:41 -0400",
+      "selected": false
+    },
+    {
+      "title": "TEGNA Names Four Sales Leaders for Digital and Regional Revenue Growth",
+      "link": "https://www.mediajobsreport.com/articles/tegna-names-four-sales-leaders-for-digital-and-regional-revenue-growth",
+      "type": "News",
+      "category": "Sales",
+      "pubDate": "Thu, 15 Oct 2026 10:48:35 -0400",
+      "selected": false
+    },
+    {
       "title": "99.5 ZPL's Smiley Pumpkin Drop Returns to Indianapolis for 24th Year",
       "link": "https://www.mediajobsreport.com/articles/99-5-zpls-smiley-pumpkin-drop-returns-to-indianapolis-for-24th-year",
       "type": "News",
@@ -31,46 +71,6 @@
       "category": "Radio",
       "pubDate": "Wed, 14 Oct 2026 18:17:40 -0400",
       "selected": true
-    },
-    {
-      "title": "MIW Opens Applications for Third Annual Digital Sales Mentorship Program",
-      "link": "https://www.mediajobsreport.com/articles/miw-opens-applications-for-third-annual-digital-sales-mentorship-program",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Wed, 14 Oct 2026 18:07:57 -0400",
-      "selected": true
-    },
-    {
-      "title": "Jim Roppo Named Warner Records Group Vice Chairman",
-      "link": "https://www.mediajobsreport.com/articles/jim-roppo-named-warner-records-group-vice-chairman",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 14 Oct 2026 17:56:01 -0400",
-      "selected": true
-    },
-    {
-      "title": "KMJ Feeding Families Fund Drive Raises Record $428K",
-      "link": "https://www.mediajobsreport.com/articles/kmj-feeding-families-fund-drive-raises-record-428k",
-      "type": "News",
-      "category": "Community Service",
-      "pubDate": "Wed, 14 Oct 2026 17:45:51 -0400",
-      "selected": true
-    },
-    {
-      "title": "CMA Announces 2026 Broadcast Awards Winners",
-      "link": "https://www.mediajobsreport.com/articles/cma-announces-2026-broadcast-awards-winners",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Tue, 13 Oct 2026 16:48:19 -0400",
-      "selected": false
-    },
-    {
-      "title": "Cumulus Media Promotes Kathy “KB” Brown to VP/Urban Formats",
-      "link": "https://www.mediajobsreport.com/articles/cumulus-media-promotes-kathy-kb-brown-to-vp-urban-formats",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Tue, 13 Oct 2026 16:36:21 -0400",
-      "selected": false
     },
     {
       "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
