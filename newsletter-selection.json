@@ -1,42 +1,52 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/global-advertising-spending-forecast-to-reach-1-34-trillion-in-2026-up-11-9",
-    "https://www.mediajobsreport.com/articles/99-5-zpls-smiley-pumpkin-drop-returns-to-indianapolis-for-24th-year",
-    "https://www.mediajobsreport.com/articles/meta-ais-bridget-bogee-shares-insights-on-ai-media-and-career-growth-at-awm-office-hours",
-    "https://www.mediajobsreport.com/articles/iheartmedia-announces-2027-alter-ego-lineup-featuring-evanescence-the-offspring-and-billy-corgan",
-    "https://www.mediajobsreport.com/articles/miw-opens-applications-for-third-annual-digital-sales-mentorship-program",
-    "https://www.mediajobsreport.com/articles/jim-roppo-named-warner-records-group-vice-chairman",
-    "https://www.mediajobsreport.com/articles/kmj-feeding-families-fund-drive-raises-record-428k"
+    "https://www.mediajobsreport.com/articles/crb-opens-applications-for-rusty-walker-scholarship-for-crs-2027",
+    "https://www.mediajobsreport.com/articles/audacy-partners-with-melani-sanders-to-launch-we-do-not-care-club-podcast",
+    "https://www.mediajobsreport.com/articles/lma-and-medill-release-fundraising-playbook-for-local-newsrooms",
+    "https://www.mediajobsreport.com/articles/cnn-announces-multi-year-ai-partnership-with-google",
+    "https://www.mediajobsreport.com/articles/skydance-to-re-air-concert-for-new-york-city-on-25th-anniversary",
+    "https://www.mediajobsreport.com/articles/ire-adopts-revised-code-of-conduct-for-journalism-community",
+    "https://www.mediajobsreport.com/articles/iheartmedia-announces-celebrity-presenters-for-2026-iheartradio-fiesta-latina-in-miami",
+    "https://www.mediajobsreport.com/articles/triton-digital-adds-datonics-audience-data-to-strengthen-audio-advertising-targeting",
+    "https://www.mediajobsreport.com/articles/televisaunivision-names-elizabeth-rold%C3%A1n-vp-of-news-for-wltv-23-in-miami"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/global-advertising-spending-forecast-to-reach-1-34-trillion-in-2026-up-11-9"
+      "link": "https://www.mediajobsreport.com/articles/crb-opens-applications-for-rusty-walker-scholarship-for-crs-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/99-5-zpls-smiley-pumpkin-drop-returns-to-indianapolis-for-24th-year"
+      "link": "https://www.mediajobsreport.com/articles/audacy-partners-with-melani-sanders-to-launch-we-do-not-care-club-podcast"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/meta-ais-bridget-bogee-shares-insights-on-ai-media-and-career-growth-at-awm-office-hours"
+      "link": "https://www.mediajobsreport.com/articles/lma-and-medill-release-fundraising-playbook-for-local-newsrooms"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/iheartmedia-announces-2027-alter-ego-lineup-featuring-evanescence-the-offspring-and-billy-corgan"
+      "link": "https://www.mediajobsreport.com/articles/cnn-announces-multi-year-ai-partnership-with-google"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/miw-opens-applications-for-third-annual-digital-sales-mentorship-program"
+      "link": "https://www.mediajobsreport.com/articles/skydance-to-re-air-concert-for-new-york-city-on-25th-anniversary"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jim-roppo-named-warner-records-group-vice-chairman"
+      "link": "https://www.mediajobsreport.com/articles/ire-adopts-revised-code-of-conduct-for-journalism-community"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/kmj-feeding-families-fund-drive-raises-record-428k"
+      "link": "https://www.mediajobsreport.com/articles/iheartmedia-announces-celebrity-presenters-for-2026-iheartradio-fiesta-latina-in-miami"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/triton-digital-adds-datonics-audience-data-to-strengthen-audio-advertising-targeting"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/televisaunivision-names-elizabeth-rold%C3%A1n-vp-of-news-for-wltv-23-in-miami"
     }
   ]
 }

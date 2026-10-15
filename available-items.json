@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 15 Oct 2026 14:52:47 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Audacy Partners with Melani Sanders to Launch “We Do Not Care Club” Podcast",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 15 Oct 2026 14:19:30 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "LMA and Medill Release Fundraising Playbook for Local Newsrooms",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 14:01:37 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CNN Announces Multi-Year AI Partnership with Google",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 13:43:31 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Skydance to Re-Air Concert for New York City on 25th Anniversary",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 15 Oct 2026 13:39:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "IRE Adopts Revised Code of Conduct for Journalism Community",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 13:31:45 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartMedia Announces Celebrity Presenters for 2026 iHeartRadio Fiesta Latina in Miami",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 15 Oct 2026 11:48:25 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Triton Digital Adds Datonics Audience Data to Strengthen Audio Advertising Targeting",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Thu, 15 Oct 2026 11:26:14 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TelevisaUnivision Names Elizabeth Roldán VP of News for WLTV 23 in Miami",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 15 Oct 2026 11:19:41 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
