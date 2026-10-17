@@ -6,7 +6,7 @@
       "type": "News",
       "category": "",
       "pubDate": "Fri, 16 Oct 2026 11:21:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA Names Tim Thomas to Lead Atlanta and Macon Television Stations",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Fri, 16 Oct 2026 11:12:51 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Cumulus Media Emerges from Chapter 11, Eliminates $550 Million in Debt",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Fri, 16 Oct 2026 10:51:44 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CRB Opens Applications for Rusty Walker Scholarship for CRS 2027",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 15 Oct 2026 14:52:47 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Audacy Partners with Melani Sanders to Launch “We Do Not Care Club” Podcast",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 15 Oct 2026 14:19:30 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "LMA and Medill Release Fundraising Playbook for Local Newsrooms",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 14:01:37 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "CNN Announces Multi-Year AI Partnership with Google",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 13:43:31 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Skydance to Re-Air Concert for New York City on 25th Anniversary",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 15 Oct 2026 13:39:22 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "IRE Adopts Revised Code of Conduct for Journalism Community",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Thu, 15 Oct 2026 13:31:45 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
