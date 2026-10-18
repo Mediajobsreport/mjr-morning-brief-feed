@@ -2,7 +2,10 @@
   "selected": [
     "https://www.mediajobsreport.com/articles/cumulus-media-emerges-from-chapter-11-eliminates-550-million-in-debt",
     "https://www.mediajobsreport.com/articles/nab-names-shawn-donilon-chief-advocacy-officer-as-rick-kaplan-prepares-to-depart",
-    "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations"
+    "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101",
+    "https://www.mediajobsreport.com/articles/103-1-the-wolf-adds-deerocks-club-rodeo-country-takeover",
+    "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations",
+    "https://www.mediajobsreport.com/blog/comprehensive-christmas-programming-guide"
   ],
   "custom": [],
   "order": [
@@ -16,7 +19,19 @@
     },
     {
       "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/103-1-the-wolf-adds-deerocks-club-rodeo-country-takeover"
+    },
+    {
+      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/comprehensive-christmas-programming-guide"
     }
   ]
 }

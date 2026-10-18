@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Sun, 18 Oct 2026 19:43:01 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "103.1 The Wolf Adds Deerock's Club Rodeo Country Takeover",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Sun, 18 Oct 2026 19:33:04 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Comprehensive Christmas Programming Guide",
@@ -22,7 +22,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Sat, 17 Oct 2026 09:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NAB Names Shawn Donilon Chief Advocacy Officer as Rick Kaplan Prepares to Depart",
