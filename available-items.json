@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "Audacy Launches US 96.5, Bringing Country Radio Back to Philadelphia",
+      "link": "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Mon, 19 Oct 2026 16:27:52 -0400",
+      "selected": false
+    },
+    {
+      "title": "2026 Billboard Latin Music Awards Set for October 22 on Telemundo and Peacock",
+      "link": "https://www.mediajobsreport.com/articles/2026-billboard-latin-music-awards-set-for-october-22-on-telemundo-and-peacock",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Mon, 19 Oct 2026 16:12:32 -0400",
+      "selected": false
+    },
+    {
+      "title": "Jon Stewart to Host The Daily Show Through 2028",
+      "link": "https://www.mediajobsreport.com/articles/jon-stewart-to-host-the-daily-show-through-2028",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Mon, 19 Oct 2026 16:02:49 -0400",
+      "selected": false
+    },
+    {
+      "title": "Apple Podcasts: Video Boosts New Followers 130%",
+      "link": "https://www.mediajobsreport.com/articles/apple-podcasts-video-boosts-new-followers-130",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Mon, 19 Oct 2026 15:51:48 -0400",
+      "selected": false
+    },
+    {
+      "title": "Rob Wagman to Lead SonicTrek’s Manna Christian Radio Format",
+      "link": "https://www.mediajobsreport.com/articles/rob-wagman-to-lead-sonictreks-manna-christian-radio-format",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Mon, 19 Oct 2026 15:34:11 -0400",
+      "selected": false
+    },
+    {
       "title": "Gray Media Partners With Hoda Kotb's Joy 101",
       "link": "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101",
       "type": "News",
@@ -39,46 +79,6 @@
       "category": "Television",
       "pubDate": "Fri, 16 Oct 2026 11:12:51 -0400",
       "selected": true
-    },
-    {
-      "title": "Cumulus Media Emerges from Chapter 11, Eliminates $550 Million in Debt",
-      "link": "https://www.mediajobsreport.com/articles/cumulus-media-emerges-from-chapter-11-eliminates-550-million-in-debt",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Fri, 16 Oct 2026 10:51:44 -0400",
-      "selected": true
-    },
-    {
-      "title": "CRB Opens Applications for Rusty Walker Scholarship for CRS 2027",
-      "link": "https://www.mediajobsreport.com/articles/crb-opens-applications-for-rusty-walker-scholarship-for-crs-2027",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Thu, 15 Oct 2026 14:52:47 -0400",
-      "selected": false
-    },
-    {
-      "title": "Audacy Partners with Melani Sanders to Launch “We Do Not Care Club” Podcast",
-      "link": "https://www.mediajobsreport.com/articles/audacy-partners-with-melani-sanders-to-launch-we-do-not-care-club-podcast",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Thu, 15 Oct 2026 14:19:30 -0400",
-      "selected": false
-    },
-    {
-      "title": "LMA and Medill Release Fundraising Playbook for Local Newsrooms",
-      "link": "https://www.mediajobsreport.com/articles/lma-and-medill-release-fundraising-playbook-for-local-newsrooms",
-      "type": "News",
-      "category": "Journalism",
-      "pubDate": "Thu, 15 Oct 2026 14:01:37 -0400",
-      "selected": false
-    },
-    {
-      "title": "CNN Announces Multi-Year AI Partnership with Google",
-      "link": "https://www.mediajobsreport.com/articles/cnn-announces-multi-year-ai-partnership-with-google",
-      "type": "News",
-      "category": "Journalism",
-      "pubDate": "Thu, 15 Oct 2026 13:43:31 -0400",
-      "selected": false
     },
     {
       "title": "Radio Is a Stage: Why Your On-Air Delivery Matters",
