@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "title": "2027 ACM Awards Return to Las Vegas",
+      "link": "https://www.mediajobsreport.com/articles/2027-acm-awards-return-to-las-vegas",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Mon, 19 Oct 2026 20:30:35 -0400",
+      "selected": false
+    },
+    {
+      "title": "Alejandro Sánchez Joins Telemundo Las Vegas",
+      "link": "https://www.mediajobsreport.com/articles/alejandro-s%C3%A1nchez-joins-telemundo-las-vegas",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Mon, 19 Oct 2026 20:22:50 -0400",
+      "selected": false
+    },
+    {
+      "title": "Audacy Adds The Bret Mega Show to Star 94 Atlanta Mornings",
+      "link": "https://www.mediajobsreport.com/articles/audacy-adds-the-bret-mega-show-to-star-94-atlanta-mornings",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Mon, 19 Oct 2026 20:12:49 -0400",
+      "selected": false
+    },
+    {
+      "title": "Fox Names Nicholas Trutanich General Counsel",
+      "link": "https://www.mediajobsreport.com/articles/fox-names-nicholas-trutanich-general-counsel",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Mon, 19 Oct 2026 20:05:29 -0400",
+      "selected": false
+    },
+    {
       "title": "Audacy Launches US 96.5, Bringing Country Radio Back to Philadelphia",
       "link": "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia",
       "type": "News",
@@ -41,43 +73,11 @@
       "selected": false
     },
     {
-      "title": "Gray Media Partners With Hoda Kotb's Joy 101",
-      "link": "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Sun, 18 Oct 2026 19:43:01 -0400",
-      "selected": true
-    },
-    {
-      "title": "103.1 The Wolf Adds Deerock's Club Rodeo Country Takeover",
-      "link": "https://www.mediajobsreport.com/articles/103-1-the-wolf-adds-deerocks-club-rodeo-country-takeover",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Sun, 18 Oct 2026 19:33:04 -0400",
-      "selected": true
-    },
-    {
       "title": "Comprehensive Christmas Programming Guide",
       "link": "https://www.mediajobsreport.com/blog/comprehensive-christmas-programming-guide",
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Sat, 17 Oct 2026 09:00:00 -0400",
-      "selected": true
-    },
-    {
-      "title": "NAB Names Shawn Donilon Chief Advocacy Officer as Rick Kaplan Prepares to Depart",
-      "link": "https://www.mediajobsreport.com/articles/nab-names-shawn-donilon-chief-advocacy-officer-as-rick-kaplan-prepares-to-depart",
-      "type": "News",
-      "category": "",
-      "pubDate": "Fri, 16 Oct 2026 11:21:00 -0400",
-      "selected": true
-    },
-    {
-      "title": "TEGNA Names Tim Thomas to Lead Atlanta and Macon Television Stations",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Fri, 16 Oct 2026 11:12:51 -0400",
       "selected": true
     },
     {
