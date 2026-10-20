@@ -1,37 +1,52 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/cumulus-media-emerges-from-chapter-11-eliminates-550-million-in-debt",
-    "https://www.mediajobsreport.com/articles/nab-names-shawn-donilon-chief-advocacy-officer-as-rick-kaplan-prepares-to-depart",
-    "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101",
-    "https://www.mediajobsreport.com/articles/103-1-the-wolf-adds-deerocks-club-rodeo-country-takeover",
-    "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations",
-    "https://www.mediajobsreport.com/blog/comprehensive-christmas-programming-guide"
+    "https://www.mediajobsreport.com/articles/apple-podcasts-video-boosts-new-followers-130",
+    "https://www.mediajobsreport.com/articles/fox-names-nicholas-trutanich-general-counsel",
+    "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia",
+    "https://www.mediajobsreport.com/articles/alejandro-s%C3%A1nchez-joins-telemundo-las-vegas",
+    "https://www.mediajobsreport.com/articles/2027-acm-awards-return-to-las-vegas",
+    "https://www.mediajobsreport.com/articles/jon-stewart-to-host-the-daily-show-through-2028",
+    "https://www.mediajobsreport.com/articles/audacy-adds-the-bret-mega-show-to-star-94-atlanta-mornings",
+    "https://www.mediajobsreport.com/articles/2026-billboard-latin-music-awards-set-for-october-22-on-telemundo-and-peacock",
+    "https://www.mediajobsreport.com/articles/rob-wagman-to-lead-sonictreks-manna-christian-radio-format"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cumulus-media-emerges-from-chapter-11-eliminates-550-million-in-debt"
+      "link": "https://www.mediajobsreport.com/articles/apple-podcasts-video-boosts-new-followers-130"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nab-names-shawn-donilon-chief-advocacy-officer-as-rick-kaplan-prepares-to-depart"
+      "link": "https://www.mediajobsreport.com/articles/fox-names-nicholas-trutanich-general-counsel"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gray-media-partners-with-hoda-kotbs-joy-101"
+      "link": "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/103-1-the-wolf-adds-deerocks-club-rodeo-country-takeover"
+      "link": "https://www.mediajobsreport.com/articles/alejandro-s%C3%A1nchez-joins-telemundo-las-vegas"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-tim-thomas-to-lead-atlanta-and-macon-television-stations"
+      "link": "https://www.mediajobsreport.com/articles/2027-acm-awards-return-to-las-vegas"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/comprehensive-christmas-programming-guide"
+      "link": "https://www.mediajobsreport.com/articles/jon-stewart-to-host-the-daily-show-through-2028"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/audacy-adds-the-bret-mega-show-to-star-94-atlanta-mornings"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/2026-billboard-latin-music-awards-set-for-october-22-on-telemundo-and-peacock"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/rob-wagman-to-lead-sonictreks-manna-christian-radio-format"
     }
   ]
 }
