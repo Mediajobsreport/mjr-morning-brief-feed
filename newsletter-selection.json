@@ -1,52 +1,52 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/apple-podcasts-video-boosts-new-followers-130",
-    "https://www.mediajobsreport.com/articles/fox-names-nicholas-trutanich-general-counsel",
-    "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia",
-    "https://www.mediajobsreport.com/articles/alejandro-s%C3%A1nchez-joins-telemundo-las-vegas",
-    "https://www.mediajobsreport.com/articles/2027-acm-awards-return-to-las-vegas",
-    "https://www.mediajobsreport.com/articles/jon-stewart-to-host-the-daily-show-through-2028",
-    "https://www.mediajobsreport.com/articles/audacy-adds-the-bret-mega-show-to-star-94-atlanta-mornings",
-    "https://www.mediajobsreport.com/articles/2026-billboard-latin-music-awards-set-for-october-22-on-telemundo-and-peacock",
-    "https://www.mediajobsreport.com/articles/rob-wagman-to-lead-sonictreks-manna-christian-radio-format"
+    "https://www.mediajobsreport.com/articles/fema-outlines-broadcaster-preparations-for-november-17-national-eas-test",
+    "https://www.mediajobsreport.com/articles/cumulus-launches-new-morning-show-on-107-9-the-mix",
+    "https://www.mediajobsreport.com/articles/new-years-eve-live-nashvilles-big-bash-announces-performers",
+    "https://www.mediajobsreport.com/articles/university-of-washington-opens-grass-valley-ip-production-facility",
+    "https://www.mediajobsreport.com/articles/new-york-times-opens-2027-28-fellowship-applications",
+    "https://www.mediajobsreport.com/articles/ire-names-three-2027-chauncey-bailey-fellows",
+    "https://www.mediajobsreport.com/articles/this-morning-americas-first-news-with-gordon-deal-adds-20-stations",
+    "https://www.mediajobsreport.com/articles/nextkast-releases-version-7-1-4-with-traffic-auditing-and-automation-updates",
+    "https://www.mediajobsreport.com/articles/kroq-announces-lineup-for-35th-almost-acoustic-christmas"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/apple-podcasts-video-boosts-new-followers-130"
+      "link": "https://www.mediajobsreport.com/articles/fema-outlines-broadcaster-preparations-for-november-17-national-eas-test"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fox-names-nicholas-trutanich-general-counsel"
+      "link": "https://www.mediajobsreport.com/articles/cumulus-launches-new-morning-show-on-107-9-the-mix"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-launches-us-96-5-bringing-country-radio-back-to-philadelphia"
+      "link": "https://www.mediajobsreport.com/articles/new-years-eve-live-nashvilles-big-bash-announces-performers"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/alejandro-s%C3%A1nchez-joins-telemundo-las-vegas"
+      "link": "https://www.mediajobsreport.com/articles/university-of-washington-opens-grass-valley-ip-production-facility"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/2027-acm-awards-return-to-las-vegas"
+      "link": "https://www.mediajobsreport.com/articles/new-york-times-opens-2027-28-fellowship-applications"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jon-stewart-to-host-the-daily-show-through-2028"
+      "link": "https://www.mediajobsreport.com/articles/ire-names-three-2027-chauncey-bailey-fellows"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-adds-the-bret-mega-show-to-star-94-atlanta-mornings"
+      "link": "https://www.mediajobsreport.com/articles/this-morning-americas-first-news-with-gordon-deal-adds-20-stations"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/2026-billboard-latin-music-awards-set-for-october-22-on-telemundo-and-peacock"
+      "link": "https://www.mediajobsreport.com/articles/nextkast-releases-version-7-1-4-with-traffic-auditing-and-automation-updates"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/rob-wagman-to-lead-sonictreks-manna-christian-radio-format"
+      "link": "https://www.mediajobsreport.com/articles/kroq-announces-lineup-for-35th-almost-acoustic-christmas"
     }
   ]
 }
