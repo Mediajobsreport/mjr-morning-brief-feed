@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "title": "2026 NAB Marconi Radio Award Winners Announced in New York City",
+      "link": "https://www.mediajobsreport.com/articles/2026-nab-marconi-radio-award-winners-announced-in-new-york-city",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Wed, 21 Oct 2026 09:40:38 -0400",
+      "selected": false
+    },
+    {
+      "title": "6 Rules of Radio Leadership That Drive Ratings and Growth",
+      "link": "https://www.mediajobsreport.com/blog/6-rules-of-radio-leadership-that-drive-ratings-and-growth",
+      "type": "Blog",
+      "category": "Programming",
+      "pubDate": "Wed, 21 Oct 2026 09:00:00 -0400",
+      "selected": false
+    },
+    {
       "title": "KROQ Announces Lineup for 35th Almost Acoustic Christmas",
       "link": "https://www.mediajobsreport.com/articles/kroq-announces-lineup-for-35th-almost-acoustic-christmas",
       "type": "News",
@@ -62,14 +78,6 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 20 Oct 2026 15:54:19 -0400",
-      "selected": true
-    },
-    {
-      "title": "nextKast Releases Version 7.1.4 With Traffic Auditing and Automation Updates",
-      "link": "https://www.mediajobsreport.com/articles/nextkast-releases-version-7-1-4-with-traffic-auditing-and-automation-updates",
-      "type": "News",
-      "category": "Technical",
-      "pubDate": "Tue, 20 Oct 2026 15:42:58 -0400",
       "selected": true
     },
     {
@@ -150,14 +158,6 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 22 Sep 2026 19:15:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "The Art of Resilience",
-      "link": "https://www.mediajobsreport.com/blog/the-art-of-resilience",
-      "type": "Blog",
-      "category": "Management",
-      "pubDate": "Wed, 16 Sep 2026 09:00:00 -0400",
       "selected": false
     },
     {
