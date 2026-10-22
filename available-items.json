@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "FCC Issues $60,000 in Pirate Radio Fines Against Three Operators",
+      "link": "https://www.mediajobsreport.com/articles/fcc-issues-60-000-in-pirate-radio-fines-against-three-operators",
+      "type": "News",
+      "category": "FCC",
+      "pubDate": "Thu, 22 Oct 2026 10:52:15 -0400",
+      "selected": false
+    },
+    {
+      "title": "Blackmagic Design Releases Camera and Converter Software Updates for Broadcast Production",
+      "link": "https://www.mediajobsreport.com/articles/blackmagic-design-releases-camera-and-converter-software-updates-for-broadcast-production",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Thu, 22 Oct 2026 10:32:22 -0400",
+      "selected": false
+    },
+    {
+      "title": "New York Public Radio Names Kimberly Watson as Chief Development Officer",
+      "link": "https://www.mediajobsreport.com/articles/new-york-public-radio-names-kimberly-watson-as-chief-development-officer",
+      "type": "News",
+      "category": "Public Media",
+      "pubDate": "Thu, 22 Oct 2026 10:21:24 -0400",
+      "selected": false
+    },
+    {
+      "title": "CMA, Disney, Belmont University and Nashville Partners Donate $1 Million to Dolly Parton’s Imagination Library",
+      "link": "https://www.mediajobsreport.com/articles/cma-disney-belmont-university-and-nashville-partners-donate-1-million-to-dolly-partons-imagination-library",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Thu, 22 Oct 2026 10:02:00 -0400",
+      "selected": false
+    },
+    {
+      "title": "Apple Announces Fleetwood Mac Documentary 'The Chain' for January 2027",
+      "link": "https://www.mediajobsreport.com/articles/apple-announces-fleetwood-mac-documentary-the-chain-for-january-2027",
+      "type": "News",
+      "category": "Digital",
+      "pubDate": "Thu, 22 Oct 2026 09:36:19 -0400",
+      "selected": false
+    },
+    {
       "title": "Granger Smith Announces 2026 Friendsgiving Radio Special",
       "link": "https://www.mediajobsreport.com/articles/granger-smith-announces-2026-friendsgiving-radio-special",
       "type": "News",
@@ -33,52 +73,12 @@
       "selected": true
     },
     {
-      "title": "NEW 102.7 Raises More Than $16,000 for Animal Emergency Care",
-      "link": "https://www.mediajobsreport.com/articles/new-102-7-raises-more-than-16-000-for-animal-emergency-care",
-      "type": "News",
-      "category": "Community Service",
-      "pubDate": "Wed, 21 Oct 2026 17:25:32 -0400",
-      "selected": true
-    },
-    {
-      "title": "2026 NAB Marconi Radio Award Winners Announced in New York City",
-      "link": "https://www.mediajobsreport.com/articles/2026-nab-marconi-radio-award-winners-announced-in-new-york-city",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Wed, 21 Oct 2026 09:40:38 -0400",
-      "selected": true
-    },
-    {
       "title": "6 Rules of Radio Leadership That Drive Ratings and Growth",
       "link": "https://www.mediajobsreport.com/blog/6-rules-of-radio-leadership-that-drive-ratings-and-growth",
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 21 Oct 2026 09:00:00 -0400",
       "selected": true
-    },
-    {
-      "title": "KROQ Announces Lineup for 35th Almost Acoustic Christmas",
-      "link": "https://www.mediajobsreport.com/articles/kroq-announces-lineup-for-35th-almost-acoustic-christmas",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Tue, 20 Oct 2026 17:10:03 -0400",
-      "selected": false
-    },
-    {
-      "title": "Cumulus Launches New Morning Show on 107.9 The Mix",
-      "link": "https://www.mediajobsreport.com/articles/cumulus-launches-new-morning-show-on-107-9-the-mix",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Tue, 20 Oct 2026 16:45:32 -0400",
-      "selected": false
-    },
-    {
-      "title": "University of Washington Opens Grass Valley IP Production Facility",
-      "link": "https://www.mediajobsreport.com/articles/university-of-washington-opens-grass-valley-ip-production-facility",
-      "type": "News",
-      "category": "Education",
-      "pubDate": "Tue, 20 Oct 2026 16:33:10 -0400",
-      "selected": false
     },
     {
       "title": "Comprehensive Christmas Programming Guide",
