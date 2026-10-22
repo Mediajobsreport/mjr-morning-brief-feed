@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 22 Oct 2026 15:50:59 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nielsen: TV Viewing Declines in August as YouTube Hits Record 15.8% Share",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Thu, 22 Oct 2026 15:28:47 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Flor Leibaschoff Named Chief Judge of Radio Mercury Awards",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Thu, 22 Oct 2026 13:20:14 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Issues $60,000 in Pirate Radio Fines Against Three Operators",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Thu, 22 Oct 2026 10:52:15 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Blackmagic Design Releases Camera and Converter Software Updates for Broadcast Production",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Thu, 22 Oct 2026 10:32:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "New York Public Radio Names Kimberly Watson as Chief Development Officer",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Thu, 22 Oct 2026 10:21:24 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA, Disney, Belmont University and Nashville Partners Donate $1 Million to Dolly Parton’s Imagination Library",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Thu, 22 Oct 2026 10:02:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Apple Announces Fleetwood Mac Documentary 'The Chain' for January 2027",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Thu, 22 Oct 2026 09:36:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Granger Smith Announces 2026 Friendsgiving Radio Special",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 21 Oct 2026 18:09:08 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "6 Rules of Radio Leadership That Drive Ratings and Growth",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 21 Oct 2026 09:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Comprehensive Christmas Programming Guide",

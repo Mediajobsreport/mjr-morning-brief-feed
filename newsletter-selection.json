@@ -1,42 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/2026-nab-marconi-radio-award-winners-announced-in-new-york-city",
-    "https://www.mediajobsreport.com/articles/podcast-study-2026-finds-new-revenue-opportunities-beyond-traditional-advertising",
-    "https://www.mediajobsreport.com/articles/new-102-7-raises-more-than-16-000-for-animal-emergency-care",
-    "https://www.mediajobsreport.com/articles/entravision-adds-former-intel-ceo-brian-krzanich-and-finance-veteran-gary-ferrera-to-board",
-    "https://www.mediajobsreport.com/articles/granger-smith-announces-2026-friendsgiving-radio-special",
-    "https://www.mediajobsreport.com/articles/nbcuniversals-matt-strauss-details-peacocks-future",
-    "https://www.mediajobsreport.com/blog/6-rules-of-radio-leadership-that-drive-ratings-and-growth"
+    "https://www.mediajobsreport.com/articles/fcc-issues-60-000-in-pirate-radio-fines-against-three-operators",
+    "https://www.mediajobsreport.com/articles/nielsen-tv-viewing-declines-in-august-as-youtube-hits-record-15-8-share",
+    "https://www.mediajobsreport.com/articles/cma-disney-belmont-university-and-nashville-partners-donate-1-million-to-dolly-partons-imagination-library",
+    "https://www.mediajobsreport.com/articles/blackmagic-design-releases-camera-and-converter-software-updates-for-broadcast-production",
+    "https://www.mediajobsreport.com/articles/new-york-public-radio-names-kimberly-watson-as-chief-development-officer",
+    "https://www.mediajobsreport.com/articles/triton-digital-releases-september-2026-podcast-rankings",
+    "https://www.mediajobsreport.com/articles/flor-leibaschoff-named-chief-judge-of-radio-mercury-awards",
+    "https://www.mediajobsreport.com/articles/apple-announces-fleetwood-mac-documentary-the-chain-for-january-2027"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/2026-nab-marconi-radio-award-winners-announced-in-new-york-city"
+      "link": "https://www.mediajobsreport.com/articles/fcc-issues-60-000-in-pirate-radio-fines-against-three-operators"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/podcast-study-2026-finds-new-revenue-opportunities-beyond-traditional-advertising"
+      "link": "https://www.mediajobsreport.com/articles/nielsen-tv-viewing-declines-in-august-as-youtube-hits-record-15-8-share"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/new-102-7-raises-more-than-16-000-for-animal-emergency-care"
+      "link": "https://www.mediajobsreport.com/articles/cma-disney-belmont-university-and-nashville-partners-donate-1-million-to-dolly-partons-imagination-library"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/entravision-adds-former-intel-ceo-brian-krzanich-and-finance-veteran-gary-ferrera-to-board"
+      "link": "https://www.mediajobsreport.com/articles/blackmagic-design-releases-camera-and-converter-software-updates-for-broadcast-production"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/granger-smith-announces-2026-friendsgiving-radio-special"
+      "link": "https://www.mediajobsreport.com/articles/new-york-public-radio-names-kimberly-watson-as-chief-development-officer"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nbcuniversals-matt-strauss-details-peacocks-future"
+      "link": "https://www.mediajobsreport.com/articles/triton-digital-releases-september-2026-podcast-rankings"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/6-rules-of-radio-leadership-that-drive-ratings-and-growth"
+      "link": "https://www.mediajobsreport.com/articles/flor-leibaschoff-named-chief-judge-of-radio-mercury-awards"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/apple-announces-fleetwood-mac-documentary-the-chain-for-january-2027"
     }
   ]
 }
