@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Sun, 25 Oct 2026 19:25:37 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA to Broadcast Houston Comets Games Beginning in 2027",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Sun, 25 Oct 2026 19:20:10 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Celebrates 2026 Award Nominees With Special Dinner at Grand Ole Opry",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Sun, 25 Oct 2026 19:09:18 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Edison Research Reveals Top 50 U.S. Podcasts for Q3 2026",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Sun, 25 Oct 2026 18:58:21 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Spotify and Harry Styles Team Up for Halloween Dance Party in New York City",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Sun, 25 Oct 2026 18:53:45 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "JJ Watt Named Lead NFL on CBS Analyst in Multi-Year Deal",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Sun, 25 Oct 2026 18:34:57 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NPR Partners With University of Maryland to Host Public Editor Beginning in 2027",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Sun, 25 Oct 2026 18:24:22 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Stack Wins Early in the Week",
@@ -62,7 +62,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 25 Oct 2026 09:27:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "World Radio Day 2027 | Celebrating Radio Worldwide",
@@ -102,7 +102,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 22 Oct 2026 15:50:59 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Nielsen: TV Viewing Declines in August as YouTube Hits Record 15.8% Share",
@@ -110,7 +110,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Thu, 22 Oct 2026 15:28:47 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "6 Rules of Radio Leadership That Drive Ratings and Growth",

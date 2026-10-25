@@ -1,47 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/fcc-issues-60-000-in-pirate-radio-fines-against-three-operators",
-    "https://www.mediajobsreport.com/articles/nielsen-tv-viewing-declines-in-august-as-youtube-hits-record-15-8-share",
-    "https://www.mediajobsreport.com/articles/cma-disney-belmont-university-and-nashville-partners-donate-1-million-to-dolly-partons-imagination-library",
-    "https://www.mediajobsreport.com/articles/blackmagic-design-releases-camera-and-converter-software-updates-for-broadcast-production",
-    "https://www.mediajobsreport.com/articles/new-york-public-radio-names-kimberly-watson-as-chief-development-officer",
-    "https://www.mediajobsreport.com/articles/triton-digital-releases-september-2026-podcast-rankings",
-    "https://www.mediajobsreport.com/articles/flor-leibaschoff-named-chief-judge-of-radio-mercury-awards",
-    "https://www.mediajobsreport.com/articles/apple-announces-fleetwood-mac-documentary-the-chain-for-january-2027"
+    "https://www.mediajobsreport.com/blog/stack-wins-early-in-the-week",
+    "https://www.mediajobsreport.com/articles/cbs-premiere-week-viewership-climbs-14-with-six-series-topping-10-million-viewers",
+    "https://www.mediajobsreport.com/articles/cma-celebrates-2026-award-nominees-with-special-dinner-at-grand-ole-opry",
+    "https://www.mediajobsreport.com/articles/edison-research-reveals-top-50-u-s-podcasts-for-q3-2026",
+    "https://www.mediajobsreport.com/articles/tegna-to-broadcast-houston-comets-games-beginning-in-2027",
+    "https://www.mediajobsreport.com/articles/spotify-and-harry-styles-team-up-for-halloween-dance-party-in-new-york-city",
+    "https://www.mediajobsreport.com/articles/npr-partners-with-university-of-maryland-to-host-public-editor-beginning-in-2027",
+    "https://www.mediajobsreport.com/articles/jj-watt-named-lead-nfl-on-cbs-analyst-in-multi-year-deal"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-issues-60-000-in-pirate-radio-fines-against-three-operators"
+      "link": "https://www.mediajobsreport.com/blog/stack-wins-early-in-the-week"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-tv-viewing-declines-in-august-as-youtube-hits-record-15-8-share"
+      "link": "https://www.mediajobsreport.com/articles/cbs-premiere-week-viewership-climbs-14-with-six-series-topping-10-million-viewers"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cma-disney-belmont-university-and-nashville-partners-donate-1-million-to-dolly-partons-imagination-library"
+      "link": "https://www.mediajobsreport.com/articles/cma-celebrates-2026-award-nominees-with-special-dinner-at-grand-ole-opry"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/blackmagic-design-releases-camera-and-converter-software-updates-for-broadcast-production"
+      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-top-50-u-s-podcasts-for-q3-2026"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/new-york-public-radio-names-kimberly-watson-as-chief-development-officer"
+      "link": "https://www.mediajobsreport.com/articles/tegna-to-broadcast-houston-comets-games-beginning-in-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/triton-digital-releases-september-2026-podcast-rankings"
+      "link": "https://www.mediajobsreport.com/articles/spotify-and-harry-styles-team-up-for-halloween-dance-party-in-new-york-city"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/flor-leibaschoff-named-chief-judge-of-radio-mercury-awards"
+      "link": "https://www.mediajobsreport.com/articles/npr-partners-with-university-of-maryland-to-host-public-editor-beginning-in-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/apple-announces-fleetwood-mac-documentary-the-chain-for-january-2027"
+      "link": "https://www.mediajobsreport.com/articles/jj-watt-named-lead-nfl-on-cbs-analyst-in-multi-year-deal"
     }
   ]
 }
