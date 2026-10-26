@@ -1,47 +1,52 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/blog/stack-wins-early-in-the-week",
-    "https://www.mediajobsreport.com/articles/cbs-premiere-week-viewership-climbs-14-with-six-series-topping-10-million-viewers",
-    "https://www.mediajobsreport.com/articles/cma-celebrates-2026-award-nominees-with-special-dinner-at-grand-ole-opry",
-    "https://www.mediajobsreport.com/articles/edison-research-reveals-top-50-u-s-podcasts-for-q3-2026",
-    "https://www.mediajobsreport.com/articles/tegna-to-broadcast-houston-comets-games-beginning-in-2027",
-    "https://www.mediajobsreport.com/articles/spotify-and-harry-styles-team-up-for-halloween-dance-party-in-new-york-city",
-    "https://www.mediajobsreport.com/articles/npr-partners-with-university-of-maryland-to-host-public-editor-beginning-in-2027",
-    "https://www.mediajobsreport.com/articles/jj-watt-named-lead-nfl-on-cbs-analyst-in-multi-year-deal"
+    "https://www.mediajobsreport.com/articles/fcc-commissioner-gomez-urges-broadcasters-to-resist-election-year-intimidation",
+    "https://www.mediajobsreport.com/articles/callie-luttman-named-miws-2026-behind-the-mic-mentee",
+    "https://www.mediajobsreport.com/articles/tegna-names-mellynda-hartel-president-and-gm-of-three-florida-television-stations",
+    "https://www.mediajobsreport.com/articles/warner-music-promotes-roberto-andrade-dirak-to-president-of-wm-latina-and-latin-america-a-r",
+    "https://www.mediajobsreport.com/articles/nominations-open-for-9th-annual-canadian-podcast-awards",
+    "https://www.mediajobsreport.com/articles/audacy-wins-five-honors-at-2026-buffalo-broadcasters-awards",
+    "https://www.mediajobsreport.com/articles/telemundo-las-vegas-adds-samanta-rodr%C3%ADguez-and-ana-sof%C3%ADa-rom%C3%A1n-to-news-team",
+    "https://www.mediajobsreport.com/articles/warner-music-group-unifies-global-sync-operations-promotes-ron-broitman-to-president",
+    "https://www.mediajobsreport.com/articles/benztown-offers-radio-stations-free-christmas-audiopack-with-50-holiday-elements"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/stack-wins-early-in-the-week"
+      "link": "https://www.mediajobsreport.com/articles/fcc-commissioner-gomez-urges-broadcasters-to-resist-election-year-intimidation"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cbs-premiere-week-viewership-climbs-14-with-six-series-topping-10-million-viewers"
+      "link": "https://www.mediajobsreport.com/articles/callie-luttman-named-miws-2026-behind-the-mic-mentee"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cma-celebrates-2026-award-nominees-with-special-dinner-at-grand-ole-opry"
+      "link": "https://www.mediajobsreport.com/articles/tegna-names-mellynda-hartel-president-and-gm-of-three-florida-television-stations"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-top-50-u-s-podcasts-for-q3-2026"
+      "link": "https://www.mediajobsreport.com/articles/warner-music-promotes-roberto-andrade-dirak-to-president-of-wm-latina-and-latin-america-a-r"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-to-broadcast-houston-comets-games-beginning-in-2027"
+      "link": "https://www.mediajobsreport.com/articles/nominations-open-for-9th-annual-canadian-podcast-awards"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/spotify-and-harry-styles-team-up-for-halloween-dance-party-in-new-york-city"
+      "link": "https://www.mediajobsreport.com/articles/audacy-wins-five-honors-at-2026-buffalo-broadcasters-awards"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/npr-partners-with-university-of-maryland-to-host-public-editor-beginning-in-2027"
+      "link": "https://www.mediajobsreport.com/articles/telemundo-las-vegas-adds-samanta-rodr%C3%ADguez-and-ana-sof%C3%ADa-rom%C3%A1n-to-news-team"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jj-watt-named-lead-nfl-on-cbs-analyst-in-multi-year-deal"
+      "link": "https://www.mediajobsreport.com/articles/warner-music-group-unifies-global-sync-operations-promotes-ron-broitman-to-president"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/benztown-offers-radio-stations-free-christmas-audiopack-with-50-holiday-elements"
     }
   ]
 }
