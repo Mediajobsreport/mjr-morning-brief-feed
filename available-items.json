@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "BFOA Expands Aid to Broadcasters in Need",
+      "link": "https://www.mediajobsreport.com/articles/bfoa-expands-aid-to-broadcasters-in-need",
+      "type": "News",
+      "category": "General Broadcast",
+      "pubDate": "Tue, 27 Oct 2026 17:27:14 -0400",
+      "selected": false
+    },
+    {
+      "title": "WMBX X102.3 Celebrates 25 Years of South Florida R&B Radio",
+      "link": "https://www.mediajobsreport.com/articles/wmbx-x102-3-celebrates-25-years-of-south-florida-r-b-radio",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Tue, 27 Oct 2026 17:11:15 -0400",
+      "selected": false
+    },
+    {
+      "title": "NRB Announces 2027 Special Service and Media Award Winners",
+      "link": "https://www.mediajobsreport.com/articles/nrb-announces-2027-special-service-and-media-award-winners",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 27 Oct 2026 17:06:19 -0400",
+      "selected": false
+    },
+    {
+      "title": "Gray Media Names Jennifer Rieffer General Manager of WBTV in Charlotte",
+      "link": "https://www.mediajobsreport.com/articles/gray-media-names-jennifer-rieffer-general-manager-of-wbtv-in-charlotte",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 27 Oct 2026 16:32:04 -0400",
+      "selected": false
+    },
+    {
+      "title": "Missouri Journalism Researchers Call for Better Trauma Support for Reporters",
+      "link": "https://www.mediajobsreport.com/articles/missouri-journalism-researchers-call-for-better-trauma-support-for-reporters",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Tue, 27 Oct 2026 16:09:53 -0400",
+      "selected": false
+    },
+    {
       "title": "FCC Cites Four Montana Radio Stations for EAS Violations",
       "link": "https://www.mediajobsreport.com/articles/fcc-cites-four-montana-radio-stations-for-eas-violations",
       "type": "News",
@@ -30,46 +70,6 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 26 Oct 2026 15:11:44 -0400",
-      "selected": true
-    },
-    {
-      "title": "Warner Music Promotes Roberto Andrade Dirak to President of WM Latina and Latin America A&R",
-      "link": "https://www.mediajobsreport.com/articles/warner-music-promotes-roberto-andrade-dirak-to-president-of-wm-latina-and-latin-america-a-r",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Mon, 26 Oct 2026 14:47:33 -0400",
-      "selected": true
-    },
-    {
-      "title": "FCC Commissioner Gomez Urges Broadcasters to Resist Election-Year Intimidation",
-      "link": "https://www.mediajobsreport.com/articles/fcc-commissioner-gomez-urges-broadcasters-to-resist-election-year-intimidation",
-      "type": "News",
-      "category": "FCC",
-      "pubDate": "Mon, 26 Oct 2026 14:44:28 -0400",
-      "selected": true
-    },
-    {
-      "title": "Warner Music Group Unifies Global Sync Operations, Promotes Ron Broitman to President",
-      "link": "https://www.mediajobsreport.com/articles/warner-music-group-unifies-global-sync-operations-promotes-ron-broitman-to-president",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Mon, 26 Oct 2026 14:28:26 -0400",
-      "selected": true
-    },
-    {
-      "title": "Nominations Open for 9th Annual Canadian Podcast Awards",
-      "link": "https://www.mediajobsreport.com/articles/nominations-open-for-9th-annual-canadian-podcast-awards",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Mon, 26 Oct 2026 14:14:06 -0400",
-      "selected": true
-    },
-    {
-      "title": "Callie Luttman Named MIW's 2026 Behind the Mic Mentee",
-      "link": "https://www.mediajobsreport.com/articles/callie-luttman-named-miws-2026-behind-the-mic-mentee",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 26 Oct 2026 09:31:30 -0400",
       "selected": true
     },
     {
