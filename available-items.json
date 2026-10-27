@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 27 Oct 2026 17:40:40 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "BFOA Expands Aid to Broadcasters in Need",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "General Broadcast",
       "pubDate": "Tue, 27 Oct 2026 17:27:14 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "WMBX X102.3 Celebrates 25 Years of South Florida R&B Radio",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 27 Oct 2026 17:11:15 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NRB Announces 2027 Special Service and Media Award Winners",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 27 Oct 2026 17:06:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gray Media Names Jennifer Rieffer General Manager of WBTV in Charlotte",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 27 Oct 2026 16:32:04 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Missouri Journalism Researchers Call for Better Trauma Support for Reporters",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 27 Oct 2026 16:09:53 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Cites Four Montana Radio Stations for EAS Violations",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Tue, 27 Oct 2026 08:41:09 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA Names Mellynda Hartel President and GM of Three Florida Television Stations",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 26 Oct 2026 15:27:25 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Audacy Wins Five Honors at 2026 Buffalo Broadcasters Awards",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Mon, 26 Oct 2026 15:15:53 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Stack Wins Early in the Week",

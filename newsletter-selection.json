@@ -1,52 +1,42 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/fcc-commissioner-gomez-urges-broadcasters-to-resist-election-year-intimidation",
-    "https://www.mediajobsreport.com/articles/callie-luttman-named-miws-2026-behind-the-mic-mentee",
-    "https://www.mediajobsreport.com/articles/tegna-names-mellynda-hartel-president-and-gm-of-three-florida-television-stations",
-    "https://www.mediajobsreport.com/articles/warner-music-promotes-roberto-andrade-dirak-to-president-of-wm-latina-and-latin-america-a-r",
-    "https://www.mediajobsreport.com/articles/nominations-open-for-9th-annual-canadian-podcast-awards",
-    "https://www.mediajobsreport.com/articles/audacy-wins-five-honors-at-2026-buffalo-broadcasters-awards",
-    "https://www.mediajobsreport.com/articles/telemundo-las-vegas-adds-samanta-rodr%C3%ADguez-and-ana-sof%C3%ADa-rom%C3%A1n-to-news-team",
-    "https://www.mediajobsreport.com/articles/warner-music-group-unifies-global-sync-operations-promotes-ron-broitman-to-president",
-    "https://www.mediajobsreport.com/articles/benztown-offers-radio-stations-free-christmas-audiopack-with-50-holiday-elements"
+    "https://www.mediajobsreport.com/articles/fcc-cites-four-montana-radio-stations-for-eas-violations",
+    "https://www.mediajobsreport.com/articles/gray-media-names-jennifer-rieffer-general-manager-of-wbtv-in-charlotte",
+    "https://www.mediajobsreport.com/articles/pierre-bouvard-challenges-eight-common-misconceptions-about-am-fm-radio",
+    "https://www.mediajobsreport.com/articles/missouri-journalism-researchers-call-for-better-trauma-support-for-reporters",
+    "https://www.mediajobsreport.com/articles/nrb-announces-2027-special-service-and-media-award-winners",
+    "https://www.mediajobsreport.com/articles/wmbx-x102-3-celebrates-25-years-of-south-florida-r-b-radio",
+    "https://www.mediajobsreport.com/articles/bfoa-expands-aid-to-broadcasters-in-need"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-commissioner-gomez-urges-broadcasters-to-resist-election-year-intimidation"
+      "link": "https://www.mediajobsreport.com/articles/fcc-cites-four-montana-radio-stations-for-eas-violations"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/callie-luttman-named-miws-2026-behind-the-mic-mentee"
+      "link": "https://www.mediajobsreport.com/articles/gray-media-names-jennifer-rieffer-general-manager-of-wbtv-in-charlotte"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-mellynda-hartel-president-and-gm-of-three-florida-television-stations"
+      "link": "https://www.mediajobsreport.com/articles/pierre-bouvard-challenges-eight-common-misconceptions-about-am-fm-radio"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/warner-music-promotes-roberto-andrade-dirak-to-president-of-wm-latina-and-latin-america-a-r"
+      "link": "https://www.mediajobsreport.com/articles/missouri-journalism-researchers-call-for-better-trauma-support-for-reporters"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nominations-open-for-9th-annual-canadian-podcast-awards"
+      "link": "https://www.mediajobsreport.com/articles/nrb-announces-2027-special-service-and-media-award-winners"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-wins-five-honors-at-2026-buffalo-broadcasters-awards"
+      "link": "https://www.mediajobsreport.com/articles/wmbx-x102-3-celebrates-25-years-of-south-florida-r-b-radio"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/telemundo-las-vegas-adds-samanta-rodr%C3%ADguez-and-ana-sof%C3%ADa-rom%C3%A1n-to-news-team"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/warner-music-group-unifies-global-sync-operations-promotes-ron-broitman-to-president"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/benztown-offers-radio-stations-free-christmas-audiopack-with-50-holiday-elements"
+      "link": "https://www.mediajobsreport.com/articles/bfoa-expands-aid-to-broadcasters-in-need"
     }
   ]
 }
