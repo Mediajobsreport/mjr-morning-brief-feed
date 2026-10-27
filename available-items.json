@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "Pierre Bouvard Challenges Eight Common Misconceptions About AM/FM Radio",
+      "link": "https://www.mediajobsreport.com/articles/pierre-bouvard-challenges-eight-common-misconceptions-about-am-fm-radio",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Tue, 27 Oct 2026 17:40:40 -0400",
+      "selected": false
+    },
+    {
       "title": "BFOA Expands Aid to Broadcasters in Need",
       "link": "https://www.mediajobsreport.com/articles/bfoa-expands-aid-to-broadcasters-in-need",
       "type": "News",
@@ -62,14 +70,6 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Mon, 26 Oct 2026 15:15:53 -0400",
-      "selected": true
-    },
-    {
-      "title": "Telemundo Las Vegas Adds Samanta Rodríguez and Ana Sofía Román to News Team",
-      "link": "https://www.mediajobsreport.com/articles/telemundo-las-vegas-adds-samanta-rodr%C3%ADguez-and-ana-sof%C3%ADa-rom%C3%A1n-to-news-team",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 26 Oct 2026 15:11:44 -0400",
       "selected": true
     },
     {
