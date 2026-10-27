@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "title": "FCC Cites Four Montana Radio Stations for EAS Violations",
+      "link": "https://www.mediajobsreport.com/articles/fcc-cites-four-montana-radio-stations-for-eas-violations",
+      "type": "News",
+      "category": "FCC",
+      "pubDate": "Tue, 27 Oct 2026 08:41:09 -0400",
+      "selected": false
+    },
+    {
       "title": "TEGNA Names Mellynda Hartel President and GM of Three Florida Television Stations",
       "link": "https://www.mediajobsreport.com/articles/tegna-names-mellynda-hartel-president-and-gm-of-three-florida-television-stations",
       "type": "News",
@@ -62,14 +70,6 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 26 Oct 2026 09:31:30 -0400",
-      "selected": true
-    },
-    {
-      "title": "Benztown Offers Radio Stations Free Christmas AudioPack With 50 Holiday Elements",
-      "link": "https://www.mediajobsreport.com/articles/benztown-offers-radio-stations-free-christmas-audiopack-with-50-holiday-elements",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 26 Oct 2026 09:28:14 -0400",
       "selected": true
     },
     {
