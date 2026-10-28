@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Wed, 28 Oct 2026 17:27:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "ACM Announces 2026-2027 Board of Directors and Officers",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 28 Oct 2026 12:48:08 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA Names Brian Gregory President and GM of WCNC and WFMY",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 28 Oct 2026 10:40:09 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Skydance, iHeartMedia, Warner Music Group and Qualcomm Set November Earnings Dates",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Wed, 28 Oct 2026 10:26:16 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Brandon “Scoop B” Robinson to Launch Media Network in 2027",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Wed, 28 Oct 2026 10:13:58 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
@@ -46,7 +46,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 28 Oct 2026 10:00:00 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Westwood One and Silverloch Announce Special Election Day Coverage",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Wed, 28 Oct 2026 09:59:45 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Pierre Bouvard Challenges Eight Common Misconceptions About AM/FM Radio",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 27 Oct 2026 17:40:40 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "BFOA Expands Aid to Broadcasters in Need",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "General Broadcast",
       "pubDate": "Tue, 27 Oct 2026 17:27:14 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "WMBX X102.3 Celebrates 25 Years of South Florida R&B Radio",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 27 Oct 2026 17:11:15 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Stack Wins Early in the Week",
