@@ -1,42 +1,37 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/ev-drivers-spend-more-time-with-streaming-and-podcasts-in-cars",
-    "https://www.mediajobsreport.com/articles/skydance-iheartmedia-warner-music-group-and-qualcomm-set-november-earnings-dates",
-    "https://www.mediajobsreport.com/articles/tegna-names-brian-gregory-president-and-gm-of-wcnc-and-wfmy",
-    "https://www.mediajobsreport.com/articles/westwood-one-and-silverloch-announce-special-election-day-coverage",
-    "https://www.mediajobsreport.com/articles/acm-announces-2026-2027-board-of-directors-and-officers",
-    "https://www.mediajobsreport.com/articles/brandon-scoop-b-robinson-to-launch-media-network-in-2027",
-    "https://www.mediajobsreport.com/blog/winning-model-how-to-build-a-successful-radio-station"
+    "https://www.mediajobsreport.com/articles/medill-poll-finds-declining-media-trust-ahead-of-2026-midterms",
+    "https://www.mediajobsreport.com/articles/106-5-the-wolf-adds-mo-styckman-to-weekday-lineup",
+    "https://www.mediajobsreport.com/articles/missouri-school-of-journalism-names-amy-simons-associate-dean-for-undergraduate-studies",
+    "https://www.mediajobsreport.com/articles/peacocks-crystal-lake-draws-1-3-billion-viewing-minutes-in-first-11-days",
+    "https://www.mediajobsreport.com/articles/siriusxm-announces-25-holiday-music-channels-beginning-november-2",
+    "https://www.mediajobsreport.com/articles/on-air-fest-announces-first-wave-lineup-for-10th-anniversary-in-brooklyn"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/ev-drivers-spend-more-time-with-streaming-and-podcasts-in-cars"
+      "link": "https://www.mediajobsreport.com/articles/medill-poll-finds-declining-media-trust-ahead-of-2026-midterms"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/skydance-iheartmedia-warner-music-group-and-qualcomm-set-november-earnings-dates"
+      "link": "https://www.mediajobsreport.com/articles/106-5-the-wolf-adds-mo-styckman-to-weekday-lineup"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-names-brian-gregory-president-and-gm-of-wcnc-and-wfmy"
+      "link": "https://www.mediajobsreport.com/articles/missouri-school-of-journalism-names-amy-simons-associate-dean-for-undergraduate-studies"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/westwood-one-and-silverloch-announce-special-election-day-coverage"
+      "link": "https://www.mediajobsreport.com/articles/peacocks-crystal-lake-draws-1-3-billion-viewing-minutes-in-first-11-days"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/acm-announces-2026-2027-board-of-directors-and-officers"
+      "link": "https://www.mediajobsreport.com/articles/siriusxm-announces-25-holiday-music-channels-beginning-november-2"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/brandon-scoop-b-robinson-to-launch-media-network-in-2027"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/winning-model-how-to-build-a-successful-radio-station"
+      "link": "https://www.mediajobsreport.com/articles/on-air-fest-announces-first-wave-lineup-for-10th-anniversary-in-brooklyn"
     }
   ]
 }

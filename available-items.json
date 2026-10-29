@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Thu, 29 Oct 2026 17:17:32 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "106.5 The Wolf Adds “Mo & StyckMan” to Weekday Lineup",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 29 Oct 2026 15:34:41 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Missouri School of Journalism Names Amy Simons Associate Dean for Undergraduate Studies",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Thu, 29 Oct 2026 09:06:50 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "SiriusXM Announces 25 Holiday Music Channels Beginning November 2",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 29 Oct 2026 08:59:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Peacock’s ‘Crystal Lake’ Draws 1.3 Billion Viewing Minutes in First 11 Days",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Thu, 29 Oct 2026 08:46:54 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "On Air Fest Announces First-Wave Lineup for 10th Anniversary in Brooklyn",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Thu, 29 Oct 2026 08:38:15 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "EV Drivers Spend More Time With Streaming and Podcasts in Cars",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Wed, 28 Oct 2026 17:27:19 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "ACM Announces 2026-2027 Board of Directors and Officers",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 28 Oct 2026 12:48:08 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "TEGNA Names Brian Gregory President and GM of WCNC and WFMY",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 28 Oct 2026 10:40:09 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 28 Oct 2026 10:00:00 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Stack Wins Early in the Week",
