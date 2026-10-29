@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "title": "Medill Poll Finds Declining Media Trust Ahead of 2026 Midterms",
+      "link": "https://www.mediajobsreport.com/articles/medill-poll-finds-declining-media-trust-ahead-of-2026-midterms",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Thu, 29 Oct 2026 17:17:32 -0400",
+      "selected": false
+    },
+    {
+      "title": "106.5 The Wolf Adds “Mo & StyckMan” to Weekday Lineup",
+      "link": "https://www.mediajobsreport.com/articles/106-5-the-wolf-adds-mo-styckman-to-weekday-lineup",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Thu, 29 Oct 2026 15:34:41 -0400",
+      "selected": false
+    },
+    {
       "title": "Missouri School of Journalism Names Amy Simons Associate Dean for Undergraduate Studies",
       "link": "https://www.mediajobsreport.com/articles/missouri-school-of-journalism-names-amy-simons-associate-dean-for-undergraduate-studies",
       "type": "News",
@@ -54,22 +70,6 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 28 Oct 2026 10:40:09 -0400",
-      "selected": true
-    },
-    {
-      "title": "Skydance, iHeartMedia, Warner Music Group and Qualcomm Set November Earnings Dates",
-      "link": "https://www.mediajobsreport.com/articles/skydance-iheartmedia-warner-music-group-and-qualcomm-set-november-earnings-dates",
-      "type": "News",
-      "category": "Financial",
-      "pubDate": "Wed, 28 Oct 2026 10:26:16 -0400",
-      "selected": true
-    },
-    {
-      "title": "Brandon “Scoop B” Robinson to Launch Media Network in 2027",
-      "link": "https://www.mediajobsreport.com/articles/brandon-scoop-b-robinson-to-launch-media-network-in-2027",
-      "type": "News",
-      "category": "Digital",
-      "pubDate": "Wed, 28 Oct 2026 10:13:58 -0400",
       "selected": true
     },
     {
