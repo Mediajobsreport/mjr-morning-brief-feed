@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Sales",
       "pubDate": "Fri, 30 Oct 2026 23:17:45 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartRadio and TikTok LIVE to Preview Anuel AA’s Upcoming Album November 5",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Fri, 30 Oct 2026 23:12:11 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Reports Billions in Savings From Fraud Crackdown",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Fri, 30 Oct 2026 22:54:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nexstar Media Group Declares Quarterly Cash Dividend of $1.86 Per Share",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Fri, 30 Oct 2026 22:46:19 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Public Television Mourns Beth Courtney, Former Louisiana Public Broadcasting President and CEO",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Fri, 30 Oct 2026 22:28:57 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Cumulus Media Bringing ZoneCasting to Boston’s 104.5 XLO in 2027",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Fri, 30 Oct 2026 21:45:33 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NPR Names David Berzin Senior Vice President, Product and Data",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Fri, 30 Oct 2026 17:49:54 -0400",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Medill Poll Finds Declining Media Trust Ahead of 2026 Midterms",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Thu, 29 Oct 2026 17:17:32 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "106.5 The Wolf Adds “Mo & StyckMan” to Weekday Lineup",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 29 Oct 2026 15:34:41 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
