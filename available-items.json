@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Mon, 02 Nov 2026 16:48:46 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nexstar Media and Mission Broadcasting to Air 12 Texas High School Football Championships",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 02 Nov 2026 16:36:47 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sinclair Promotes Jennifer Lopez to Lead Boise Television Stations",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 02 Nov 2026 16:24:49 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "MIW and NAB Leadership Foundation Extend LAUNCH Mentorship Application Deadline",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "",
       "pubDate": "Mon, 02 Nov 2026 16:13:12 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "RCS Worldwide Names Tammy Halcomb and Merideth Kelly to Senior Leadership Roles",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Mon, 02 Nov 2026 15:45:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Welcomes Radio Sales Expert Harmony Tenney as New Pro Member",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Sales",
       "pubDate": "Fri, 30 Oct 2026 23:17:45 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "iHeartRadio and TikTok LIVE to Preview Anuel AA’s Upcoming Album November 5",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Fri, 30 Oct 2026 23:12:11 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "FCC Reports Billions in Savings From Fraud Crackdown",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Fri, 30 Oct 2026 22:54:33 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Nexstar Media Group Declares Quarterly Cash Dividend of $1.86 Per Share",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Fri, 30 Oct 2026 22:46:19 -0400",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",

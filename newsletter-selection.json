@@ -1,42 +1,32 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-welcomes-radio-sales-expert-harmony-tenney-as-new-pro-member-5331",
-    "https://www.mediajobsreport.com/articles/public-television-mourns-beth-courtney-former-louisiana-public-broadcasting-president-and-ceo",
-    "https://www.mediajobsreport.com/articles/fcc-reports-billions-in-savings-from-fraud-crackdown",
-    "https://www.mediajobsreport.com/articles/cumulus-media-bringing-zonecasting-to-bostons-104-5-xlo-in-2027",
-    "https://www.mediajobsreport.com/articles/nexstar-media-group-declares-quarterly-cash-dividend-of-1-86-per-share-5328",
-    "https://www.mediajobsreport.com/articles/npr-names-david-berzin-senior-vice-president-product-and-data",
-    "https://www.mediajobsreport.com/articles/iheartradio-and-tiktok-live-to-preview-anuel-aas-upcoming-album-november-5"
+    "https://www.mediajobsreport.com/articles/longtime-ket-ceo-shae-hopkins-dies-after-40-years-of-service-to-public-broadcasting",
+    "https://www.mediajobsreport.com/articles/miw-and-nab-leadership-foundation-extend-launch-mentorship-application-deadline",
+    "https://www.mediajobsreport.com/articles/sinclair-promotes-jennifer-lopez-to-lead-boise-television-stations",
+    "https://www.mediajobsreport.com/articles/rcs-worldwide-names-tammy-halcomb-and-merideth-kelly-to-senior-leadership-roles",
+    "https://www.mediajobsreport.com/articles/nexstar-media-and-mission-broadcasting-to-air-12-texas-high-school-football-championships"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-welcomes-radio-sales-expert-harmony-tenney-as-new-pro-member-5331"
+      "link": "https://www.mediajobsreport.com/articles/longtime-ket-ceo-shae-hopkins-dies-after-40-years-of-service-to-public-broadcasting"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/public-television-mourns-beth-courtney-former-louisiana-public-broadcasting-president-and-ceo"
+      "link": "https://www.mediajobsreport.com/articles/miw-and-nab-leadership-foundation-extend-launch-mentorship-application-deadline"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-reports-billions-in-savings-from-fraud-crackdown"
+      "link": "https://www.mediajobsreport.com/articles/sinclair-promotes-jennifer-lopez-to-lead-boise-television-stations"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cumulus-media-bringing-zonecasting-to-bostons-104-5-xlo-in-2027"
+      "link": "https://www.mediajobsreport.com/articles/rcs-worldwide-names-tammy-halcomb-and-merideth-kelly-to-senior-leadership-roles"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nexstar-media-group-declares-quarterly-cash-dividend-of-1-86-per-share-5328"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/npr-names-david-berzin-senior-vice-president-product-and-data"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/iheartradio-and-tiktok-live-to-preview-anuel-aas-upcoming-album-november-5"
+      "link": "https://www.mediajobsreport.com/articles/nexstar-media-and-mission-broadcasting-to-air-12-texas-high-school-football-championships"
     }
   ]
 }
