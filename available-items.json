@@ -6,7 +6,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 03 Nov 2026 17:15:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Launches Two Alexa Skills for Daily Media Industry News",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Tue, 03 Nov 2026 14:45:28 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nikki Preston Joins Kiss 98.5 Buffalo Morning Show",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 03 Nov 2026 14:44:13 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "LMA and Google News Initiative Select 12 Newsrooms for AI Growth Lab",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Journalism",
       "pubDate": "Tue, 03 Nov 2026 14:23:44 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gray Media Promotes Jaime Eskridge to General Manager of WLFI",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 03 Nov 2026 14:10:15 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Radio Isn’t Dead…Far From It",
@@ -46,7 +46,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 03 Nov 2026 12:28:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Adobe Premiere Mobile Adds Licensed Music From UMG and WMG",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Tue, 03 Nov 2026 12:03:21 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Michael Courier Joins WZZM as Weekend Morning Anchor and Weekday Morning Reporter.",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 03 Nov 2026 11:55:22 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NAB Opens 2027 Technology Awards Nominations for Radio, TV and Digital Innovation",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Tue, 03 Nov 2026 11:18:17 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Longtime KET CEO Shae Hopkins Dies After 40 Years of Service to Public Broadcasting",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Mon, 02 Nov 2026 16:48:46 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Nexstar Media and Mission Broadcasting to Air 12 Texas High School Football Championships",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 02 Nov 2026 16:36:47 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
