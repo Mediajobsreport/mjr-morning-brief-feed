@@ -1,6 +1,70 @@
 {
   "items": [
     {
+      "title": "Media Jobs Report Launches Two Alexa Skills for Daily Media Industry News",
+      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-two-alexa-skills-for-daily-media-industry-news-5344",
+      "type": "News",
+      "category": "Announcements",
+      "pubDate": "Tue, 03 Nov 2026 14:45:28 -0500",
+      "selected": false
+    },
+    {
+      "title": "Nikki Preston Joins Kiss 98.5 Buffalo Morning Show",
+      "link": "https://www.mediajobsreport.com/articles/nikki-preston-joins-kiss-98-5-buffalo-morning-show",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Tue, 03 Nov 2026 14:44:13 -0500",
+      "selected": false
+    },
+    {
+      "title": "LMA and Google News Initiative Select 12 Newsrooms for AI Growth Lab",
+      "link": "https://www.mediajobsreport.com/articles/lma-and-google-news-initiative-select-12-newsrooms-for-ai-growth-lab",
+      "type": "News",
+      "category": "Journalism",
+      "pubDate": "Tue, 03 Nov 2026 14:23:44 -0500",
+      "selected": false
+    },
+    {
+      "title": "Gray Media Promotes Jaime Eskridge to General Manager of WLFI",
+      "link": "https://www.mediajobsreport.com/articles/gray-media-promotes-jaime-eskridge-to-general-manager-of-wlfi",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 03 Nov 2026 14:10:15 -0500",
+      "selected": false
+    },
+    {
+      "title": "Radio Isn’t Dead…Far From It",
+      "link": "https://www.mediajobsreport.com/blog/radio-isnt-dead-far-from-it",
+      "type": "Blog",
+      "category": "Programming",
+      "pubDate": "Tue, 03 Nov 2026 12:28:00 -0500",
+      "selected": false
+    },
+    {
+      "title": "Adobe Premiere Mobile Adds Licensed Music From UMG and WMG",
+      "link": "https://www.mediajobsreport.com/articles/adobe-premiere-mobile-adds-licensed-music-from-umg-and-wmg",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Tue, 03 Nov 2026 12:03:21 -0500",
+      "selected": false
+    },
+    {
+      "title": "Michael Courier Joins WZZM as Weekend Morning Anchor and Weekday Morning Reporter.",
+      "link": "https://www.mediajobsreport.com/articles/michael-courier-joins-wzzm-as-weekend-morning-anchor-and-weekday-morning-reporter",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 03 Nov 2026 11:55:22 -0500",
+      "selected": false
+    },
+    {
+      "title": "NAB Opens 2027 Technology Awards Nominations for Radio, TV and Digital Innovation",
+      "link": "https://www.mediajobsreport.com/articles/nab-opens-2027-technology-awards-nominations-for-radio-tv-and-digital-innovation",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Tue, 03 Nov 2026 11:18:17 -0500",
+      "selected": false
+    },
+    {
       "title": "Longtime KET CEO Shae Hopkins Dies After 40 Years of Service to Public Broadcasting",
       "link": "https://www.mediajobsreport.com/articles/longtime-ket-ceo-shae-hopkins-dies-after-40-years-of-service-to-public-broadcasting",
       "type": "News",
@@ -15,62 +79,6 @@
       "category": "Television",
       "pubDate": "Mon, 02 Nov 2026 16:36:47 -0500",
       "selected": true
-    },
-    {
-      "title": "Sinclair Promotes Jennifer Lopez to Lead Boise Television Stations",
-      "link": "https://www.mediajobsreport.com/articles/sinclair-promotes-jennifer-lopez-to-lead-boise-television-stations",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 02 Nov 2026 16:24:49 -0500",
-      "selected": true
-    },
-    {
-      "title": "MIW and NAB Leadership Foundation Extend LAUNCH Mentorship Application Deadline",
-      "link": "https://www.mediajobsreport.com/articles/miw-and-nab-leadership-foundation-extend-launch-mentorship-application-deadline",
-      "type": "News",
-      "category": "",
-      "pubDate": "Mon, 02 Nov 2026 16:13:12 -0500",
-      "selected": true
-    },
-    {
-      "title": "RCS Worldwide Names Tammy Halcomb and Merideth Kelly to Senior Leadership Roles",
-      "link": "https://www.mediajobsreport.com/articles/rcs-worldwide-names-tammy-halcomb-and-merideth-kelly-to-senior-leadership-roles",
-      "type": "News",
-      "category": "Technical",
-      "pubDate": "Mon, 02 Nov 2026 15:45:00 -0500",
-      "selected": true
-    },
-    {
-      "title": "Media Jobs Report Welcomes Radio Sales Expert Harmony Tenney as New Pro Member",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-welcomes-radio-sales-expert-harmony-tenney-as-new-pro-member-5331",
-      "type": "News",
-      "category": "Sales",
-      "pubDate": "Fri, 30 Oct 2026 23:17:45 -0400",
-      "selected": false
-    },
-    {
-      "title": "iHeartRadio and TikTok LIVE to Preview Anuel AA’s Upcoming Album November 5",
-      "link": "https://www.mediajobsreport.com/articles/iheartradio-and-tiktok-live-to-preview-anuel-aas-upcoming-album-november-5",
-      "type": "News",
-      "category": "Digital",
-      "pubDate": "Fri, 30 Oct 2026 23:12:11 -0400",
-      "selected": false
-    },
-    {
-      "title": "FCC Reports Billions in Savings From Fraud Crackdown",
-      "link": "https://www.mediajobsreport.com/articles/fcc-reports-billions-in-savings-from-fraud-crackdown",
-      "type": "News",
-      "category": "FCC",
-      "pubDate": "Fri, 30 Oct 2026 22:54:33 -0400",
-      "selected": false
-    },
-    {
-      "title": "Nexstar Media Group Declares Quarterly Cash Dividend of $1.86 Per Share",
-      "link": "https://www.mediajobsreport.com/articles/nexstar-media-group-declares-quarterly-cash-dividend-of-1-86-per-share-5328",
-      "type": "News",
-      "category": "Financial",
-      "pubDate": "Fri, 30 Oct 2026 22:46:19 -0400",
-      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
@@ -174,14 +182,6 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Wed, 30 Sep 2026 09:00:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "Radio Sales Revenue Plan: Set Goals and Build Your Pipeline",
-      "link": "https://www.mediajobsreport.com/blog/radio-sales-revenue-plan-set-goals-and-build-your-pipeline",
-      "type": "Blog",
-      "category": "Sales",
-      "pubDate": "Tue, 29 Sep 2026 20:15:00 -0400",
       "selected": false
     },
     {
