@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 04 Nov 2026 17:01:35 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TEGNA Expands Tom Cury’s Role to Lead KVUE in Austin Alongside KENS",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 04 Nov 2026 16:53:31 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Who Are You in the Studio?",
@@ -30,7 +30,7 @@
       "type": "Event",
       "category": "Radio",
       "pubDate": "Wed, 04 Nov 2026 10:49:07 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sound Bites 2026: Massachusetts Broadcasters Association Annual Conference & Awards",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Wed, 04 Nov 2026 09:51:14 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Fred Jacobs to Step Back as Jacobs Media President; Paul Jacobs to Take Over",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Wed, 04 Nov 2026 09:20:58 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Wait Wait... Don’t Tell Me! Coming to Rhode Island",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Wed, 04 Nov 2026 09:15:23 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gunnar Tessmer Named WSAW Director of Sales",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Sales",
       "pubDate": "Wed, 04 Nov 2026 08:56:15 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Podscribe October 2026 Podcast Rankings: Spotify, Crime Junkie and Quince Lead",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Wed, 04 Nov 2026 08:45:31 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "10 Key Principles for Building a Successful Radio Station",
@@ -86,7 +86,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 03 Nov 2026 17:15:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Media Jobs Report Launches Two Alexa Skills for Daily Media Industry News",
@@ -94,7 +94,7 @@
       "type": "News",
       "category": "Announcements",
       "pubDate": "Tue, 03 Nov 2026 14:45:28 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Nikki Preston Joins Kiss 98.5 Buffalo Morning Show",
@@ -102,7 +102,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 03 Nov 2026 14:44:13 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Isn’t Dead…Far From It",
@@ -110,7 +110,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Tue, 03 Nov 2026 12:28:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",

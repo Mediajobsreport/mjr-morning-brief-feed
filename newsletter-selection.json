@@ -1,52 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-launches-two-alexa-skills-for-daily-media-industry-news-5344",
-    "https://www.mediajobsreport.com/articles/nikki-preston-joins-kiss-98-5-buffalo-morning-show",
-    "https://www.mediajobsreport.com/articles/lma-and-google-news-initiative-select-12-newsrooms-for-ai-growth-lab",
-    "https://www.mediajobsreport.com/articles/gray-media-promotes-jaime-eskridge-to-general-manager-of-wlfi",
-    "https://www.mediajobsreport.com/blog/10-key-principles-for-building-a-successful-radio-station",
-    "https://www.mediajobsreport.com/articles/adobe-premiere-mobile-adds-licensed-music-from-umg-and-wmg",
-    "https://www.mediajobsreport.com/articles/michael-courier-joins-wzzm-as-weekend-morning-anchor-and-weekday-morning-reporter",
-    "https://www.mediajobsreport.com/articles/nab-opens-2027-technology-awards-nominations-for-radio-tv-and-digital-innovation",
-    "https://www.mediajobsreport.com/blog/radio-isnt-dead-far-from-it"
+    "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over",
+    "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens",
+    "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future",
+    "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise",
+    "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead",
+    "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island",
+    "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales",
+    "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-launches-two-alexa-skills-for-daily-media-industry-news-5344"
+      "link": "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nikki-preston-joins-kiss-98-5-buffalo-morning-show"
+      "link": "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/lma-and-google-news-initiative-select-12-newsrooms-for-ai-growth-lab"
+      "link": "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gray-media-promotes-jaime-eskridge-to-general-manager-of-wlfi"
+      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/10-key-principles-for-building-a-successful-radio-station"
+      "link": "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/adobe-premiere-mobile-adds-licensed-music-from-umg-and-wmg"
+      "link": "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/michael-courier-joins-wzzm-as-weekend-morning-anchor-and-weekday-morning-reporter"
+      "link": "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nab-opens-2027-technology-awards-nominations-for-radio-tv-and-digital-innovation"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/radio-isnt-dead-far-from-it"
+      "link": "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas"
     }
   ]
 }
