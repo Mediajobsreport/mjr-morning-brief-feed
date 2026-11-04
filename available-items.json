@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "title": "2026 HBCU Radio Preservation Symposium: Preserving HBCU Radio, Preserving Our Future",
+      "link": "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future",
+      "type": "Event",
+      "category": "Radio",
+      "pubDate": "Wed, 04 Nov 2026 10:49:07 -0500",
+      "selected": false
+    },
+    {
+      "title": "Sound Bites 2026: Massachusetts Broadcasters Association Annual Conference & Awards",
+      "link": "https://www.mediajobsreport.com/events/sound-bites-2026-massachusetts-broadcasters-association-annual-conference-awards",
+      "type": "Event",
+      "category": "General Broadcast",
+      "pubDate": "Wed, 04 Nov 2026 10:21:26 -0500",
+      "selected": false
+    },
+    {
+      "title": "U.S. Job Openings Hold at 7.5 Million as Worker Quits Rise",
+      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise",
+      "type": "News",
+      "category": "Announcements",
+      "pubDate": "Wed, 04 Nov 2026 09:51:14 -0500",
+      "selected": false
+    },
+    {
+      "title": "Fred Jacobs to Step Back as Jacobs Media President; Paul Jacobs to Take Over",
+      "link": "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Wed, 04 Nov 2026 09:20:58 -0500",
+      "selected": false
+    },
+    {
+      "title": "Wait Wait... Don’t Tell Me! Coming to Rhode Island",
+      "link": "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island",
+      "type": "News",
+      "category": "Public Media",
+      "pubDate": "Wed, 04 Nov 2026 09:15:23 -0500",
+      "selected": false
+    },
+    {
+      "title": "Gunnar Tessmer Named WSAW Director of Sales",
+      "link": "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales",
+      "type": "News",
+      "category": "Sales",
+      "pubDate": "Wed, 04 Nov 2026 08:56:15 -0500",
+      "selected": false
+    },
+    {
+      "title": "Podscribe October 2026 Podcast Rankings: Spotify, Crime Junkie and Quince Lead",
+      "link": "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Wed, 04 Nov 2026 08:45:31 -0500",
+      "selected": false
+    },
+    {
       "title": "10 Key Principles for Building a Successful Radio Station",
       "link": "https://www.mediajobsreport.com/blog/10-key-principles-for-building-a-successful-radio-station",
       "type": "Blog",
@@ -47,46 +103,6 @@
       "category": "Programming",
       "pubDate": "Tue, 03 Nov 2026 12:28:00 -0500",
       "selected": true
-    },
-    {
-      "title": "Adobe Premiere Mobile Adds Licensed Music From UMG and WMG",
-      "link": "https://www.mediajobsreport.com/articles/adobe-premiere-mobile-adds-licensed-music-from-umg-and-wmg",
-      "type": "News",
-      "category": "Technical",
-      "pubDate": "Tue, 03 Nov 2026 12:03:21 -0500",
-      "selected": true
-    },
-    {
-      "title": "Michael Courier Joins WZZM as Weekend Morning Anchor and Weekday Morning Reporter.",
-      "link": "https://www.mediajobsreport.com/articles/michael-courier-joins-wzzm-as-weekend-morning-anchor-and-weekday-morning-reporter",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Tue, 03 Nov 2026 11:55:22 -0500",
-      "selected": true
-    },
-    {
-      "title": "NAB Opens 2027 Technology Awards Nominations for Radio, TV and Digital Innovation",
-      "link": "https://www.mediajobsreport.com/articles/nab-opens-2027-technology-awards-nominations-for-radio-tv-and-digital-innovation",
-      "type": "News",
-      "category": "Technical",
-      "pubDate": "Tue, 03 Nov 2026 11:18:17 -0500",
-      "selected": true
-    },
-    {
-      "title": "Longtime KET CEO Shae Hopkins Dies After 40 Years of Service to Public Broadcasting",
-      "link": "https://www.mediajobsreport.com/articles/longtime-ket-ceo-shae-hopkins-dies-after-40-years-of-service-to-public-broadcasting",
-      "type": "News",
-      "category": "Public Media",
-      "pubDate": "Mon, 02 Nov 2026 16:48:46 -0500",
-      "selected": false
-    },
-    {
-      "title": "Nexstar Media and Mission Broadcasting to Air 12 Texas High School Football Championships",
-      "link": "https://www.mediajobsreport.com/articles/nexstar-media-and-mission-broadcasting-to-air-12-texas-high-school-football-championships",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 02 Nov 2026 16:36:47 -0500",
-      "selected": false
     },
     {
       "title": "Winning Model: How to Build a Successful Radio Station",
