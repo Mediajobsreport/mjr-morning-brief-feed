@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "title": "Lady A to Host 2026 CMA Country Christmas",
+      "link": "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Wed, 04 Nov 2026 17:01:35 -0500",
+      "selected": false
+    },
+    {
+      "title": "TEGNA Expands Tom Cury’s Role to Lead KVUE in Austin Alongside KENS",
+      "link": "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Wed, 04 Nov 2026 16:53:31 -0500",
+      "selected": false
+    },
+    {
+      "title": "Who Are You in the Studio?",
+      "link": "https://www.mediajobsreport.com/blog/who-are-you-in-the-studio",
+      "type": "Blog",
+      "category": "",
+      "pubDate": "Wed, 04 Nov 2026 16:15:00 -0500",
+      "selected": false
+    },
+    {
       "title": "2026 HBCU Radio Preservation Symposium: Preserving HBCU Radio, Preserving Our Future",
       "link": "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future",
       "type": "Event",
@@ -78,22 +102,6 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 03 Nov 2026 14:44:13 -0500",
-      "selected": true
-    },
-    {
-      "title": "LMA and Google News Initiative Select 12 Newsrooms for AI Growth Lab",
-      "link": "https://www.mediajobsreport.com/articles/lma-and-google-news-initiative-select-12-newsrooms-for-ai-growth-lab",
-      "type": "News",
-      "category": "Journalism",
-      "pubDate": "Tue, 03 Nov 2026 14:23:44 -0500",
-      "selected": true
-    },
-    {
-      "title": "Gray Media Promotes Jaime Eskridge to General Manager of WLFI",
-      "link": "https://www.mediajobsreport.com/articles/gray-media-promotes-jaime-eskridge-to-general-manager-of-wlfi",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Tue, 03 Nov 2026 14:10:15 -0500",
       "selected": true
     },
     {
@@ -190,14 +198,6 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 04 Oct 2026 07:41:00 -0400",
-      "selected": false
-    },
-    {
-      "title": "The Listener Truth Project: What Radio Listeners Are Telling Us",
-      "link": "https://www.mediajobsreport.com/blog/the-listener-truth-project-what-radio-listeners-are-telling-us",
-      "type": "Blog",
-      "category": "Programming",
-      "pubDate": "Thu, 01 Oct 2026 06:00:00 -0400",
       "selected": false
     },
     {
