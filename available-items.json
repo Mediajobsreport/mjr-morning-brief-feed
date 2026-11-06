@@ -1,36 +1,76 @@
 {
   "items": [
     {
-      "title": "Gray Media's 3rd Quarter 2026 Earnings Call - November 6th at 11:00 a.m. ET",
-      "link": "https://www.mediajobsreport.com/articles/gray-medias-3rd-quarter-2026-earnings-call-november-6th-at-11-00-a-m-et",
+      "title": "USA TODAY Co., Inc. Earnings Release dated November 5, 2026",
+      "link": "https://www.mediajobsreport.com/articles/usa-today-co-inc-earnings-release-dated-november-5-2026",
       "type": "News",
-      "category": "Financial",
-      "pubDate": "Thu, 05 Nov 2026 15:00:43 -0500",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:50 -0500",
       "selected": false
     },
     {
-      "title": "Nexstar Media Group To Report 2026 Third Quarter Financial Results, Host Conference Call and Webcast on November 5",
-      "link": "https://www.mediajobsreport.com/articles/nexstar-media-group-to-report-2026-third-quarter-financial-results-host-conference-call-and-webcast-on-november-5",
+      "title": "Nexstar Media Group Reports Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/nexstar-media-group-reports-financial-results",
       "type": "News",
-      "category": "Financial",
-      "pubDate": "Thu, 05 Nov 2026 15:00:42 -0500",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:49 -0500",
       "selected": false
     },
     {
-      "title": "Lady A to Host 2026 CMA Country Christmas",
-      "link": "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas",
+      "title": "Q2 FY2026 Consolidated Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/q2-fy2026-consolidated-financial-results",
       "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 04 Nov 2026 17:01:35 -0500",
-      "selected": true
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:49 -0500",
+      "selected": false
     },
     {
-      "title": "TEGNA Expands Tom Cury’s Role to Lead KVUE in Austin Alongside KENS",
-      "link": "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens",
+      "title": "Holding of financial results briefing",
+      "link": "https://www.mediajobsreport.com/articles/holding-of-financial-results-briefing",
       "type": "News",
-      "category": "Television",
-      "pubDate": "Wed, 04 Nov 2026 16:53:31 -0500",
-      "selected": true
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:49 -0500",
+      "selected": false
+    },
+    {
+      "title": "Sinclair Reports Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/sinclair-reports-financial-results",
+      "type": "News",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:48 -0500",
+      "selected": false
+    },
+    {
+      "title": "The New York Times Company Reports Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/the-new-york-times-company-reports-financial-results",
+      "type": "News",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:48 -0500",
+      "selected": false
+    },
+    {
+      "title": "this Current Report on Form 8-K and is incorporated herein by reference.",
+      "link": "https://www.mediajobsreport.com/articles/this-current-report-on-form-8-k-and-is-incorporated-herein-by-reference",
+      "type": "News",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:47 -0500",
+      "selected": false
+    },
+    {
+      "title": "Roku Reports Financial Results",
+      "link": "https://www.mediajobsreport.com/articles/roku-reports-financial-results",
+      "type": "News",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:46 -0500",
+      "selected": false
+    },
+    {
+      "title": "Press release issued by News Corporation, dated November 4, 2026, announcing News Corporation’s financial results for the quarter ended September 30, 2026.",
+      "link": "https://www.mediajobsreport.com/articles/press-release-issued-by-news-corporation-dated-november-4-2026-announcing-news-corporations-financial-results-for-the-quarter-ended-september-30-2026",
+      "type": "News",
+      "category": "",
+      "pubDate": "Thu, 05 Nov 2026 15:50:46 -0500",
+      "selected": false
     },
     {
       "title": "Who Are You in the Studio?",
@@ -55,46 +95,6 @@
       "category": "General Broadcast",
       "pubDate": "Wed, 04 Nov 2026 10:21:26 -0500",
       "selected": false
-    },
-    {
-      "title": "U.S. Job Openings Hold at 7.5 Million as Worker Quits Rise",
-      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise",
-      "type": "News",
-      "category": "Announcements",
-      "pubDate": "Wed, 04 Nov 2026 09:51:14 -0500",
-      "selected": true
-    },
-    {
-      "title": "Fred Jacobs to Step Back as Jacobs Media President; Paul Jacobs to Take Over",
-      "link": "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Wed, 04 Nov 2026 09:20:58 -0500",
-      "selected": true
-    },
-    {
-      "title": "Wait Wait... Don’t Tell Me! Coming to Rhode Island",
-      "link": "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island",
-      "type": "News",
-      "category": "Public Media",
-      "pubDate": "Wed, 04 Nov 2026 09:15:23 -0500",
-      "selected": true
-    },
-    {
-      "title": "Gunnar Tessmer Named WSAW Director of Sales",
-      "link": "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales",
-      "type": "News",
-      "category": "Sales",
-      "pubDate": "Wed, 04 Nov 2026 08:56:15 -0500",
-      "selected": true
-    },
-    {
-      "title": "Podscribe October 2026 Podcast Rankings: Spotify, Crime Junkie and Quince Lead",
-      "link": "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Wed, 04 Nov 2026 08:45:31 -0500",
-      "selected": true
     },
     {
       "title": "10 Key Principles for Building a Successful Radio Station",
