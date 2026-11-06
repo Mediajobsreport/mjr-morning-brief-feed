@@ -1,35 +1,11 @@
 {
   "items": [
     {
-      "title": "Date of Report (Date of earliest event reported): November 5, 2026",
-      "link": "https://www.mediajobsreport.com/articles/date-of-report-date-of-earliest-event-reported-november-5-2026",
+      "title": "Missouri School of Journalism Names Laiba Khan Zai 35th David Kaplan Memorial Fellow",
+      "link": "https://www.mediajobsreport.com/articles/missouri-school-of-journalism-names-laiba-khan-zai-35th-david-kaplan-memorial-fellow",
       "type": "News",
-      "category": "",
-      "pubDate": "Fri, 06 Nov 2026 01:44:51 -0500",
-      "selected": false
-    },
-    {
-      "title": "Date of Report (Date of earliest event reported): November 03, 2026",
-      "link": "https://www.mediajobsreport.com/articles/date-of-report-date-of-earliest-event-reported-november-03-2026",
-      "type": "News",
-      "category": "",
-      "pubDate": "Fri, 06 Nov 2026 01:44:50 -0500",
-      "selected": false
-    },
-    {
-      "title": "Fiscal Full Year and Fourth Quarter 2026 Earnings Webcast",
-      "link": "https://www.mediajobsreport.com/articles/fiscal-full-year-and-fourth-quarter-2026-earnings-webcast",
-      "type": "News",
-      "category": "",
-      "pubDate": "Fri, 06 Nov 2026 01:44:39 -0500",
-      "selected": false
-    },
-    {
-      "title": "Third Quarter 2026 Financial Results",
-      "link": "https://www.mediajobsreport.com/articles/third-quarter-2026-financial-results",
-      "type": "News",
-      "category": "",
-      "pubDate": "Fri, 06 Nov 2026 01:44:38 -0500",
+      "category": "Education",
+      "pubDate": "Fri, 06 Nov 2026 09:45:43 -0500",
       "selected": false
     },
     {
@@ -71,6 +47,30 @@
       "category": "Radio",
       "pubDate": "Thu, 05 Nov 2026 20:40:15 -0500",
       "selected": true
+    },
+    {
+      "title": "Telemundo 49 Tampa Adds Two Multimedia Journalists",
+      "link": "https://www.mediajobsreport.com/articles/telemundo-49-tampa-adds-two-multimedia-journalists",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Thu, 05 Nov 2026 20:29:27 -0500",
+      "selected": true
+    },
+    {
+      "title": "Lady A to Host 2026 CMA Country Christmas",
+      "link": "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Wed, 04 Nov 2026 17:01:35 -0500",
+      "selected": false
+    },
+    {
+      "title": "TEGNA Expands Tom Cury’s Role to Lead KVUE in Austin Alongside KENS",
+      "link": "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Wed, 04 Nov 2026 16:53:31 -0500",
+      "selected": false
     },
     {
       "title": "Who Are You in the Studio?",
