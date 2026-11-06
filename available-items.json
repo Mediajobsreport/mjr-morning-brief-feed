@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 05 Nov 2026 21:09:31 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sinclair Q3 2026 Revenue Rises 16% as Political Advertising Hits $136 Million",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Thu, 05 Nov 2026 21:02:16 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nexstar Media Group Reports Record $2.1 Billion in Third Quarter Revenue",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Thu, 05 Nov 2026 20:55:25 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Reveals First Performers for 60th Annual CMA Awards",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Thu, 05 Nov 2026 20:50:38 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "KHCB Media Group Names Vance Frusher Senior Director of Development",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 05 Nov 2026 20:40:15 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Telemundo 49 Tampa Adds Two Multimedia Journalists",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 05 Nov 2026 20:29:27 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "USA TODAY Co., Inc. Earnings Release dated November 5, 2026",
@@ -86,7 +86,7 @@
       "type": "Event",
       "category": "Radio",
       "pubDate": "Wed, 04 Nov 2026 10:49:07 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Sound Bites 2026: Massachusetts Broadcasters Association Annual Conference & Awards",

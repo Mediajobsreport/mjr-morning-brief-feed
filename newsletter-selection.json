@@ -1,47 +1,37 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over",
-    "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens",
-    "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future",
-    "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise",
-    "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead",
-    "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island",
-    "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales",
-    "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas"
+    "https://www.mediajobsreport.com/articles/dede-in-the-morning-joins-nashvilles-92q",
+    "https://www.mediajobsreport.com/articles/nexstar-media-group-reports-record-2-1-billion-in-third-quarter-revenue",
+    "https://www.mediajobsreport.com/articles/khcb-media-group-names-vance-frusher-senior-director-of-development",
+    "https://www.mediajobsreport.com/articles/telemundo-49-tampa-adds-two-multimedia-journalists",
+    "https://www.mediajobsreport.com/articles/cma-reveals-first-performers-for-60th-annual-cma-awards",
+    "https://www.mediajobsreport.com/articles/sinclair-q3-2026-revenue-rises-16-as-political-advertising-hits-136-million"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fred-jacobs-to-step-back-as-jacobs-media-president-paul-jacobs-to-take-over"
+      "link": "https://www.mediajobsreport.com/articles/dede-in-the-morning-joins-nashvilles-92q"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-expands-tom-curys-role-to-lead-kvue-in-austin-alongside-kens"
+      "link": "https://www.mediajobsreport.com/articles/nexstar-media-group-reports-record-2-1-billion-in-third-quarter-revenue"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/events/2026-hbcu-radio-preservation-symposium-preserving-hbcu-radio-preserving-our-future"
+      "link": "https://www.mediajobsreport.com/articles/khcb-media-group-names-vance-frusher-senior-director-of-development"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/u-s-job-openings-hold-at-7-5-million-as-worker-quits-rise"
+      "link": "https://www.mediajobsreport.com/articles/telemundo-49-tampa-adds-two-multimedia-journalists"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/podscribe-october-2026-podcast-rankings-spotify-crime-junkie-and-quince-lead"
+      "link": "https://www.mediajobsreport.com/articles/cma-reveals-first-performers-for-60th-annual-cma-awards"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/wait-wait-dont-tell-me-coming-to-rhode-island"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/gunnar-tessmer-named-wsaw-director-of-sales"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/lady-a-to-host-2026-cma-country-christmas"
+      "link": "https://www.mediajobsreport.com/articles/sinclair-q3-2026-revenue-rises-16-as-political-advertising-hits-136-million"
     }
   ]
 }
