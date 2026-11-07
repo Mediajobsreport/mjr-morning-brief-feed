@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Fri, 06 Nov 2026 20:39:16 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CRTC Launches Free Database to Help Radio Stations Identify Canadian Music",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Fri, 06 Nov 2026 20:25:53 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TelevisaUnivision Reveals Sponsors for 2026 Latin GRAMMY Awards",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Fri, 06 Nov 2026 14:59:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Fox Completes Roku Acquisition",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Management",
       "pubDate": "Fri, 06 Nov 2026 14:47:39 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Independent Podcast Awards Announce 2026 Winners",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Fri, 06 Nov 2026 14:19:44 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nielsen: 31.2 Million Watch 2026 Midterm Elections",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Fri, 06 Nov 2026 14:14:45 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Extends FM Translator Filing Deadline to Nov. 23",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Fri, 06 Nov 2026 14:05:59 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "News Corp Q1 Revenue Rises 6% to $2.3 Billion as EBITDA Grows 19%",
