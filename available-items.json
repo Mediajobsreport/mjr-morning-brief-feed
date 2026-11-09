@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Mon, 09 Nov 2026 17:56:49 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "iHeartMedia Q3 Revenue Tops $1 Billion as Podcast Revenue Jumps 24%",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Mon, 09 Nov 2026 17:46:38 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Chairman Carr Names Will Holloway Legal Advisor",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Mon, 09 Nov 2026 17:38:48 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Buzzsprout Launches $1 Podcast Starter Kit for New Podcasters",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Mon, 09 Nov 2026 17:30:14 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Dave & Chuck the Freak Expand to Grand Rapids on WLAV-FM",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 09 Nov 2026 17:21:47 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gray Media Appoints Richard Haddox GM of WLIO and WOHL in Lima, Ohio",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 09 Nov 2026 16:50:01 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Cumulus Z93 Raises $127,950 for American Cancer Society",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Mon, 09 Nov 2026 15:05:23 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Broadcasters Urged to Update EAS Equipment Ahead of November 17 Nationwide Test",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Mon, 09 Nov 2026 14:43:10 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Media Jobs Report Welcomes Studiio as a New Pro Member",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Fri, 06 Nov 2026 20:39:16 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Who Are You in the Studio?",

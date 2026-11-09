@@ -1,42 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/media-jobs-report-welcomes-studiio-as-a-new-pro-member-5409",
-    "https://www.mediajobsreport.com/articles/nielsen-31-2-million-watch-2026-midterm-elections",
-    "https://www.mediajobsreport.com/articles/crtc-launches-free-database-to-help-radio-stations-identify-canadian-music",
-    "https://www.mediajobsreport.com/articles/fox-completes-roku-acquisition",
-    "https://www.mediajobsreport.com/articles/independent-podcast-awards-announce-2026-winners",
-    "https://www.mediajobsreport.com/articles/televisaunivision-reveals-sponsors-for-2026-latin-grammy-awards",
-    "https://www.mediajobsreport.com/articles/fcc-extends-fm-translator-filing-deadline-to-nov-23"
+    "https://www.mediajobsreport.com/articles/broadcasters-urged-to-update-eas-equipment-ahead-of-november-17-nationwide-test",
+    "https://www.mediajobsreport.com/articles/gray-media-appoints-richard-haddox-gm-of-wlio-and-wohl-in-lima-ohio",
+    "https://www.mediajobsreport.com/articles/iheartmedia-q3-revenue-tops-1-billion-as-podcast-revenue-jumps-24",
+    "https://www.mediajobsreport.com/articles/buzzsprout-launches-1-podcast-starter-kit-for-new-podcasters",
+    "https://www.mediajobsreport.com/articles/dave-chuck-the-freak-expand-to-grand-rapids-on-wlav-fm",
+    "https://www.mediajobsreport.com/articles/fcc-chairman-carr-names-will-holloway-legal-advisor",
+    "https://www.mediajobsreport.com/articles/cumulus-z93-raises-127-950-for-american-cancer-society",
+    "https://www.mediajobsreport.com/articles/paramount-skydance-q3-2026-revenue-hits-7-billion-streaming-up-21"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/media-jobs-report-welcomes-studiio-as-a-new-pro-member-5409"
+      "link": "https://www.mediajobsreport.com/articles/broadcasters-urged-to-update-eas-equipment-ahead-of-november-17-nationwide-test"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-31-2-million-watch-2026-midterm-elections"
+      "link": "https://www.mediajobsreport.com/articles/gray-media-appoints-richard-haddox-gm-of-wlio-and-wohl-in-lima-ohio"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/crtc-launches-free-database-to-help-radio-stations-identify-canadian-music"
+      "link": "https://www.mediajobsreport.com/articles/iheartmedia-q3-revenue-tops-1-billion-as-podcast-revenue-jumps-24"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fox-completes-roku-acquisition"
+      "link": "https://www.mediajobsreport.com/articles/buzzsprout-launches-1-podcast-starter-kit-for-new-podcasters"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/independent-podcast-awards-announce-2026-winners"
+      "link": "https://www.mediajobsreport.com/articles/dave-chuck-the-freak-expand-to-grand-rapids-on-wlav-fm"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/televisaunivision-reveals-sponsors-for-2026-latin-grammy-awards"
+      "link": "https://www.mediajobsreport.com/articles/fcc-chairman-carr-names-will-holloway-legal-advisor"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-extends-fm-translator-filing-deadline-to-nov-23"
+      "link": "https://www.mediajobsreport.com/articles/cumulus-z93-raises-127-950-for-american-cancer-society"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/paramount-skydance-q3-2026-revenue-hits-7-billion-streaming-up-21"
     }
   ]
 }
