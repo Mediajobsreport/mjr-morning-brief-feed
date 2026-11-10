@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 10 Nov 2026 15:16:31 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "93Q Raises Nearly $10,500 for Breast Cancer Fight in Central New York",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Tue, 10 Nov 2026 14:59:19 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gwyneth Paltrow Launches The goop Guide Podcast on Spotify and Netflix",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Tue, 10 Nov 2026 12:45:28 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "SiriusXM Names Anjali Sud CEO, Succeeding Jennifer Witz",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 10 Nov 2026 12:27:50 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Performance Digital Discusses AI and Marketing at Midland University",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 10 Nov 2026 11:53:18 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "MIW Opens Applications for 3rd Annual Erica Farber Management Mentorship",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "",
       "pubDate": "Tue, 10 Nov 2026 09:20:39 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Urban One Reports $119.2 Million Q3 Loss as Revenue Falls 5%",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 10 Nov 2026 09:12:26 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Announces More Performers for 2026 CMA Awards, Including Luke Combs, Chris Stapleton and Lainey Wilson",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Tue, 10 Nov 2026 09:09:12 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Paramount Skydance Q3 2026 Revenue Hits $7 Billion, Streaming Up 21%",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Mon, 09 Nov 2026 17:56:49 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Who Are You in the Studio?",
