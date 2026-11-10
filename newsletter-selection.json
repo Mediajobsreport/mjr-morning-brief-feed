@@ -1,16 +1,21 @@
 {
   "selected": [
+    "https://www.mediajobsreport.com/blog/top-10-radio-industry-resolutions-for-2027",
     "https://www.mediajobsreport.com/articles/siriusxm-names-anjali-sud-ceo-succeeding-jennifer-witz",
     "https://www.mediajobsreport.com/articles/urban-one-reports-119-2-million-q3-loss-as-revenue-falls-5",
     "https://www.mediajobsreport.com/articles/carson-daly-named-co-anchor-of-nbcs-saturday-today",
-    "https://www.mediajobsreport.com/articles/miw-opens-applications-for-3rd-annual-erica-farber-management-mentorship",
-    "https://www.mediajobsreport.com/articles/gwyneth-paltrow-launches-the-goop-guide-podcast-on-spotify-and-netflix",
     "https://www.mediajobsreport.com/articles/93q-raises-nearly-10-500-for-breast-cancer-fight-in-central-new-york",
+    "https://www.mediajobsreport.com/articles/gwyneth-paltrow-launches-the-goop-guide-podcast-on-spotify-and-netflix",
+    "https://www.mediajobsreport.com/articles/miw-opens-applications-for-3rd-annual-erica-farber-management-mentorship",
     "https://www.mediajobsreport.com/articles/performance-digital-discusses-ai-and-marketing-at-midland-university",
     "https://www.mediajobsreport.com/articles/cma-announces-more-performers-for-2026-cma-awards-including-luke-combs-chris-stapleton-and-lainey-wilson"
   ],
   "custom": [],
   "order": [
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/top-10-radio-industry-resolutions-for-2027"
+    },
     {
       "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/siriusxm-names-anjali-sud-ceo-succeeding-jennifer-witz"
@@ -25,7 +30,7 @@
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/miw-opens-applications-for-3rd-annual-erica-farber-management-mentorship"
+      "link": "https://www.mediajobsreport.com/articles/93q-raises-nearly-10-500-for-breast-cancer-fight-in-central-new-york"
     },
     {
       "kind": "story",
@@ -33,7 +38,7 @@
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/93q-raises-nearly-10-500-for-breast-cancer-fight-in-central-new-york"
+      "link": "https://www.mediajobsreport.com/articles/miw-opens-applications-for-3rd-annual-erica-farber-management-mentorship"
     },
     {
       "kind": "story",
