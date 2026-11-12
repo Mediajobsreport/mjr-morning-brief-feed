@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "title": "Audacy Names Zach Gelb Brand Manager of 104.3 WQAM",
+      "link": "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Thu, 12 Nov 2026 13:58:06 -0500",
+      "selected": false
+    },
+    {
+      "title": "TEGNA Promotes Ryan Drake, Tony Motta and Angela New to GM Roles",
+      "link": "https://www.mediajobsreport.com/articles/tegna-promotes-ryan-drake-tony-motta-and-angela-new-to-gm-roles",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Thu, 12 Nov 2026 13:45:06 -0500",
+      "selected": false
+    },
+    {
+      "title": "ACA Connects Elects Melanie Hannasch to Board of Directors",
+      "link": "https://www.mediajobsreport.com/articles/aca-connects-elects-melanie-hannasch-to-board-of-directors",
+      "type": "News",
+      "category": "Management",
+      "pubDate": "Thu, 12 Nov 2026 13:38:58 -0500",
+      "selected": false
+    },
+    {
+      "title": "USA TODAY Names Ryan J. Rusak Opinion Editor",
+      "link": "https://www.mediajobsreport.com/articles/usa-today-names-ryan-j-rusak-opinion-editor",
+      "type": "News",
+      "category": "Journalism",
+      "pubDate": "Thu, 12 Nov 2026 13:33:37 -0500",
+      "selected": false
+    },
+    {
       "title": "Techsurvey 2027",
       "link": "https://www.mediajobsreport.com/events/techsurvey-2027",
       "type": "Event",
@@ -47,38 +79,6 @@
       "category": "FCC",
       "pubDate": "Thu, 12 Nov 2026 09:40:47 -0500",
       "selected": false
-    },
-    {
-      "title": "Stingray Revenue Jumps 51% as TuneIn, FAST Channels Drive Growth",
-      "link": "https://www.mediajobsreport.com/articles/stingray-revenue-jumps-51-as-tunein-fast-channels-drive-growth",
-      "type": "News",
-      "category": "Financial",
-      "pubDate": "Wed, 11 Nov 2026 18:52:32 -0500",
-      "selected": true
-    },
-    {
-      "title": "Christina Hartman Named Scripps Chief Technology Officer",
-      "link": "https://www.mediajobsreport.com/articles/christina-hartman-named-scripps-chief-technology-officer",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Wed, 11 Nov 2026 18:42:22 -0500",
-      "selected": true
-    },
-    {
-      "title": "98.1 The Max Raises Record $1.14M for Ronald McDonald House",
-      "link": "https://www.mediajobsreport.com/articles/98-1-the-max-raises-record-1-14m-for-ronald-mcdonald-house",
-      "type": "News",
-      "category": "Community Service",
-      "pubDate": "Wed, 11 Nov 2026 18:39:52 -0500",
-      "selected": true
-    },
-    {
-      "title": "Big Boi and His Sons Launch ‘Bloodlines & Basslines’ Podcast With iHeart",
-      "link": "https://www.mediajobsreport.com/articles/big-boi-and-his-sons-launch-bloodlines-basslines-podcast-with-iheart",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Wed, 11 Nov 2026 14:55:49 -0500",
-      "selected": true
     },
     {
       "title": "Leading From the Backseat: Influence Without the Title",
