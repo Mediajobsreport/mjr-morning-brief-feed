@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Wed, 11 Nov 2026 18:52:32 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Christina Hartman Named Scripps Chief Technology Officer",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 11 Nov 2026 18:42:22 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "98.1 The Max Raises Record $1.14M for Ronald McDonald House",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Wed, 11 Nov 2026 18:39:52 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Big Boi and His Sons Launch ‘Bloodlines & Basslines’ Podcast With iHeart",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Wed, 11 Nov 2026 14:55:49 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Abby Miller Named Borchetta Entertainment Group Head of Artist Development",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 11 Nov 2026 14:48:51 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Jennifer Lopez’s ‘The JLO Show’ to Premiere Thanksgiving on CBS, Paramount+",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 11 Nov 2026 14:42:30 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sarah van Mosel Named NHPR Chief Growth Officer",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Wed, 11 Nov 2026 13:58:30 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NPR Board Welcomes Nine New and Returning Directors",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Wed, 11 Nov 2026 12:51:05 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Leading From the Backseat: Influence Without the Title",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Tue, 10 Nov 2026 15:45:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Carson Daly Named Co-Anchor of NBC’s ‘Saturday TODAY’",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 10 Nov 2026 15:16:31 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Who Are You in the Studio?",
