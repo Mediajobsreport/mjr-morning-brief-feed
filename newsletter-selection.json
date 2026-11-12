@@ -1,47 +1,62 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/stingray-revenue-jumps-51-as-tunein-fast-channels-drive-growth",
-    "https://www.mediajobsreport.com/articles/npr-board-welcomes-nine-new-and-returning-directors",
-    "https://www.mediajobsreport.com/articles/jennifer-lopezs-the-jlo-show-to-premiere-thanksgiving-on-cbs-paramount",
-    "https://www.mediajobsreport.com/articles/98-1-the-max-raises-record-1-14m-for-ronald-mcdonald-house",
-    "https://www.mediajobsreport.com/articles/christina-hartman-named-scripps-chief-technology-officer",
-    "https://www.mediajobsreport.com/articles/big-boi-and-his-sons-launch-bloodlines-basslines-podcast-with-iheart",
-    "https://www.mediajobsreport.com/articles/abby-miller-named-borchetta-entertainment-group-head-of-artist-development",
-    "https://www.mediajobsreport.com/articles/sarah-van-mosel-named-nhpr-chief-growth-officer"
+    "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences",
+    "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam",
+    "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114",
+    "https://www.mediajobsreport.com/articles/tegna-promotes-ryan-drake-tony-motta-and-angela-new-to-gm-roles",
+    "https://www.mediajobsreport.com/events/techsurvey-2027",
+    "https://www.mediajobsreport.com/articles/aca-connects-elects-melanie-hannasch-to-board-of-directors",
+    "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best",
+    "https://www.mediajobsreport.com/articles/usa-today-names-ryan-j-rusak-opinion-editor",
+    "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast",
+    "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services",
+    "https://www.mediajobsreport.com/blog/leading-from-the-backseat-influence-without-the-title"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/stingray-revenue-jumps-51-as-tunein-fast-channels-drive-growth"
+      "link": "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/npr-board-welcomes-nine-new-and-returning-directors"
+      "link": "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jennifer-lopezs-the-jlo-show-to-premiere-thanksgiving-on-cbs-paramount"
+      "link": "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/98-1-the-max-raises-record-1-14m-for-ronald-mcdonald-house"
+      "link": "https://www.mediajobsreport.com/articles/tegna-promotes-ryan-drake-tony-motta-and-angela-new-to-gm-roles"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/christina-hartman-named-scripps-chief-technology-officer"
+      "link": "https://www.mediajobsreport.com/events/techsurvey-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/big-boi-and-his-sons-launch-bloodlines-basslines-podcast-with-iheart"
+      "link": "https://www.mediajobsreport.com/articles/aca-connects-elects-melanie-hannasch-to-board-of-directors"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/abby-miller-named-borchetta-entertainment-group-head-of-artist-development"
+      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/sarah-van-mosel-named-nhpr-chief-growth-officer"
+      "link": "https://www.mediajobsreport.com/articles/usa-today-names-ryan-j-rusak-opinion-editor"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/leading-from-the-backseat-influence-without-the-title"
     }
   ]
 }
