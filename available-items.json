@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "Techsurvey 2027",
+      "link": "https://www.mediajobsreport.com/events/techsurvey-2027",
+      "type": "Event",
+      "category": "Radio",
+      "pubDate": "Thu, 12 Nov 2026 10:29:32 -0500",
+      "selected": false
+    },
+    {
+      "title": "Edison Research Reveals Where Audio Platforms Perform Best",
+      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Thu, 12 Nov 2026 10:14:23 -0500",
+      "selected": false
+    },
+    {
+      "title": "Nielsen 2026 Marketing Report Finds Rising Budget Concerns as Advertisers Face Fragmented Audiences",
+      "link": "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Thu, 12 Nov 2026 10:09:26 -0500",
+      "selected": false
+    },
+    {
+      "title": "Charlie Sheen Launches ‘Mostly Sheenius’ Podcast",
+      "link": "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Thu, 12 Nov 2026 09:53:48 -0500",
+      "selected": false
+    },
+    {
+      "title": "Streaming Viewers Increasingly Want One Guide Across Services",
+      "link": "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services",
+      "type": "News",
+      "category": "Digital",
+      "pubDate": "Thu, 12 Nov 2026 09:45:15 -0500",
+      "selected": false
+    },
+    {
+      "title": "FCC Reviews 60 Applications for 132 FM Construction Permits in Auction 114",
+      "link": "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114",
+      "type": "News",
+      "category": "FCC",
+      "pubDate": "Thu, 12 Nov 2026 09:40:47 -0500",
+      "selected": false
+    },
+    {
       "title": "Stingray Revenue Jumps 51% as TuneIn, FAST Channels Drive Growth",
       "link": "https://www.mediajobsreport.com/articles/stingray-revenue-jumps-51-as-tunein-fast-channels-drive-growth",
       "type": "News",
@@ -33,38 +81,6 @@
       "selected": true
     },
     {
-      "title": "Abby Miller Named Borchetta Entertainment Group Head of Artist Development",
-      "link": "https://www.mediajobsreport.com/articles/abby-miller-named-borchetta-entertainment-group-head-of-artist-development",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 11 Nov 2026 14:48:51 -0500",
-      "selected": true
-    },
-    {
-      "title": "Jennifer Lopez’s ‘The JLO Show’ to Premiere Thanksgiving on CBS, Paramount+",
-      "link": "https://www.mediajobsreport.com/articles/jennifer-lopezs-the-jlo-show-to-premiere-thanksgiving-on-cbs-paramount",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Wed, 11 Nov 2026 14:42:30 -0500",
-      "selected": true
-    },
-    {
-      "title": "Sarah van Mosel Named NHPR Chief Growth Officer",
-      "link": "https://www.mediajobsreport.com/articles/sarah-van-mosel-named-nhpr-chief-growth-officer",
-      "type": "News",
-      "category": "Public Media",
-      "pubDate": "Wed, 11 Nov 2026 13:58:30 -0500",
-      "selected": true
-    },
-    {
-      "title": "NPR Board Welcomes Nine New and Returning Directors",
-      "link": "https://www.mediajobsreport.com/articles/npr-board-welcomes-nine-new-and-returning-directors",
-      "type": "News",
-      "category": "Public Media",
-      "pubDate": "Wed, 11 Nov 2026 12:51:05 -0500",
-      "selected": true
-    },
-    {
       "title": "Leading From the Backseat: Influence Without the Title",
       "link": "https://www.mediajobsreport.com/blog/leading-from-the-backseat-influence-without-the-title",
       "type": "Blog",
@@ -78,14 +94,6 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Tue, 10 Nov 2026 15:45:00 -0500",
-      "selected": false
-    },
-    {
-      "title": "Carson Daly Named Co-Anchor of NBC’s ‘Saturday TODAY’",
-      "link": "https://www.mediajobsreport.com/articles/carson-daly-named-co-anchor-of-nbcs-saturday-today",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Tue, 10 Nov 2026 15:16:31 -0500",
       "selected": false
     },
     {
