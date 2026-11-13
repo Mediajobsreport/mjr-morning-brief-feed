@@ -1,6 +1,46 @@
 {
   "items": [
     {
+      "title": "NBC Celebrates 100 Years of Broadcasting American History",
+      "link": "https://www.mediajobsreport.com/articles/nbc-celebrates-100-years-of-broadcasting-american-history",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 13 Nov 2026 10:37:50 -0500",
+      "selected": false
+    },
+    {
+      "title": "Cumulus Charleston Stations Host 27th Annual Thanksgiving Giveaway",
+      "link": "https://www.mediajobsreport.com/articles/cumulus-charleston-stations-host-27th-annual-thanksgiving-giveaway",
+      "type": "News",
+      "category": "Community Service",
+      "pubDate": "Fri, 13 Nov 2026 10:24:25 -0500",
+      "selected": false
+    },
+    {
+      "title": "The CW’s 2026 NASCAR O’Reilly Auto Parts Series Posts Best Viewership in Five Years",
+      "link": "https://www.mediajobsreport.com/articles/the-cws-2026-nascar-oreilly-auto-parts-series-posts-best-viewership-in-five-years",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 13 Nov 2026 10:01:05 -0500",
+      "selected": false
+    },
+    {
+      "title": "Audacy Launches ‘Double Down on Cheer’ Podcast With Tiki Barber and Traci Johnson",
+      "link": "https://www.mediajobsreport.com/articles/audacy-launches-double-down-on-cheer-podcast-with-tiki-barber-and-traci-johnson",
+      "type": "News",
+      "category": "Podcasting",
+      "pubDate": "Fri, 13 Nov 2026 09:57:40 -0500",
+      "selected": false
+    },
+    {
+      "title": "Taylor Swift to Perform at 60th Annual CMA Awards",
+      "link": "https://www.mediajobsreport.com/articles/taylor-swift-to-perform-at-60th-annual-cma-awards",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Fri, 13 Nov 2026 09:52:00 -0500",
+      "selected": false
+    },
+    {
       "title": "Audacy Names Zach Gelb Brand Manager of 104.3 WQAM",
       "link": "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam",
       "type": "News",
@@ -38,46 +78,6 @@
       "type": "Event",
       "category": "Radio",
       "pubDate": "Thu, 12 Nov 2026 10:29:32 -0500",
-      "selected": true
-    },
-    {
-      "title": "Edison Research Reveals Where Audio Platforms Perform Best",
-      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Thu, 12 Nov 2026 10:14:23 -0500",
-      "selected": true
-    },
-    {
-      "title": "Nielsen 2026 Marketing Report Finds Rising Budget Concerns as Advertisers Face Fragmented Audiences",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Thu, 12 Nov 2026 10:09:26 -0500",
-      "selected": true
-    },
-    {
-      "title": "Charlie Sheen Launches ‘Mostly Sheenius’ Podcast",
-      "link": "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Thu, 12 Nov 2026 09:53:48 -0500",
-      "selected": true
-    },
-    {
-      "title": "Streaming Viewers Increasingly Want One Guide Across Services",
-      "link": "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services",
-      "type": "News",
-      "category": "Digital",
-      "pubDate": "Thu, 12 Nov 2026 09:45:15 -0500",
-      "selected": true
-    },
-    {
-      "title": "FCC Reviews 60 Applications for 132 FM Construction Permits in Auction 114",
-      "link": "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114",
-      "type": "News",
-      "category": "FCC",
-      "pubDate": "Thu, 12 Nov 2026 09:40:47 -0500",
       "selected": true
     },
     {
