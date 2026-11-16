@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 16 Nov 2026 14:54:24 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Keith Urban Announces SiriusXM and Pandora Holiday Concert in NYC",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 16 Nov 2026 14:49:37 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "2027 Grammy Nominations: RAYE Leads With 11 Nods",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Mon, 16 Nov 2026 14:32:28 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Shery Ahn Joins CNN en Español as Anchor and Correspondent",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 16 Nov 2026 14:00:27 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Macy’s Thanksgiving Day Parade Celebrates 100th March With Star-Studded Lineup",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 16 Nov 2026 13:54:46 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "WPLR’s Chaz & AJ and WFSB’s Scot Haney Get Boxed In for Annual Toy Drive",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Mon, 16 Nov 2026 13:36:58 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "City Cast Names Andi McDaniel CEO, Succeeding David Plotz",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Mon, 16 Nov 2026 13:26:30 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "“Big Jim” O’Brien Takes Over Afternoons at 104.3 WOMC in Detroit",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 16 Nov 2026 13:12:45 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "It is Not a Have To. It Is a Choice. And It Is All Yours.",
@@ -78,7 +78,7 @@
       "type": "Blog",
       "category": "Sales",
       "pubDate": "Sun, 15 Nov 2026 07:28:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Bit Ideas That Get Listeners Talking",
@@ -86,7 +86,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Sat, 14 Nov 2026 10:15:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Leading From the Backseat: Influence Without the Title",
@@ -110,7 +110,7 @@
       "type": "Blog",
       "category": "",
       "pubDate": "Wed, 04 Nov 2026 16:15:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sound Bites 2026: Massachusetts Broadcasters Association Annual Conference & Awards",
