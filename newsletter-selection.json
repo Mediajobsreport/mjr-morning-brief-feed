@@ -1,62 +1,52 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences",
-    "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam",
-    "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114",
-    "https://www.mediajobsreport.com/articles/tegna-promotes-ryan-drake-tony-motta-and-angela-new-to-gm-roles",
-    "https://www.mediajobsreport.com/events/techsurvey-2027",
-    "https://www.mediajobsreport.com/articles/aca-connects-elects-melanie-hannasch-to-board-of-directors",
-    "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best",
-    "https://www.mediajobsreport.com/articles/usa-today-names-ryan-j-rusak-opinion-editor",
-    "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast",
-    "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services",
-    "https://www.mediajobsreport.com/blog/leading-from-the-backseat-influence-without-the-title"
+    "https://www.mediajobsreport.com/blog/it-is-not-a-have-to-it-is-a-choice-and-it-is-all-yours",
+    "https://www.mediajobsreport.com/articles/cumulus-media-layoffs-hit-radio-markets-nationwide-after-bankruptcy",
+    "https://www.mediajobsreport.com/articles/nbc-celebrates-100-years-of-broadcasting-american-history",
+    "https://www.mediajobsreport.com/articles/johnjay-and-richs-lovepup-family-fest-finds-homes-for-70-dogs",
+    "https://www.mediajobsreport.com/articles/audacy-launches-double-down-on-cheer-podcast-with-tiki-barber-and-traci-johnson",
+    "https://www.mediajobsreport.com/articles/cumulus-charleston-stations-host-27th-annual-thanksgiving-giveaway",
+    "https://www.mediajobsreport.com/articles/beasley-broadcast-group-q3-revenue-falls-16-to-42-8-million",
+    "https://www.mediajobsreport.com/blog/radio-bit-ideas-that-get-listeners-talking",
+    "https://www.mediajobsreport.com/articles/taylor-swift-to-perform-at-60th-annual-cma-awards"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-2026-marketing-report-finds-rising-budget-concerns-as-advertisers-face-fragmented-audiences"
+      "link": "https://www.mediajobsreport.com/blog/it-is-not-a-have-to-it-is-a-choice-and-it-is-all-yours"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-names-zach-gelb-brand-manager-of-104-3-wqam"
+      "link": "https://www.mediajobsreport.com/articles/cumulus-media-layoffs-hit-radio-markets-nationwide-after-bankruptcy"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-reviews-60-applications-for-132-fm-construction-permits-in-auction-114"
+      "link": "https://www.mediajobsreport.com/articles/nbc-celebrates-100-years-of-broadcasting-american-history"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tegna-promotes-ryan-drake-tony-motta-and-angela-new-to-gm-roles"
+      "link": "https://www.mediajobsreport.com/articles/johnjay-and-richs-lovepup-family-fest-finds-homes-for-70-dogs"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/events/techsurvey-2027"
+      "link": "https://www.mediajobsreport.com/articles/audacy-launches-double-down-on-cheer-podcast-with-tiki-barber-and-traci-johnson"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/aca-connects-elects-melanie-hannasch-to-board-of-directors"
+      "link": "https://www.mediajobsreport.com/articles/cumulus-charleston-stations-host-27th-annual-thanksgiving-giveaway"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/edison-research-reveals-where-audio-platforms-perform-best"
+      "link": "https://www.mediajobsreport.com/articles/beasley-broadcast-group-q3-revenue-falls-16-to-42-8-million"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/usa-today-names-ryan-j-rusak-opinion-editor"
+      "link": "https://www.mediajobsreport.com/blog/radio-bit-ideas-that-get-listeners-talking"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/charlie-sheen-launches-mostly-sheenius-podcast"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/streaming-viewers-increasingly-want-one-guide-across-services"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/leading-from-the-backseat-influence-without-the-title"
+      "link": "https://www.mediajobsreport.com/articles/taylor-swift-to-perform-at-60th-annual-cma-awards"
     }
   ]
 }
