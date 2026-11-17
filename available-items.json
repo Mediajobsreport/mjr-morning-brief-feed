@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "title": "Newmark J-School to Offer Full Tuition for Admitted New York Residents",
+      "link": "https://www.mediajobsreport.com/articles/newmark-j-school-to-offer-full-tuition-for-admitted-new-york-residents",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Tue, 17 Nov 2026 16:39:46 -0500",
+      "selected": false
+    },
+    {
+      "title": "CBS Announces 2026-27 Midseason Primetime Schedule",
+      "link": "https://www.mediajobsreport.com/articles/cbs-announces-2026-27-midseason-primetime-schedule",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 17 Nov 2026 16:27:38 -0500",
+      "selected": false
+    },
+    {
+      "title": "Alliance for Women in Media Honors Seven Female Leaders at 2026 Gracies Leadership Awards",
+      "link": "https://www.mediajobsreport.com/articles/alliance-for-women-in-media-honors-seven-female-leaders-at-2026-gracies-leadership-awards",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 17 Nov 2026 16:20:38 -0500",
+      "selected": false
+    },
+    {
+      "title": "CMA Reveals Presenters and Special Guests for 60th Annual CMA Awards",
+      "link": "https://www.mediajobsreport.com/articles/cma-reveals-presenters-and-special-guests-for-60th-annual-cma-awards",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Tue, 17 Nov 2026 15:35:43 -0500",
+      "selected": false
+    },
+    {
+      "title": "1210 WPHT and Piazza Auto Group Raise Over $15,000 for the American Cancer Society in Philadelphia",
+      "link": "https://www.mediajobsreport.com/articles/1210-wpht-and-piazza-auto-group-raise-over-15-000-for-the-american-cancer-society-in-philadelphia",
+      "type": "News",
+      "category": "Community Service",
+      "pubDate": "Tue, 17 Nov 2026 15:31:49 -0500",
+      "selected": false
+    },
+    {
+      "title": "Felipe Holguin Named CEO of Universal Music Latin America & Iberian Peninsula",
+      "link": "https://www.mediajobsreport.com/articles/felipe-holguin-named-ceo-of-universal-music-latin-america-iberian-peninsula",
+      "type": "News",
+      "category": "Music Industry",
+      "pubDate": "Tue, 17 Nov 2026 14:52:14 -0500",
+      "selected": false
+    },
+    {
+      "title": "Sinclair Names David Adams Vice President and General Manager of Harrisburg Operations",
+      "link": "https://www.mediajobsreport.com/articles/sinclair-names-david-adams-vice-president-and-general-manager-of-harrisburg-operations",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Tue, 17 Nov 2026 14:45:00 -0500",
+      "selected": false
+    },
+    {
       "title": "Hoffmann Family Offers $37 Million for Townsquare Media",
       "link": "https://www.mediajobsreport.com/articles/hoffmann-family-offers-37-million-for-townsquare-media",
       "type": "News",
@@ -15,62 +71,6 @@
       "category": "Radio",
       "pubDate": "Mon, 16 Nov 2026 14:54:24 -0500",
       "selected": false
-    },
-    {
-      "title": "Keith Urban Announces SiriusXM and Pandora Holiday Concert in NYC",
-      "link": "https://www.mediajobsreport.com/articles/keith-urban-announces-siriusxm-and-pandora-holiday-concert-in-nyc",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 16 Nov 2026 14:49:37 -0500",
-      "selected": true
-    },
-    {
-      "title": "2027 Grammy Nominations: RAYE Leads With 11 Nods",
-      "link": "https://www.mediajobsreport.com/articles/2027-grammy-nominations-raye-leads-with-11-nods",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Mon, 16 Nov 2026 14:32:28 -0500",
-      "selected": true
-    },
-    {
-      "title": "Shery Ahn Joins CNN en Español as Anchor and Correspondent",
-      "link": "https://www.mediajobsreport.com/articles/shery-ahn-joins-cnn-en-espa%C3%B1ol-as-anchor-and-correspondent",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 16 Nov 2026 14:00:27 -0500",
-      "selected": true
-    },
-    {
-      "title": "Macy’s Thanksgiving Day Parade Celebrates 100th March With Star-Studded Lineup",
-      "link": "https://www.mediajobsreport.com/articles/macys-thanksgiving-day-parade-celebrates-100th-march-with-star-studded-lineup",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Mon, 16 Nov 2026 13:54:46 -0500",
-      "selected": true
-    },
-    {
-      "title": "WPLR’s Chaz & AJ and WFSB’s Scot Haney Get Boxed In for Annual Toy Drive",
-      "link": "https://www.mediajobsreport.com/articles/wplrs-chaz-aj-and-wfsbs-scot-haney-get-boxed-in-for-annual-toy-drive",
-      "type": "News",
-      "category": "Community Service",
-      "pubDate": "Mon, 16 Nov 2026 13:47:05 -0500",
-      "selected": true
-    },
-    {
-      "title": "BTS, Spider-Man and KPop Demon Hunters Among Kids’ Choice Awards 2026 Winners",
-      "link": "https://www.mediajobsreport.com/articles/bts-spider-man-and-kpop-demon-hunters-among-kids-choice-awards-2026-winners",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Mon, 16 Nov 2026 13:36:58 -0500",
-      "selected": true
-    },
-    {
-      "title": "City Cast Names Andi McDaniel CEO, Succeeding David Plotz",
-      "link": "https://www.mediajobsreport.com/articles/city-cast-names-andi-mcdaniel-ceo-succeeding-david-plotz",
-      "type": "News",
-      "category": "Podcasting",
-      "pubDate": "Mon, 16 Nov 2026 13:26:30 -0500",
-      "selected": true
     },
     {
       "title": "It is Not a Have To. It Is a Choice. And It Is All Yours.",
