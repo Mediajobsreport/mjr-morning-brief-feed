@@ -1,25 +1,24 @@
 {
   "selected": [
+    "https://www.mediajobsreport.com/articles/hoffmann-family-offers-37-million-for-townsquare-media",
     "https://www.mediajobsreport.com/articles/2027-grammy-nominations-raye-leads-with-11-nods",
-    "https://www.mediajobsreport.com/articles/big-jim-obrien-takes-over-afternoons-at-104-3-womc-in-detroit",
     "https://www.mediajobsreport.com/articles/macys-thanksgiving-day-parade-celebrates-100th-march-with-star-studded-lineup",
     "https://www.mediajobsreport.com/articles/keith-urban-announces-siriusxm-and-pandora-holiday-concert-in-nyc",
+    "https://www.mediajobsreport.com/articles/city-cast-names-andi-mcdaniel-ceo-succeeding-david-plotz",
     "https://www.mediajobsreport.com/articles/shery-ahn-joins-cnn-en-espa%C3%B1ol-as-anchor-and-correspondent",
     "https://www.mediajobsreport.com/articles/wplrs-chaz-aj-and-wfsbs-scot-haney-get-boxed-in-for-annual-toy-drive",
-    "https://www.mediajobsreport.com/articles/city-cast-names-andi-mcdaniel-ceo-succeeding-david-plotz",
     "https://www.mediajobsreport.com/articles/bts-spider-man-and-kpop-demon-hunters-among-kids-choice-awards-2026-winners",
-    "https://www.mediajobsreport.com/articles/tna-wrestling-radio-to-launch-exclusively-on-iheartradio",
     "https://www.mediajobsreport.com/blog/who-are-you-in-the-studio"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/2027-grammy-nominations-raye-leads-with-11-nods"
+      "link": "https://www.mediajobsreport.com/articles/hoffmann-family-offers-37-million-for-townsquare-media"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/big-jim-obrien-takes-over-afternoons-at-104-3-womc-in-detroit"
+      "link": "https://www.mediajobsreport.com/articles/2027-grammy-nominations-raye-leads-with-11-nods"
     },
     {
       "kind": "story",
@@ -31,6 +30,10 @@
     },
     {
       "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/city-cast-names-andi-mcdaniel-ceo-succeeding-david-plotz"
+    },
+    {
+      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/shery-ahn-joins-cnn-en-espa%C3%B1ol-as-anchor-and-correspondent"
     },
     {
@@ -39,15 +42,7 @@
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/city-cast-names-andi-mcdaniel-ceo-succeeding-david-plotz"
-    },
-    {
-      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/bts-spider-man-and-kpop-demon-hunters-among-kids-choice-awards-2026-winners"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tna-wrestling-radio-to-launch-exclusively-on-iheartradio"
     },
     {
       "kind": "story",
