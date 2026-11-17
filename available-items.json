@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 17 Nov 2026 16:39:46 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CBS Announces 2026-27 Midseason Primetime Schedule",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 17 Nov 2026 16:27:38 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Alliance for Women in Media Honors Seven Female Leaders at 2026 Gracies Leadership Awards",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 17 Nov 2026 16:20:38 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Reveals Presenters and Special Guests for 60th Annual CMA Awards",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 17 Nov 2026 15:35:43 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "1210 WPHT and Piazza Auto Group Raise Over $15,000 for the American Cancer Society in Philadelphia",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Tue, 17 Nov 2026 15:31:49 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Felipe Holguin Named CEO of Universal Music Latin America & Iberian Peninsula",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Tue, 17 Nov 2026 14:52:14 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Sinclair Names David Adams Vice President and General Manager of Harrisburg Operations",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 17 Nov 2026 14:45:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Hoffmann Family Offers $37 Million for Townsquare Media",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Tue, 17 Nov 2026 06:47:45 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "TNA Wrestling Radio to Launch Exclusively on iHeartRadio",
