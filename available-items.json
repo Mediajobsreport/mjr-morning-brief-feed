@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "title": "NRB 2027 Convention",
+      "link": "https://www.mediajobsreport.com/events/nrb-2027-convention",
+      "type": "Event",
+      "category": "General Broadcast",
+      "pubDate": "Wed, 18 Nov 2026 12:22:14 -0500",
+      "selected": false
+    },
+    {
+      "title": "The Truth About Confidence: The Loudest Voice Isn't the Most Secure",
+      "link": "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure",
+      "type": "Blog",
+      "category": "",
+      "pubDate": "Wed, 18 Nov 2026 12:00:00 -0500",
+      "selected": false
+    },
+    {
+      "title": "Molly Webster Named Co-Host of WNYC's Radiolab Ahead of 25th Anniversary",
+      "link": "https://www.mediajobsreport.com/articles/molly-webster-named-co-host-of-wnycs-radiolab-ahead-of-25th-anniversary",
+      "type": "News",
+      "category": "Public Media",
+      "pubDate": "Wed, 18 Nov 2026 10:04:01 -0500",
+      "selected": false
+    },
+    {
+      "title": "BFOA Expands Scholarship Program to Reach More Future Broadcasters",
+      "link": "https://www.mediajobsreport.com/articles/bfoa-expands-scholarship-program-to-reach-more-future-broadcasters",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Wed, 18 Nov 2026 09:42:08 -0500",
+      "selected": false
+    },
+    {
+      "title": "99.5 The Mountain Raises $121K for Project Sanctuary",
+      "link": "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary",
+      "type": "News",
+      "category": "Community Service",
+      "pubDate": "Wed, 18 Nov 2026 09:27:47 -0500",
+      "selected": false
+    },
+    {
+      "title": "Cynthia Erivo to Host NBC's Christmas in Rockefeller Center Dec. 2",
+      "link": "https://www.mediajobsreport.com/articles/cynthia-erivo-to-host-nbcs-christmas-in-rockefeller-center-dec-2",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Wed, 18 Nov 2026 09:22:30 -0500",
+      "selected": false
+    },
+    {
+      "title": "CMA Announces Early Winners Ahead of 60th Annual CMA Awards",
+      "link": "https://www.mediajobsreport.com/articles/cma-announces-early-winners-ahead-of-60th-annual-cma-awards",
+      "type": "News",
+      "category": "Awards",
+      "pubDate": "Wed, 18 Nov 2026 09:10:22 -0500",
+      "selected": false
+    },
+    {
+      "title": "Relationships: 14 Ways Radio Personalities Can Build Lasting Listener Loyalty",
+      "link": "https://www.mediajobsreport.com/blog/relationships-14-ways-radio-personalities-can-build-lasting-listener-loyalty",
+      "type": "Blog",
+      "category": "Programming",
+      "pubDate": "Wed, 18 Nov 2026 09:00:00 -0500",
+      "selected": false
+    },
+    {
+      "title": "Amagi to Power Spectrum News Live Newscasts in 35+ Markets",
+      "link": "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Wed, 18 Nov 2026 08:56:42 -0500",
+      "selected": false
+    },
+    {
+      "title": "Eastlan Ratings Expands Into Four New Radio Markets",
+      "link": "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Wed, 18 Nov 2026 08:50:15 -0500",
+      "selected": false
+    },
+    {
       "title": "Newmark J-School to Offer Full Tuition for Admitted New York Residents",
       "link": "https://www.mediajobsreport.com/articles/newmark-j-school-to-offer-full-tuition-for-admitted-new-york-residents",
       "type": "News",
@@ -15,62 +95,6 @@
       "category": "Television",
       "pubDate": "Tue, 17 Nov 2026 16:27:38 -0500",
       "selected": true
-    },
-    {
-      "title": "Alliance for Women in Media Honors Seven Female Leaders at 2026 Gracies Leadership Awards",
-      "link": "https://www.mediajobsreport.com/articles/alliance-for-women-in-media-honors-seven-female-leaders-at-2026-gracies-leadership-awards",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Tue, 17 Nov 2026 16:20:38 -0500",
-      "selected": true
-    },
-    {
-      "title": "CMA Reveals Presenters and Special Guests for 60th Annual CMA Awards",
-      "link": "https://www.mediajobsreport.com/articles/cma-reveals-presenters-and-special-guests-for-60th-annual-cma-awards",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Tue, 17 Nov 2026 15:35:43 -0500",
-      "selected": true
-    },
-    {
-      "title": "1210 WPHT and Piazza Auto Group Raise Over $15,000 for the American Cancer Society in Philadelphia",
-      "link": "https://www.mediajobsreport.com/articles/1210-wpht-and-piazza-auto-group-raise-over-15-000-for-the-american-cancer-society-in-philadelphia",
-      "type": "News",
-      "category": "Community Service",
-      "pubDate": "Tue, 17 Nov 2026 15:31:49 -0500",
-      "selected": true
-    },
-    {
-      "title": "Felipe Holguin Named CEO of Universal Music Latin America & Iberian Peninsula",
-      "link": "https://www.mediajobsreport.com/articles/felipe-holguin-named-ceo-of-universal-music-latin-america-iberian-peninsula",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Tue, 17 Nov 2026 14:52:14 -0500",
-      "selected": true
-    },
-    {
-      "title": "Sinclair Names David Adams Vice President and General Manager of Harrisburg Operations",
-      "link": "https://www.mediajobsreport.com/articles/sinclair-names-david-adams-vice-president-and-general-manager-of-harrisburg-operations",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Tue, 17 Nov 2026 14:45:00 -0500",
-      "selected": true
-    },
-    {
-      "title": "Hoffmann Family Offers $37 Million for Townsquare Media",
-      "link": "https://www.mediajobsreport.com/articles/hoffmann-family-offers-37-million-for-townsquare-media",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Tue, 17 Nov 2026 06:47:45 -0500",
-      "selected": false
-    },
-    {
-      "title": "TNA Wrestling Radio to Launch Exclusively on iHeartRadio",
-      "link": "https://www.mediajobsreport.com/articles/tna-wrestling-radio-to-launch-exclusively-on-iheartradio",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Mon, 16 Nov 2026 14:54:24 -0500",
-      "selected": false
     },
     {
       "title": "It is Not a Have To. It Is a Choice. And It Is All Yours.",
@@ -145,14 +169,6 @@
       "selected": false
     },
     {
-      "title": "Stack Wins Early in the Week",
-      "link": "https://www.mediajobsreport.com/blog/stack-wins-early-in-the-week",
-      "type": "Blog",
-      "category": "Sales",
-      "pubDate": "Sun, 25 Oct 2026 09:27:00 -0400",
-      "selected": false
-    },
-    {
       "title": "World Radio Day 2027 | Celebrating Radio Worldwide",
       "link": "https://www.mediajobsreport.com/events/world-radio-day-2027-celebrating-radio-worldwide",
       "type": "Event",
@@ -166,14 +182,6 @@
       "type": "Event",
       "category": "General Media",
       "pubDate": "Thu, 22 Oct 2026 18:05:43 -0400",
-      "selected": false
-    },
-    {
-      "title": "6 Rules of Radio Leadership That Drive Ratings and Growth",
-      "link": "https://www.mediajobsreport.com/blog/6-rules-of-radio-leadership-that-drive-ratings-and-growth",
-      "type": "Blog",
-      "category": "Programming",
-      "pubDate": "Wed, 21 Oct 2026 09:00:00 -0400",
       "selected": false
     },
     {
