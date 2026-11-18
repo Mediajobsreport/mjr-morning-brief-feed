@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 18 Nov 2026 16:00:35 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NRB 2027 Convention",
@@ -22,7 +22,7 @@
       "type": "Blog",
       "category": "",
       "pubDate": "Wed, 18 Nov 2026 12:00:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Molly Webster Named Co-Host of WNYC's Radiolab Ahead of 25th Anniversary",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Public Media",
       "pubDate": "Wed, 18 Nov 2026 10:04:01 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "BFOA Expands Scholarship Program to Reach More Future Broadcasters",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Wed, 18 Nov 2026 09:42:08 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "99.5 The Mountain Raises $121K for Project Sanctuary",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Wed, 18 Nov 2026 09:27:47 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Cynthia Erivo to Host NBC's Christmas in Rockefeller Center Dec. 2",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Wed, 18 Nov 2026 09:22:30 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CMA Announces Early Winners Ahead of 60th Annual CMA Awards",
@@ -70,7 +70,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 18 Nov 2026 09:00:00 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Amagi to Power Spectrum News Live Newscasts in 35+ Markets",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "Technical",
       "pubDate": "Wed, 18 Nov 2026 08:56:42 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Eastlan Ratings Expands Into Four New Radio Markets",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Wed, 18 Nov 2026 08:50:15 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Newmark J-School to Offer Full Tuition for Admitted New York Residents",
@@ -94,7 +94,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Tue, 17 Nov 2026 16:39:46 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "It is Not a Have To. It Is a Choice. And It Is All Yours.",
@@ -134,7 +134,7 @@
       "type": "Blog",
       "category": "",
       "pubDate": "Wed, 04 Nov 2026 16:15:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Sound Bites 2026: Massachusetts Broadcasters Association Annual Conference & Awards",
