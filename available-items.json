@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Podcasting",
       "pubDate": "Thu, 19 Nov 2026 16:40:25 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Key Networks Renews Virtual Jock Radio Partnership",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 19 Nov 2026 16:13:43 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Gilberto Dorrego Promoted to 6 P.M. Anchor at Telemundo 49 Tampa",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Thu, 19 Nov 2026 16:03:40 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Labor Department Finalizes New Independent Contractor Classification Rule",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Management",
       "pubDate": "Thu, 19 Nov 2026 15:49:47 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Repeals National TV Ownership Cap Effective January 11, 2027",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "",
       "pubDate": "Thu, 19 Nov 2026 15:38:31 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Glenn Beck Announces ‘It’s Christmas Again’ Holiday Radio Special",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Thu, 19 Nov 2026 14:50:32 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Nexstar, Gray and Sinclair Set Investor Conference Appearances",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Financial",
       "pubDate": "Thu, 19 Nov 2026 14:47:47 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Ella Langley Wins Big at 2026 CMA Awards | Winners & Performances",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Wed, 18 Nov 2026 23:39:24 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Ignacio Meyer Named President of Universal Music Latin America & Iberian Peninsula",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Music Industry",
       "pubDate": "Wed, 18 Nov 2026 16:00:35 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "NRB 2027 Convention",
@@ -86,7 +86,7 @@
       "type": "Blog",
       "category": "",
       "pubDate": "Wed, 18 Nov 2026 12:00:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Relationships: 14 Ways Radio Personalities Can Build Lasting Listener Loyalty",
@@ -94,7 +94,7 @@
       "type": "Blog",
       "category": "Programming",
       "pubDate": "Wed, 18 Nov 2026 09:00:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "It is Not a Have To. It Is a Choice. And It Is All Yours.",

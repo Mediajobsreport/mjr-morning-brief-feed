@@ -1,57 +1,42 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/ella-langley-wins-big-at-2026-cma-awards-winners-performances",
-    "https://www.mediajobsreport.com/articles/cynthia-erivo-to-host-nbcs-christmas-in-rockefeller-center-dec-2",
-    "https://www.mediajobsreport.com/articles/bfoa-expands-scholarship-program-to-reach-more-future-broadcasters",
-    "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets",
-    "https://www.mediajobsreport.com/articles/molly-webster-named-co-host-of-wnycs-radiolab-ahead-of-25th-anniversary",
-    "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure",
-    "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary",
-    "https://www.mediajobsreport.com/articles/ignacio-meyer-named-president-of-universal-music-latin-america-iberian-peninsula",
-    "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets",
-    "https://www.mediajobsreport.com/blog/relationships-14-ways-radio-personalities-can-build-lasting-listener-loyalty"
+    "https://www.mediajobsreport.com/articles/labor-department-finalizes-new-independent-contractor-classification-rule",
+    "https://www.mediajobsreport.com/articles/fcc-repeals-national-tv-ownership-cap-effective-january-11-2027",
+    "https://www.mediajobsreport.com/articles/triton-digital-october-2026-podcast-ranker-top-podcasts-and-networks",
+    "https://www.mediajobsreport.com/articles/glenn-beck-announces-its-christmas-again-holiday-radio-special",
+    "https://www.mediajobsreport.com/articles/gilberto-dorrego-promoted-to-6-p-m-anchor-at-telemundo-49-tampa",
+    "https://www.mediajobsreport.com/articles/key-networks-renews-virtual-jock-radio-partnership",
+    "https://www.mediajobsreport.com/articles/nexstar-gray-and-sinclair-set-investor-conference-appearances"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/ella-langley-wins-big-at-2026-cma-awards-winners-performances"
+      "link": "https://www.mediajobsreport.com/articles/labor-department-finalizes-new-independent-contractor-classification-rule"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cynthia-erivo-to-host-nbcs-christmas-in-rockefeller-center-dec-2"
+      "link": "https://www.mediajobsreport.com/articles/fcc-repeals-national-tv-ownership-cap-effective-january-11-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/bfoa-expands-scholarship-program-to-reach-more-future-broadcasters"
+      "link": "https://www.mediajobsreport.com/articles/triton-digital-october-2026-podcast-ranker-top-podcasts-and-networks"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets"
+      "link": "https://www.mediajobsreport.com/articles/glenn-beck-announces-its-christmas-again-holiday-radio-special"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/molly-webster-named-co-host-of-wnycs-radiolab-ahead-of-25th-anniversary"
+      "link": "https://www.mediajobsreport.com/articles/gilberto-dorrego-promoted-to-6-p-m-anchor-at-telemundo-49-tampa"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure"
+      "link": "https://www.mediajobsreport.com/articles/key-networks-renews-virtual-jock-radio-partnership"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/ignacio-meyer-named-president-of-universal-music-latin-america-iberian-peninsula"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/relationships-14-ways-radio-personalities-can-build-lasting-listener-loyalty"
+      "link": "https://www.mediajobsreport.com/articles/nexstar-gray-and-sinclair-set-investor-conference-appearances"
     }
   ]
 }
