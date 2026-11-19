@@ -1,24 +1,21 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure",
-    "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets",
+    "https://www.mediajobsreport.com/articles/ella-langley-wins-big-at-2026-cma-awards-winners-performances",
     "https://www.mediajobsreport.com/articles/cynthia-erivo-to-host-nbcs-christmas-in-rockefeller-center-dec-2",
-    "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary",
     "https://www.mediajobsreport.com/articles/bfoa-expands-scholarship-program-to-reach-more-future-broadcasters",
-    "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets",
+    "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets",
     "https://www.mediajobsreport.com/articles/molly-webster-named-co-host-of-wnycs-radiolab-ahead-of-25th-anniversary",
+    "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure",
+    "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary",
     "https://www.mediajobsreport.com/articles/ignacio-meyer-named-president-of-universal-music-latin-america-iberian-peninsula",
+    "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets",
     "https://www.mediajobsreport.com/blog/relationships-14-ways-radio-personalities-can-build-lasting-listener-loyalty"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets"
+      "link": "https://www.mediajobsreport.com/articles/ella-langley-wins-big-at-2026-cma-awards-winners-performances"
     },
     {
       "kind": "story",
@@ -26,15 +23,11 @@
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary"
-    },
-    {
-      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/bfoa-expands-scholarship-program-to-reach-more-future-broadcasters"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets"
+      "link": "https://www.mediajobsreport.com/articles/eastlan-ratings-expands-into-four-new-radio-markets"
     },
     {
       "kind": "story",
@@ -42,7 +35,19 @@
     },
     {
       "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/the-truth-about-confidence-the-loudest-voice-isnt-the-most-secure"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/99-5-the-mountain-raises-121k-for-project-sanctuary"
+    },
+    {
+      "kind": "story",
       "link": "https://www.mediajobsreport.com/articles/ignacio-meyer-named-president-of-universal-music-latin-america-iberian-peninsula"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/amagi-to-power-spectrum-news-live-newscasts-in-35-markets"
     },
     {
       "kind": "story",
