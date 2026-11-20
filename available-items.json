@@ -1,6 +1,70 @@
 {
   "items": [
     {
+      "title": "KMLE 107.9 Raises $57K for Veterans During Hero Walk",
+      "link": "https://www.mediajobsreport.com/articles/kmle-107-9-raises-57k-for-veterans-during-hero-walk",
+      "type": "News",
+      "category": "Community Service",
+      "pubDate": "Fri, 20 Nov 2026 11:40:21 -0500",
+      "selected": false
+    },
+    {
+      "title": "Macy’s Thanksgiving Day Parade 2026: Broadway Stars, Performers and NBC Broadcast Details",
+      "link": "https://www.mediajobsreport.com/articles/macys-thanksgiving-day-parade-2026-broadway-stars-performers-and-nbc-broadcast-details",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 20 Nov 2026 11:31:17 -0500",
+      "selected": false
+    },
+    {
+      "title": "DJB Radio Spider 4.0 Automates Audio Downloads for Radio Stations",
+      "link": "https://www.mediajobsreport.com/articles/djb-radio-spider-4-0-automates-audio-downloads-for-radio-stations",
+      "type": "News",
+      "category": "Technical",
+      "pubDate": "Fri, 20 Nov 2026 11:19:04 -0500",
+      "selected": false
+    },
+    {
+      "title": "Damaris Bonilla to Lead Telemundo Orlando and Tampa Station",
+      "link": "https://www.mediajobsreport.com/articles/damaris-bonilla-to-lead-telemundo-orlando-and-tampa-station",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 20 Nov 2026 10:49:29 -0500",
+      "selected": false
+    },
+    {
+      "title": "National Radio Science Meeting",
+      "link": "https://www.mediajobsreport.com/events/national-radio-science-meeting",
+      "type": "Event",
+      "category": "Radio",
+      "pubDate": "Fri, 20 Nov 2026 10:40:42 -0500",
+      "selected": false
+    },
+    {
+      "title": "Nielsen Announces 1-Minute Radio Ratings Qualifier Beginning April 2027",
+      "link": "https://www.mediajobsreport.com/articles/nielsen-announces-1-minute-radio-ratings-qualifier-beginning-april-2027",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Fri, 20 Nov 2026 10:32:57 -0500",
+      "selected": false
+    },
+    {
+      "title": "Boston 25 Anchor Gene Lavanchy Named Massachusetts Broadcaster of the Year",
+      "link": "https://www.mediajobsreport.com/articles/boston-25-anchor-gene-lavanchy-named-massachusetts-broadcaster-of-the-year",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Fri, 20 Nov 2026 10:22:48 -0500",
+      "selected": false
+    },
+    {
+      "title": "New Podcast Research Reveals Ideal Intro Length, Music and Voice Trends",
+      "link": "https://www.mediajobsreport.com/articles/new-podcast-research-reveals-ideal-intro-length-music-and-voice-trends",
+      "type": "News",
+      "category": "Research",
+      "pubDate": "Fri, 20 Nov 2026 10:15:35 -0500",
+      "selected": false
+    },
+    {
       "title": "Triton Digital October 2026 Podcast Ranker: Top Podcasts and Networks",
       "link": "https://www.mediajobsreport.com/articles/triton-digital-october-2026-podcast-ranker-top-podcasts-and-networks",
       "type": "News",
@@ -15,62 +79,6 @@
       "category": "Radio",
       "pubDate": "Thu, 19 Nov 2026 16:13:43 -0500",
       "selected": true
-    },
-    {
-      "title": "Gilberto Dorrego Promoted to 6 P.M. Anchor at Telemundo 49 Tampa",
-      "link": "https://www.mediajobsreport.com/articles/gilberto-dorrego-promoted-to-6-p-m-anchor-at-telemundo-49-tampa",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Thu, 19 Nov 2026 16:03:40 -0500",
-      "selected": true
-    },
-    {
-      "title": "Labor Department Finalizes New Independent Contractor Classification Rule",
-      "link": "https://www.mediajobsreport.com/articles/labor-department-finalizes-new-independent-contractor-classification-rule",
-      "type": "News",
-      "category": "Management",
-      "pubDate": "Thu, 19 Nov 2026 15:49:47 -0500",
-      "selected": true
-    },
-    {
-      "title": "FCC Repeals National TV Ownership Cap Effective January 11, 2027",
-      "link": "https://www.mediajobsreport.com/articles/fcc-repeals-national-tv-ownership-cap-effective-january-11-2027",
-      "type": "News",
-      "category": "",
-      "pubDate": "Thu, 19 Nov 2026 15:38:31 -0500",
-      "selected": true
-    },
-    {
-      "title": "Glenn Beck Announces ‘It’s Christmas Again’ Holiday Radio Special",
-      "link": "https://www.mediajobsreport.com/articles/glenn-beck-announces-its-christmas-again-holiday-radio-special",
-      "type": "News",
-      "category": "Radio",
-      "pubDate": "Thu, 19 Nov 2026 14:50:32 -0500",
-      "selected": true
-    },
-    {
-      "title": "Nexstar, Gray and Sinclair Set Investor Conference Appearances",
-      "link": "https://www.mediajobsreport.com/articles/nexstar-gray-and-sinclair-set-investor-conference-appearances",
-      "type": "News",
-      "category": "Financial",
-      "pubDate": "Thu, 19 Nov 2026 14:47:47 -0500",
-      "selected": true
-    },
-    {
-      "title": "Ella Langley Wins Big at 2026 CMA Awards | Winners & Performances",
-      "link": "https://www.mediajobsreport.com/articles/ella-langley-wins-big-at-2026-cma-awards-winners-performances",
-      "type": "News",
-      "category": "Awards",
-      "pubDate": "Wed, 18 Nov 2026 23:39:24 -0500",
-      "selected": false
-    },
-    {
-      "title": "Ignacio Meyer Named President of Universal Music Latin America & Iberian Peninsula",
-      "link": "https://www.mediajobsreport.com/articles/ignacio-meyer-named-president-of-universal-music-latin-america-iberian-peninsula",
-      "type": "News",
-      "category": "Music Industry",
-      "pubDate": "Wed, 18 Nov 2026 16:00:35 -0500",
-      "selected": false
     },
     {
       "title": "NRB 2027 Convention",
