@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "CBI Opens Nominations for Three Board Positions",
+      "link": "https://www.mediajobsreport.com/articles/cbi-opens-nominations-for-three-board-positions",
+      "type": "News",
+      "category": "Education",
+      "pubDate": "Mon, 23 Nov 2026 17:10:07 -0500",
+      "selected": false
+    },
+    {
+      "title": "Jonesboro Media Group Food Drive Collects 442,215 Meals",
+      "link": "https://www.mediajobsreport.com/articles/jonesboro-media-group-food-drive-collects-442-215-meals",
+      "type": "News",
+      "category": "Community Service",
+      "pubDate": "Mon, 23 Nov 2026 16:46:25 -0500",
+      "selected": false
+    },
+    {
+      "title": "Edison Research at SSRS to Present Top Ten Findings of 2026",
+      "link": "https://www.mediajobsreport.com/events/edison-research-at-ssrs-to-present-top-ten-findings-of-2026",
+      "type": "Event",
+      "category": "Webinars",
+      "pubDate": "Mon, 23 Nov 2026 15:35:54 -0500",
+      "selected": false
+    },
+    {
+      "title": "NBC Announces Star-Studded Lineup for 100th Anniversary Live Celebration",
+      "link": "https://www.mediajobsreport.com/articles/nbc-announces-star-studded-lineup-for-100th-anniversary-live-celebration",
+      "type": "News",
+      "category": "Television",
+      "pubDate": "Mon, 23 Nov 2026 15:16:41 -0500",
+      "selected": false
+    },
+    {
+      "title": "Connoisseur Media Launches Jackie 96.9 in Jackson, MS",
+      "link": "https://www.mediajobsreport.com/articles/connoisseur-media-launches-jackie-96-9-in-jackson-ms",
+      "type": "News",
+      "category": "Radio",
+      "pubDate": "Mon, 23 Nov 2026 15:08:30 -0500",
+      "selected": false
+    },
+    {
+      "title": "FCC Sets December Vote on Major Changes to Local Radio Ownership Limits",
+      "link": "https://www.mediajobsreport.com/articles/fcc-sets-december-vote-on-major-changes-to-local-radio-ownership-limits",
+      "type": "News",
+      "category": "FCC",
+      "pubDate": "Mon, 23 Nov 2026 14:57:07 -0500",
+      "selected": false
+    },
+    {
       "title": "TikTok Drives 94% of Global Chart Hits, New Luminate Music Report Finds",
       "link": "https://www.mediajobsreport.com/articles/tiktok-drives-94-of-global-chart-hits-new-luminate-music-report-finds",
       "type": "News",
@@ -41,52 +89,12 @@
       "selected": true
     },
     {
-      "title": "DJB Radio Spider 4.0 Automates Audio Downloads for Radio Stations",
-      "link": "https://www.mediajobsreport.com/articles/djb-radio-spider-4-0-automates-audio-downloads-for-radio-stations",
-      "type": "News",
-      "category": "Technical",
-      "pubDate": "Fri, 20 Nov 2026 11:19:04 -0500",
-      "selected": false
-    },
-    {
-      "title": "Damaris Bonilla to Lead Telemundo Orlando and Tampa Station",
-      "link": "https://www.mediajobsreport.com/articles/damaris-bonilla-to-lead-telemundo-orlando-and-tampa-station",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Fri, 20 Nov 2026 10:49:29 -0500",
-      "selected": true
-    },
-    {
       "title": "National Radio Science Meeting",
       "link": "https://www.mediajobsreport.com/events/national-radio-science-meeting",
       "type": "Event",
       "category": "Radio",
       "pubDate": "Fri, 20 Nov 2026 10:40:42 -0500",
       "selected": false
-    },
-    {
-      "title": "Nielsen Announces 1-Minute Radio Ratings Qualifier Beginning April 2027",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-announces-1-minute-radio-ratings-qualifier-beginning-april-2027",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Fri, 20 Nov 2026 10:32:57 -0500",
-      "selected": true
-    },
-    {
-      "title": "Boston 25 Anchor Gene Lavanchy Named Massachusetts Broadcaster of the Year",
-      "link": "https://www.mediajobsreport.com/articles/boston-25-anchor-gene-lavanchy-named-massachusetts-broadcaster-of-the-year",
-      "type": "News",
-      "category": "Television",
-      "pubDate": "Fri, 20 Nov 2026 10:22:48 -0500",
-      "selected": true
-    },
-    {
-      "title": "New Podcast Research Reveals Ideal Intro Length, Music and Voice Trends",
-      "link": "https://www.mediajobsreport.com/articles/new-podcast-research-reveals-ideal-intro-length-music-and-voice-trends",
-      "type": "News",
-      "category": "Research",
-      "pubDate": "Fri, 20 Nov 2026 10:15:35 -0500",
-      "selected": true
     },
     {
       "title": "NRB 2027 Convention",
