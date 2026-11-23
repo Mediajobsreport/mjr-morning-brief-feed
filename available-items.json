@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 23 Nov 2026 17:25:13 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "CBI Opens Nominations for Three Board Positions",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Mon, 23 Nov 2026 17:10:07 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Jonesboro Media Group Food Drive Collects 442,215 Meals",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Mon, 23 Nov 2026 16:46:25 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Edison Research at SSRS to Present Top Ten Findings of 2026",
@@ -30,7 +30,7 @@
       "type": "Event",
       "category": "Webinars",
       "pubDate": "Mon, 23 Nov 2026 15:35:54 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NBC Announces Star-Studded Lineup for 100th Anniversary Live Celebration",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Mon, 23 Nov 2026 15:16:41 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Connoisseur Media Launches Jackie 96.9 in Jackson, MS",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 23 Nov 2026 15:08:30 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "FCC Sets December Vote on Major Changes to Local Radio Ownership Limits",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "FCC",
       "pubDate": "Mon, 23 Nov 2026 14:57:07 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "TikTok Drives 94% of Global Chart Hits, New Luminate Music Report Finds",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Digital",
       "pubDate": "Fri, 20 Nov 2026 13:49:10 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Leadership: The Power of Appreciation and Encouragement",
@@ -70,7 +70,7 @@
       "type": "Blog",
       "category": "Management",
       "pubDate": "Fri, 20 Nov 2026 12:00:00 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "MacDonald Broadcasting Adds Aricka McCauley as APD/Afternoons at 97.3 Joe FM",
@@ -78,7 +78,7 @@
       "type": "News",
       "category": "",
       "pubDate": "Fri, 20 Nov 2026 11:53:28 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "KMLE 107.9 Raises $57K for Veterans During Hero Walk",
@@ -86,7 +86,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Fri, 20 Nov 2026 11:40:21 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "National Radio Science Meeting",

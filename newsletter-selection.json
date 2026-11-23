@@ -1,52 +1,42 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/tiktok-drives-94-of-global-chart-hits-new-luminate-music-report-finds",
-    "https://www.mediajobsreport.com/articles/nielsen-announces-1-minute-radio-ratings-qualifier-beginning-april-2027",
-    "https://www.mediajobsreport.com/articles/boston-25-anchor-gene-lavanchy-named-massachusetts-broadcaster-of-the-year",
-    "https://www.mediajobsreport.com/articles/macdonald-broadcasting-adds-aricka-mccauley-as-apd-afternoons-at-97-3-joe-fm",
-    "https://www.mediajobsreport.com/articles/macys-thanksgiving-day-parade-2026-broadway-stars-performers-and-nbc-broadcast-details",
-    "https://www.mediajobsreport.com/articles/new-podcast-research-reveals-ideal-intro-length-music-and-voice-trends",
-    "https://www.mediajobsreport.com/articles/kmle-107-9-raises-57k-for-veterans-during-hero-walk",
-    "https://www.mediajobsreport.com/articles/damaris-bonilla-to-lead-telemundo-orlando-and-tampa-station",
-    "https://www.mediajobsreport.com/blog/radio-leadership-the-power-of-appreciation-and-encouragement"
+    "https://www.mediajobsreport.com/articles/fcc-sets-december-vote-on-major-changes-to-local-radio-ownership-limits",
+    "https://www.mediajobsreport.com/articles/audacy-launches-mix-94-7-hot-ac-station-in-washington-d-c",
+    "https://www.mediajobsreport.com/events/edison-research-at-ssrs-to-present-top-ten-findings-of-2026",
+    "https://www.mediajobsreport.com/articles/nbc-announces-star-studded-lineup-for-100th-anniversary-live-celebration",
+    "https://www.mediajobsreport.com/articles/jonesboro-media-group-food-drive-collects-442-215-meals",
+    "https://www.mediajobsreport.com/articles/cbi-opens-nominations-for-three-board-positions",
+    "https://www.mediajobsreport.com/articles/connoisseur-media-launches-jackie-96-9-in-jackson-ms"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/tiktok-drives-94-of-global-chart-hits-new-luminate-music-report-finds"
+      "link": "https://www.mediajobsreport.com/articles/fcc-sets-december-vote-on-major-changes-to-local-radio-ownership-limits"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nielsen-announces-1-minute-radio-ratings-qualifier-beginning-april-2027"
+      "link": "https://www.mediajobsreport.com/articles/audacy-launches-mix-94-7-hot-ac-station-in-washington-d-c"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/boston-25-anchor-gene-lavanchy-named-massachusetts-broadcaster-of-the-year"
+      "link": "https://www.mediajobsreport.com/events/edison-research-at-ssrs-to-present-top-ten-findings-of-2026"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/macdonald-broadcasting-adds-aricka-mccauley-as-apd-afternoons-at-97-3-joe-fm"
+      "link": "https://www.mediajobsreport.com/articles/nbc-announces-star-studded-lineup-for-100th-anniversary-live-celebration"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/macys-thanksgiving-day-parade-2026-broadway-stars-performers-and-nbc-broadcast-details"
+      "link": "https://www.mediajobsreport.com/articles/jonesboro-media-group-food-drive-collects-442-215-meals"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/new-podcast-research-reveals-ideal-intro-length-music-and-voice-trends"
+      "link": "https://www.mediajobsreport.com/articles/cbi-opens-nominations-for-three-board-positions"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/kmle-107-9-raises-57k-for-veterans-during-hero-walk"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/damaris-bonilla-to-lead-telemundo-orlando-and-tampa-station"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/blog/radio-leadership-the-power-of-appreciation-and-encouragement"
+      "link": "https://www.mediajobsreport.com/articles/connoisseur-media-launches-jackie-96-9-in-jackson-ms"
     }
   ]
 }
