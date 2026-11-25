@@ -1,37 +1,47 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/nab-service-to-america-tv-special-to-air-nationwide",
-    "https://www.mediajobsreport.com/articles/steve-harvey-morning-show-holds-17th-annual-turkey-give",
-    "https://www.mediajobsreport.com/articles/nbcuniversal-announces-2026-thanksgiving-programming-lineup",
-    "https://www.mediajobsreport.com/articles/am-fm-radio-leads-in-car-audio-listening-with-53-share",
-    "https://www.mediajobsreport.com/articles/joe-costello-joins-eastlan-ratings-after-50-years-in-radio-sales",
-    "https://www.mediajobsreport.com/articles/new-country-96-3s-hawkeye-and-michelle-take-10-000-for-the-troops-campaign-nationwide"
+    "https://www.mediajobsreport.com/articles/happy-thanksgiving-from-media-jobs-report-a-time-for-gratitude",
+    "https://www.mediajobsreport.com/articles/miley-cyrus-to-accept-dolly-parton-legacy-award-at-20th-annual-cnn-heroes-tribute",
+    "https://www.mediajobsreport.com/articles/wmmrs-preston-steve-raise-1-13-million-to-fight-hunger",
+    "https://www.mediajobsreport.com/articles/snoop-dogg-brings-star-studded-christmas-special-to-nbc-and-peacock",
+    "https://www.mediajobsreport.com/articles/televisaunivision-renews-chicago-bears-radio-deal-through-2027",
+    "https://www.mediajobsreport.com/articles/red-apple-audio-networks-syndicates-michael-cohens-radio-show",
+    "https://www.mediajobsreport.com/articles/la-grande-107-5-raises-22-500-for-dallas-student-mentorship-program",
+    "https://www.mediajobsreport.com/blog/you-can-be-wrong-but-you-cant-be-boring-why-listeners-still-come-back-to-a-human-voice"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nab-service-to-america-tv-special-to-air-nationwide"
+      "link": "https://www.mediajobsreport.com/articles/happy-thanksgiving-from-media-jobs-report-a-time-for-gratitude"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/steve-harvey-morning-show-holds-17th-annual-turkey-give"
+      "link": "https://www.mediajobsreport.com/articles/miley-cyrus-to-accept-dolly-parton-legacy-award-at-20th-annual-cnn-heroes-tribute"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nbcuniversal-announces-2026-thanksgiving-programming-lineup"
+      "link": "https://www.mediajobsreport.com/articles/wmmrs-preston-steve-raise-1-13-million-to-fight-hunger"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/am-fm-radio-leads-in-car-audio-listening-with-53-share"
+      "link": "https://www.mediajobsreport.com/articles/snoop-dogg-brings-star-studded-christmas-special-to-nbc-and-peacock"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/joe-costello-joins-eastlan-ratings-after-50-years-in-radio-sales"
+      "link": "https://www.mediajobsreport.com/articles/televisaunivision-renews-chicago-bears-radio-deal-through-2027"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/new-country-96-3s-hawkeye-and-michelle-take-10-000-for-the-troops-campaign-nationwide"
+      "link": "https://www.mediajobsreport.com/articles/red-apple-audio-networks-syndicates-michael-cohens-radio-show"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/articles/la-grande-107-5-raises-22-500-for-dallas-student-mentorship-program"
+    },
+    {
+      "kind": "story",
+      "link": "https://www.mediajobsreport.com/blog/you-can-be-wrong-but-you-cant-be-boring-why-listeners-still-come-back-to-a-human-voice"
     }
   ]
 }
