@@ -6,7 +6,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Tue, 24 Nov 2026 19:50:07 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Joe Costello Joins Eastlan Ratings After 50 Years in Radio Sales",
@@ -14,7 +14,7 @@
       "type": "News",
       "category": "Management",
       "pubDate": "Tue, 24 Nov 2026 19:41:21 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "AM/FM Radio Leads In-Car Audio Listening With 53% Share",
@@ -22,7 +22,7 @@
       "type": "News",
       "category": "Research",
       "pubDate": "Tue, 24 Nov 2026 19:28:45 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NBCUniversal Announces 2026 Thanksgiving Programming Lineup",
@@ -30,7 +30,7 @@
       "type": "News",
       "category": "Television",
       "pubDate": "Tue, 24 Nov 2026 19:19:23 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "New Country 96.3’s Hawkeye and Michelle Take ‘10,000 for the Troops’ Campaign Nationwide",
@@ -38,7 +38,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Tue, 24 Nov 2026 16:36:20 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "NAB Service to America TV Special to Air Nationwide",
@@ -46,7 +46,7 @@
       "type": "News",
       "category": "Awards",
       "pubDate": "Tue, 24 Nov 2026 16:31:23 -0500",
-      "selected": false
+      "selected": true
     },
     {
       "title": "Audacy Launches Mix 94.7 Hot AC Station in Washington, D.C.",
@@ -54,7 +54,7 @@
       "type": "News",
       "category": "Radio",
       "pubDate": "Mon, 23 Nov 2026 17:25:13 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "CBI Opens Nominations for Three Board Positions",
@@ -62,7 +62,7 @@
       "type": "News",
       "category": "Education",
       "pubDate": "Mon, 23 Nov 2026 17:10:07 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Jonesboro Media Group Food Drive Collects 442,215 Meals",
@@ -70,7 +70,7 @@
       "type": "News",
       "category": "Community Service",
       "pubDate": "Mon, 23 Nov 2026 16:46:25 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Edison Research at SSRS to Present Top Ten Findings of 2026",
@@ -78,7 +78,7 @@
       "type": "Event",
       "category": "Webinars",
       "pubDate": "Mon, 23 Nov 2026 15:35:54 -0500",
-      "selected": true
+      "selected": false
     },
     {
       "title": "Radio Leadership: The Power of Appreciation and Encouragement",

@@ -1,42 +1,37 @@
 {
   "selected": [
-    "https://www.mediajobsreport.com/articles/fcc-sets-december-vote-on-major-changes-to-local-radio-ownership-limits",
-    "https://www.mediajobsreport.com/articles/audacy-launches-mix-94-7-hot-ac-station-in-washington-d-c",
-    "https://www.mediajobsreport.com/events/edison-research-at-ssrs-to-present-top-ten-findings-of-2026",
-    "https://www.mediajobsreport.com/articles/nbc-announces-star-studded-lineup-for-100th-anniversary-live-celebration",
-    "https://www.mediajobsreport.com/articles/jonesboro-media-group-food-drive-collects-442-215-meals",
-    "https://www.mediajobsreport.com/articles/cbi-opens-nominations-for-three-board-positions",
-    "https://www.mediajobsreport.com/articles/connoisseur-media-launches-jackie-96-9-in-jackson-ms"
+    "https://www.mediajobsreport.com/articles/nab-service-to-america-tv-special-to-air-nationwide",
+    "https://www.mediajobsreport.com/articles/steve-harvey-morning-show-holds-17th-annual-turkey-give",
+    "https://www.mediajobsreport.com/articles/nbcuniversal-announces-2026-thanksgiving-programming-lineup",
+    "https://www.mediajobsreport.com/articles/am-fm-radio-leads-in-car-audio-listening-with-53-share",
+    "https://www.mediajobsreport.com/articles/joe-costello-joins-eastlan-ratings-after-50-years-in-radio-sales",
+    "https://www.mediajobsreport.com/articles/new-country-96-3s-hawkeye-and-michelle-take-10-000-for-the-troops-campaign-nationwide"
   ],
   "custom": [],
   "order": [
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/fcc-sets-december-vote-on-major-changes-to-local-radio-ownership-limits"
+      "link": "https://www.mediajobsreport.com/articles/nab-service-to-america-tv-special-to-air-nationwide"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/audacy-launches-mix-94-7-hot-ac-station-in-washington-d-c"
+      "link": "https://www.mediajobsreport.com/articles/steve-harvey-morning-show-holds-17th-annual-turkey-give"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/events/edison-research-at-ssrs-to-present-top-ten-findings-of-2026"
+      "link": "https://www.mediajobsreport.com/articles/nbcuniversal-announces-2026-thanksgiving-programming-lineup"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/nbc-announces-star-studded-lineup-for-100th-anniversary-live-celebration"
+      "link": "https://www.mediajobsreport.com/articles/am-fm-radio-leads-in-car-audio-listening-with-53-share"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/jonesboro-media-group-food-drive-collects-442-215-meals"
+      "link": "https://www.mediajobsreport.com/articles/joe-costello-joins-eastlan-ratings-after-50-years-in-radio-sales"
     },
     {
       "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/cbi-opens-nominations-for-three-board-positions"
-    },
-    {
-      "kind": "story",
-      "link": "https://www.mediajobsreport.com/articles/connoisseur-media-launches-jackie-96-9-in-jackson-ms"
+      "link": "https://www.mediajobsreport.com/articles/new-country-96-3s-hawkeye-and-michelle-take-10-000-for-the-troops-campaign-nationwide"
     }
   ]
 }
